@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Windows Malware Scanner](./Win_Mal_Scan.html).
+[Windows Malware Scanner](./win_mal_scan.html).
 
 There should be whitespace between paragraphs.
 
