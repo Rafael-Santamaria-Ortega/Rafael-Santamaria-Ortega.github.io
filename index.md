@@ -2,9 +2,7 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-
-[Link to another page](./another-page.html).
+[Windows Malware Scanner](./Win_Mal_Scan.html).
 
 There should be whitespace between paragraphs.
 
