@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-[Linkedin](https://www.linkedin.com/in/rafael-santamaria-ortega).
-[Windows Malware Scanner](./win_mal_scan.html).
+[Linkedin](https://www.linkedin.com/in/rafael-santamaria-ortega)
+
+[Windows Malware Scanner](./win_mal_scan.md).
 
 There should be whitespace between paragraphs.
 
