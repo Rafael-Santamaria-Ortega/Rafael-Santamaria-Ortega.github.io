@@ -3,15 +3,9 @@ layout: default
 ---
 [Linkedin](https://www.linkedin.com/in/rafael-santamaria-ortega)
 
-[Windows Malware Scanner](./malware_scanner.md).
+# [Windows Malware Scanner](./malware_scanner.md)
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This was my first coding project, and is a basic file-based ‘malware scanner’. The idea is to automate a very simple scanner for Windows Operating systems using Python.
 
 ## Header 2
 
