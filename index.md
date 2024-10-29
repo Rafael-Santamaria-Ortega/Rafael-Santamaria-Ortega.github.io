@@ -5,7 +5,7 @@ layout: default
 
 ## Windows Malware Scanner | Python, Windows, csv
 
-The motivating idea of this project was to automate file-based malware scanning of Windows Operating Systems. In short, the algorithm reads a database of known malware names from a '.csv' file, compiles these into a malware signature list, and scans the local computer’s file system for matches. If any are found they get flagged as potential threats, and logged in an output text file for further analysis.
+The motivating idea of this project was to automate file-based malware scanning of Windows Operating Systems. 
 
 [Link](./malware_scanner.md)
 
