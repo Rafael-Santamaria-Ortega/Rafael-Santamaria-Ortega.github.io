@@ -3,7 +3,7 @@ layout: default
 ---
 # Featured Projects:
 
-## Neural Network for Malicious Url Predicting (In development) | Python, TensorFlow, Deep Learning, Neural Networks, Data Engineering, Malware Analysis
+## Neural Network for Malicious Url Predicting (In development) | Python, TensorFlow, Deep Learning, Data Engineering
 
 This project is a Neural Network built and trained from scratch using Kaggle's Malicious Url Dataset (working on improving it with my own data) and TensorFlow, to accurately predict if urls gathered from the wild are malicious or not. [More details](./nn_malicious_url_pred.md)
 
