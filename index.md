@@ -29,7 +29,7 @@ layout: default
 
 ### Encryption with Python | Cryptography, Linux
 
-* In this project I encrypted basic data with asymmetric and symmetric Key Pairs using Python and the Linux Command. [(More details)](./encrypt_python.md)
+* In this project I encrypted basic data with asymmetric and symmetric Key Pairs using Python and the Linux Command Line. [(More details)](./encrypt_python.md)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
