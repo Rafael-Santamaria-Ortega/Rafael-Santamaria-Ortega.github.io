@@ -23,7 +23,7 @@ In this project I responded, analyzed, mitigated and performed a postmortem on a
 
 ## Encryption with Python | Cryptography, Linux
 
-In this project I encrypted basic data with asymmetric and symmetric Key Pairs using Python and the Linux Command Line in a hands-on lab. [certificate link](https://coursera.org/share/f57a28f19e8686c16574a15b9a4dc4fa)
+In this project I encrypted basic data with asymmetric and symmetric Key Pairs using Python and the Linux Command. 
 
 [More Details](./encrypt_python)
 
