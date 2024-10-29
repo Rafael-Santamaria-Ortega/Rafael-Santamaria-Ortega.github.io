@@ -84,4 +84,6 @@ layout: default
 * Man in the Middle Malware Executable [(More details)](./dumpster_diving.md)
 * Executable Malware to Steal Google Chrome Credentials [(More details)](./steal_chrome_cred.md)
 
-# [LinkedIn](https://www.linkedin.com/in/rafael-santamaria-ortega)
+# Contact:
+
+[LinkedIn](https://www.linkedin.com/in/rafael-santamaria-ortega) | (872) 218-3710 | rafaelsantamaria1996@gmail.com
