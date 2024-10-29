@@ -163,7 +163,6 @@ def visual_2(df):
     plot.set_ylim(bottom=-1e3, top=1e3)
     return 'This graph plots the values of origin account delta balances and destination account delta balances for Cash out transactions.'
 
-def exercise_custom(df):
 ```
 
 ![v2](https://github.com/Rafael-Santamaria-Ortega/JPMorgan-Chase_Internship/blob/main/Task%201_Pandas_DataAnalysis_FraudDetection/v2.png) 
