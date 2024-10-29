@@ -21,7 +21,7 @@ In this project I captured network packets the popular packet sniffer 'Wireshark
 
 [Link](https://coursera.org/share/e2c2b2432378fab138e98f631844a262)
 
-## Create Python Linux Script to Generate a Disk Usage Report
+## Create Python Linux Script to Generate a Disk Usage Report | Python, Linux
 
 In this project I created a Python script to determine disk space and generate a report on disk usage on an Ubuntu Linux system.
 
