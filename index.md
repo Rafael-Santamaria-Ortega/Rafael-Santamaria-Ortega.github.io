@@ -19,10 +19,6 @@ layout: default
 
 * In this project I responded, analyzed, mitigated and performed a postmortem on a simulated distributed denial of service (DDoS) attack. [(More details)](./cyber_incident_response.md)
 
-### Incident Handler's Journal | Linux, Suricata, VirusTotal, Wireshark, tcpdump, Google Chronicle, Splunk, Documentation
-
-* This project documents incident handling using various cybersecurity tools in 5 different simulated cyber attacks. [(More details)](./incident_handler_journal.md)
-
 ### Man in the Middle Malware Executable | Python, Penetration testing
 
 * This Python script performs a dumpster diving 'Man in the Middle Attack' by exfiltrating all data from a Windows Recycle Bin, even if the compromised device does not have Python installed. [(More details)](./dumpster_diving.md)
@@ -37,20 +33,20 @@ layout: default
 
 ### Google Cybersecurity Professional Certificate
 
-* Access Control Worksheet [(More details)](./access_control.md)
+* Incident Handler's Journal [(More details)](./incident_handler_journal.md)
 * Alert Ticket Escalation [(More details)](./ticketing.md)
+* Managing Linux File Permission [(More details)](./linux_file_perm.md)
 * File Update Python Algorithm [(More details)](./file_updade.md)
 * Applying Filters to SQL queries [(More details)](./filter_sql.md)
+* Vulnerability Assesment Report for a Fictional Company [(More details)](./vulnerability_assessment.md)
 * Risk Assesment for a Fictional Toy Company [(More details)](./risk_assesment.md)
 * Suspicious Network Traffic Analysis for a Fictional Company [(More details)](./network_traffic_analysis.md)
-* Managing Linux File Permission [(More details)](./linux_file_perm.md)
 * Incident Report for a DoS SYN Flood Attack [(More details)](./incident_report_syn_flood.md)
-* Home IT Assets Report [(More details)](./home_it_assests.md)
-* Incident Handler's Journal [(More details)](./incident_handler_journal.md)
 * Applying NIST CSF to a Fictional Case [(More details)](./nist_csf_applied.md)
 * Applying the PASTA Framework for a Fictional Company [(More details)](./pasta_applied.md)
 * Risk Matrix for a Fictional Bank [(More details)](./risk_matrix.md)
-* Vulnerability Assesment Report for a Fictional Company [(More details)](./vulnerability_assessment.md)
+* Access Control Worksheet [(More details)](./access_control.md)
+* Home IT Assets Report [(More details)](./home_it_assests.md)
 
 ### J. P. Morgan & Chase Co. Virtual Internship
 
