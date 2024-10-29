@@ -87,5 +87,7 @@ layout: default
 # Contact:
 
 email: rafaelsantamaria1996@gmail.com
+
 phone: (872) 218-3710 
+
 [linkedin](https://www.linkedin.com/in/rafael-santamaria-ortega) 
