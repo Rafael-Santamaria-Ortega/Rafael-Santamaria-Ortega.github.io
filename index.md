@@ -15,7 +15,7 @@ layout: default
 
 * This code suite loads and analyzes a dataset related to transaction data, identifying fraudulent activity patterns and visualizing key features. [(More details)](./fraud_analyzer_visualizer.md)
 
-### Cybersecurity Incident Response | Incident response, Threat analysis, Security engineering, Incident management
+### Cybersecurity Incident Response | Incident response, Threat analysis and mitigation, Digital Forensics
 
 * In this project I responded, analyzed, mitigated and performed a postmortem on a simulated distributed denial of service (DDoS) attack. [(More details)](./cyber_incident_response.md)
 
