@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-# LinkedIn: 
-[https://www.linkedin.com/in/rafael-santamaria-ortega](https://www.linkedin.com/in/rafael-santamaria-ortega)
-
 # Projects:
 
 ## Windows Malware Scanner | Python, Windows, csv
@@ -17,3 +14,9 @@ This was my first coding project, and the motivating idea was to automate file-b
 Encrypted Data with asymmetric and symmetric Key Pairs using Python and the Linux Command Line. 
 
 [Link to project](https://coursera.org/share/f57a28f19e8686c16574a15b9a4dc4fa)
+
+
+
+
+### LinkedIn: 
+[https://www.linkedin.com/in/rafael-santamaria-ortega](https://www.linkedin.com/in/rafael-santamaria-ortega)
