@@ -1,19 +1,41 @@
 ---
 layout: default
 ---
-# Projects:
+# Featured Projects:
 
 ## Windows Malware Scanner | Python, Windows, csv
 
-The motivating idea of this project was to automate file-based malware scanning of Windows Operating Systems. 
+This algorithm automates file-based malware scanning of Windows Operating Systems.
 
-[Link](./malware_scanner.md)
+[More details](./malware_scanner.md)
+
+## Fraud Transaction Analyzer and Visualizer | Python, pandas, matplotlib, Data Analysis
+
+This code suite loads and analyzes a dataset related to transaction data, identifying fraudulent activity patterns and visualizing key features.
+
+[More details](./fraud_analyzer_visualizer.md)
+
+## Cybersecurity Incident Response | Incident response, Threat analysis, Security engineering, Incident management
+
+In this project I responded, analyzed, mitigated and performed a postmortem on a simulated distributed denial of service (DDoS) attack. 
+
+[More details](./cyber_incident_response.md)
 
 ## Encryption with Python | Cryptography, Linux
 
-In this project I encrypted basic data with asymmetric and symmetric Key Pairs using Python and the Linux Command Line in a hands-on lab. 
+In this project I encrypted basic data with asymmetric and symmetric Key Pairs using Python and the Linux Command Line in a hands-on lab. [certificate link](https://coursera.org/share/f57a28f19e8686c16574a15b9a4dc4fa)
 
-[Link](https://coursera.org/share/f57a28f19e8686c16574a15b9a4dc4fa)
+[More Details](./encrypt_python)
+
+## Dumpster diving with Python | Python, Penetration testing
+
+This Python script performs a dumpster diving 'Man in the Middle Attack' by exfiltrating all data from a Windows Recycle Bin, even if the compromised device does not have Python installed.
+
+[More details](./dumpster_diving.md)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# All Projects: 
 
 ## Wireshark for Beginners | Wireshark, Linux
 
@@ -38,9 +60,6 @@ In this project I scripted a Python algorithm to automate the extraction of data
 This Python algortithm fetches and parses JSON data from a web API. The script retrieves data from a specified URL, parses the JSON, extracts the 'comments' section, and sums up the aumount of comments.
 
 [Link](https://github.com/Rafael-Santamaria-Ortega/UMichigan-Python-Specialization/blob/main/jsonparsesum.py)
-
-## 
-
 
 ## Identifying and Counting Email Frequency using Python | Python
 
