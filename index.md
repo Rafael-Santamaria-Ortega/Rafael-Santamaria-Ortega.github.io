@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
-[Linkedin](https://www.linkedin.com/in/rafael-santamaria-ortega)
+# LinkedIn: 
+[https://www.linkedin.com/in/rafael-santamaria-ortega]
 
-# [Windows Malware Scanner](./malware_scanner.md)
+# Projects:
 
-This was my first coding project, and is a basic file-based ‘malware scanner’. The idea is to automate a very simple scanner for Windows Operating systems using Python.
+## Windows Malware Scanner: 
+[./malware_scanner.md]
+
+This was my first coding project, and the motivating idea was to automate file-based malware scanning of Windows Operating Systems. In short, the algorithm reads a database of known malware names from a .csv file, compiles these into a malware signature list, and scans the local computer’s file system for matches. If any are found they get flagged as potential threats, and logged in an output text file for further analysis.
 
 ## Header 2
 
