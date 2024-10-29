@@ -11,7 +11,7 @@ layout: default
 
 * This algorithm automates file-based malware scanning of Windows Operating Systems. [(More details)](./malware_scanner.html)
 
-### Fraud Transaction Analyzer and Visualizer | Python, pandas, matplotlib, Data Analysis
+### Fraud Transaction Analyzer | Python, pandas, matplotlib, Data Analysis
 
 * This code suite loads and analyzes a dataset related to transaction data, identifying fraudulent activity patterns and visualizing key features. [(More details)](./fraud_analyzer_visualizer.html)
 
