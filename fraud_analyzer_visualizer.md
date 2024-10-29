@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Welcome to another page
+## Fraud Transaction Analyzer and Visualizer | Python, pandas, matplotlib, Data Analysis
 
 _yay_
 
