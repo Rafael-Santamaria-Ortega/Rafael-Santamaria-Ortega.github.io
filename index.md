@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Featured Projects:
+# Featured Projects
 
 ### Neural Network for Malicious Url Predicting (In development) | Python, TensorFlow, Deep Learning, Data Engineering
 
@@ -34,8 +34,6 @@ layout: default
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # All Projects 
-
-## Certificate-related Project
 
 ### Google Cybersecurity Professional Certificate
 
@@ -77,7 +75,7 @@ layout: default
 
 * Detecting a phishing emails and creating a Phishing Awareness Campaign [(More details)](./master_phish.md)
 
-## Other Projects
+### Other Projects
 
 * Neural Network for Malicious Url Predicting (In development) [(More details)](./nn_malicious_url_pred.md)
 * Windows Malware Scanner [(More details)](./malware_scanner.md)
@@ -86,6 +84,4 @@ layout: default
 * Man in the Middle Malware Executable [(More details)](./dumpster_diving.md)
 * Executable Malware to Steal Google Chrome Credentials [(More details)](./steal_chrome_cred.md)
 
-## Social media: 
-
-[LinkedIn](https://www.linkedin.com/in/rafael-santamaria-ortega)
+# [LinkedIn](https://www.linkedin.com/in/rafael-santamaria-ortega)
