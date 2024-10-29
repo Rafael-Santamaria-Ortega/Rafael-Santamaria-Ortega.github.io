@@ -86,4 +86,6 @@ layout: default
 
 # Contact:
 
-LinkedIn: [https://www.linkedin.com/in/rafael-santamaria-ortega](https://www.linkedin.com/in/rafael-santamaria-ortega) | email: rafaelsantamaria1996@gmail.com | phone: (872) 218-3710 
+email: rafaelsantamaria1996@gmail.com
+phone: (872) 218-3710 
+[linkedin](https://www.linkedin.com/in/rafael-santamaria-ortega) 
