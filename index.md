@@ -13,7 +13,7 @@ layout: default
 
 ### Fraud Transaction Analyzer and Visualizer | Python, pandas, matplotlib, Data Analysis
 
-* This code suite loads and analyzes a dataset related to transaction data, identifying fraudulent activity patterns and visualizing key features. [(More details)](./fraud_analyzer_visualizer.md)
+* This code suite loads and analyzes a dataset related to transaction data, identifying fraudulent activity patterns and visualizing key features. [(More details)](./fraud_analyzer_visualizer.html)
 
 ### Cybersecurity Incident Response | Incident response, Threat analysis and mitigation, Digital Forensics
 
