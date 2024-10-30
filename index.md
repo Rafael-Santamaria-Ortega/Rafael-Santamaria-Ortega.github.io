@@ -21,7 +21,7 @@ layout: default
 
 ### Digital Dumpster Diving Executable Malware | Python, Penetration testing
 
-* This Python script performs a dumpster diving 'Man in the Middle Attack' by exfiltrating all data from a Windows Recycle Bin, even if the compromised device does not have Python installed. [(More details)](./dumpster_diving.html)
+* This Python script performs 'digital dumpster diving' by exfiltrating all data from a Windows Recycle Bin into a USB, even if the compromised device does not have Python installed. [(More details)](./dumpster_diving.html)
 
 ### Encryption with Python | Cryptography, Linux
 
