@@ -4,6 +4,6 @@ layout: default
 
 ## Encryption with Python
 
-This code 
+This code is meant to generate asymmetric encryption keys
 
 [back](./)
