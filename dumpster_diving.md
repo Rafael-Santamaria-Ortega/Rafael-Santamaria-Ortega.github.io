@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Digital Dumpster Diving | Python, Penetration testing
+## Digital Dumpster Diving Executable Malware | Python, Penetration testing
 
 
 
