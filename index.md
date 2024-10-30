@@ -19,7 +19,7 @@ layout: default
 
 * In this project I responded, analyzed, mitigated and performed a postmortem on a simulated distributed denial of service (DDoS) attack. [(More details)](./cyber_incident_response.html)
 
-### Man in the Middle Malware Executable | Python, Penetration testing
+### Digital Dumpster Diving Executable Malware | Python, Penetration testing
 
 * This Python script performs a dumpster diving 'Man in the Middle Attack' by exfiltrating all data from a Windows Recycle Bin, even if the compromised device does not have Python installed. [(More details)](./dumpster_diving.html)
 
@@ -77,7 +77,7 @@ layout: default
 * Windows Malware Scanner [(More details)](./malware_scanner.html)
 * Text-based RPG [(More details)](./dungeon_of_dread.html)
 * Encryption with Python [(More details)](./encrypt_python.html)
-* Man in the Middle Malware Executable [(More details)](./dumpster_diving.html)
+* Digital Dumpster Diving Executable Malware [(More details)](./dumpster_diving.html)
 * Executable Malware to Steal Google Chrome Credentials [(More details)](./steal_chrome_cred.html)
 
 # Contact:
