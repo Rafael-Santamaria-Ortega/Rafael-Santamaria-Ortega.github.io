@@ -11,10 +11,6 @@ layout: default
 
 * This algorithm automates file-based malware scanning of Windows Operating Systems. [(More details)](./malware_scanner.html)
 
-### Fraud Transaction Analyzer | Python, pandas, matplotlib, Data Analysis
-
-* This code suite loads and analyzes a dataset related to transaction data, identifying fraudulent activity patterns and visualizing key features. [(More details)](./fraud_analyzer_visualizer.html)
-
 ### Cybersecurity Incident Response | Incident response, Threat analysis and mitigation, Digital Forensics
 
 * In this project I responded, analyzed, mitigated and performed a postmortem on a simulated distributed denial of service (DDoS) attack. [(More details)](./cyber_incident_response.html)
