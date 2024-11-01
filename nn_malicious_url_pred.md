@@ -4,7 +4,7 @@ layout: default
 
 ## Neural Network for Malicious Url Predicting (In development) | Python, TensorFlow, Deep Learning, Data Engineering
 
-This neural network, built and trained from scratch using TensorFlow, predicts whether URLs gathered from the wild are malicious or benign. The model was initially trained on Kaggle's Malicious URL Dataset, and I'm currently working on enhancing its capabilities by incorporating learning rate decay, an F1 score to better asses metrics, and my own collected data. Thus, I must state that this project is still in development, but I would say it is about 80% completed. 
+This neural network, built and trained from scratch using TensorFlow, predicts whether URLs gathered from the wild are malicious or benign. The model was initially trained on Kaggle's Malicious URL Dataset, and I'm currently working on enhancing its capabilities by incorporating learning rate decay, an F1 score to better assess metrics, and my own collected data from 'https://urlhaus.abuse.ch/'. Thus, I must state that this project is still in development, but I would say it is about 85% completed and usable to accurately predict malicious urls from "the wild". 
 
 The idea behind this project stems from the growing sophistication of phishing attacks and malicious websites, aswell as from our usually bad human performance when faced with social engineering. Also, traditional blacklist approaches often fail to detect new or modified malicious URLs, creating a need for more dynamic, intelligent detection methods. If not, it's going to be an endless game of cat and mouse. 
 
