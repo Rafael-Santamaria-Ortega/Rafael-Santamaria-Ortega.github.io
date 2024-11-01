@@ -407,8 +407,11 @@ evaluate_model(X_test_preprocessed,y_test)
 (Best results so far)
 
 ('Loss: 0.2092394232749939',
+
  'Accuracy: 0.9210538268089294',
+ 
  'Precision: 0.8312860131263733',
+ 
  'Recall:0.8282654285430908')
 
  ```python
@@ -553,58 +556,109 @@ for u in url_list:
 ```
 
 1 http://64.235.37.148/bins/k.mips is likely MALICIOUS!: 0.9999939203262329
+
 2 http://64.235.37.148/bins/k.m68k is likely MALICIOUS!: 0.9999939203262329
+
 3 http://64.235.37.148/bins/k.x86 is likely MALICIOUS!: 0.9999952912330627
+
 4 http://31.172.80.237/qkdjdjj22.i586 is likely MALICIOUS!: 0.9999898076057434
+
 5 http://182.117.69.207:40583/i is likely MALICIOUS!: 0.9999951720237732
+
 6 http://31.172.83.15/main_arm6 is likely MALICIOUS!: 0.9999966621398926
+
 7 http://31.162.21.98:40024/Mozi.m is likely MALICIOUS!: 0.9999939799308777
+
 8 http://apitestlabs.com:8888/113681416431447.dll is likely MALICIOUS!: 0.9994522929191589
+
 9 http://cloudslimit.com:8888/113681416431447.dll is likely MALICIOUS!: 0.9998060464859009
+
 10 http://dailywebstats.com:8888/225761669829717.dll is likely MALICIOUS!: 0.026539182290434837
+
 11 https://www.discord.com is likely BENINGN!: 0.07051538676023483
+
 12 http://94.159.113.48:8888/113681416431447.dll is likely MALICIOUS!: 0.9999892711639404
+
 13 http://87.120.114.132/mirai.arm7 is likely MALICIOUS!: 0.9999964237213135
+
 14 https://chxr.rooms.fierceatfifty.com/orderReview is likely MALICIOUS!: 0.523387610912323
+
 15 http://87.120.114.132/mirai.ppc is likely MALICIOUS!: 0.9999939799308777
+
 16 http://whimar.com/wp-admin/maint/XjoPqhzc228.bin is likely MALICIOUS!: 0.9999373555183411
+
 17 http://whimar.com/wp-admin/maint/Verificerbarheden.mso is likely MALICIOUS!: 0.362288236618042
+
 18 http://185.215.113.16/mine/random.exe is likely MALICIOUS!: 0.9999970197677612
+
 19 https://wall5tghf6fdg.api.opensourcesaas.org/FcPJXgYD/mine.png is likely MALICIOUS!: 0.5353929996490479
+
 20 http://87.120.112.102/roze.i586 is likely MALICIOUS!: 0.9999966621398926
+
 21 http://103.72.57.120/TGIF/Jodozocw.dat is likely MALICIOUS!: 0.9996687173843384
+
 22 https://www.semanariolacivilizacion.blogspot.com is likely BENINGN!: 0.24499544501304626
+
 23 http://172.245.123.25/302/taskhostws.exe is likely MALICIOUS!: 0.7746655344963074
+
 24 http://157.173.104.153/up/bb.ps1 is likely MALICIOUS!: 0.9997329711914062
+
 25 http://107.170.34.159/morsec/Invoke-Shellcode.ps1 is likely MALICIOUS!: 0.99895179271698
+
 26 http://157.173.104.153/up/Tool/ChromePass.exe is likely MALICIOUS!: 0.9998794794082642
+
 27 http://101.99.94.195/mZlaoZbpEVWPJcG210.bin is likely MALICIOUS!: 0.9999423027038574
+
 28 http://124.248.65.242:8899/sys/20230120_3.bin is likely MALICIOUS!: 0.9999881386756897
+
 29 http://invictaindia.com/sty/iTSqHIazA174.bin is likely MALICIOUS!: 0.9993544816970825
+
 30 http://invictaindia.com/sty1/Kajanlggenes.u32 is likely MALICIOUS!: 0.9999808669090271
+
 31 http://8.138.96.41:10050/demon.x64.bin is likely MALICIOUS!: 0.9999973773956299
+
 32 http://169.1.16.29/swift-bypass-breakpoints.exe is likely MALICIOUS!: 0.2990719676017761
+
 33 https://www.mincultura.gov.co is likely BENINGN!: 0.16868330538272858
+
 34 http://169.1.16.29/demon.x641.exe is likely MALICIOUS!: 0.9999975562095642
+
 35 http://169.1.16.29/BidvestBank-Swift-DNS-Tunnel.exe is likely MALICIOUS!: 0.369070440530777
+
 36 http://169.1.16.29/BidvestBank-Swift--DNS-evasion-encrypted-no-cloudflare.exe is likely BENINGN!: 0.17414702475070953
+
 37 http://169.1.16.29/LOUD_EYE is likely MALICIOUS!: 0.9999887943267822
+
 38 http://169.1.16.29/Swift-Beacon-Encrypted.exe is likely BENINGN!: 0.22295552492141724
+
 39 http://178.215.238.13/r.sh is likely MALICIOUS!: 0.9999259114265442
+
 40 http://91.218.67.59/wget.sh is likely MALICIOUS!: 0.8114745616912842
+
 41 http://87.120.112.102/update.sh is likely MALICIOUS!: 0.9991742968559265
+
 42 http://120.25.157.131/qz1.exe is likely MALICIOUS!: 0.9999975562095642
+
 43 http://185.121.233.82/tt/mips64 is likely MALICIOUS!: 0.9999828338623047
+
 44 https://www.gamebooks.org is likely BENINGN!: 0.07161882519721985
+
 45 http://github.com/vizian123/msfvenomz/raw/main/reddit.exe is likely MALICIOUS!: 0.9517421722412109
+
 46 https://pastebin.com/raw/FYu4F1YR is likely MALICIOUS!: 0.44059497117996216
+
 47 http://120.25.157.131/fsx.exe is likely MALICIOUS!: 0.9999184012413025
+
 48 https://www.ydray.com/get/t/u17290663674746gFwb38bd70be00c5oQ is likely MALICIOUS!: 0.9254165291786194
-49 https://bitbucket.org/awgwrtwa/asss/downloads/1654-INICIO_DEMANDA_LABORAL_JUZGADO_CIVIL_DEL_CIRCUITO_DE_RAMA_JUDICIAL.CAB is likely BENINGN!: 0.2596791386604309
+
+49 https://bitbucket.org/awgwrtwa/asss/downloads/1654-INICIO_DEMANDA_LABORAL_JUZGADO_CIVIL_DEL_CIRCUITO_DE_RAMA_JUDICIAL.CAB is likely MALICIOUS!: 0.2596791386604309
+
 50 http://47.236.122.191/Geek.exe is likely MALICIOUS!: 0.9999968409538269
+
 51 http://176.111.174.140/ywx.exe is likely MALICIOUS!: 0.9999595284461975
+
 52 http://web.johnmccrea.com/downloads/67065227a0640_rrrrrrrr.exe is likely BENINGN!: 0.04001269489526749
 
-These results illustrate very clearly the model's performance, which is mostly good, although there are a few cases that show room for improvement. 
+**Analysis of the results:** These results illustrate very clearly the model's performance, which is mostly good, although there are a few cases that show room for improvement. 
 
 [back](./)
