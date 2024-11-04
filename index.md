@@ -17,7 +17,7 @@ layout: default
 
 ### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
-* This Python script performs 'digital dumpster diving' by exfiltrating all data from a Windows Recycle Bin into a USB, even if the compromised device does not have Python installed. [(More details)](./dumpster_diving.html)
+* In this activity, I document the details of various security incidents and how I handled them using technical tools like Wireshark, Ticketing systems, Suricata. [(More details)](./incident_handler_journal.html)
 
 ### Encryption with Python | Cryptography, Linux
 
