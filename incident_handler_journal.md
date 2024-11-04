@@ -202,9 +202,9 @@ Description: In this hands-on scenario I simulated being a SOC analyst that rece
 
   * 1:20 p.m.: Intrusion detection system detects the executable files and sends an alert to the SOC 
 
-*Entered the file hash in VirusTotal
+* Entered the file hash in VirusTotal
 
-*Analyzed the VirusTotal report and determined if the file is malicious:  
+* Analyzed the VirusTotal report and determined if the file is malicious:  
 
   * The fact that three sandboxes and a high community score in VirusTotal indicates that it is likely a malicious file of the trojan family. Furthermore, the hash has been found with other names that suggest a threat actor has changed and it downloads some files that make system changes.
 
