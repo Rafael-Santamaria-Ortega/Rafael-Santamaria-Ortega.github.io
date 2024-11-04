@@ -4,7 +4,7 @@ layout: default
 
 ## Encryption with Python
 
-This code is meant to encrypt and decrypt basic data using asymmetric encryption, Python and the Linux Command Line. This means that it leverages Python encryption capabilities in a Linux OS, and uses a relatively secure method of encryption that relies on a public key for encryption and a private key for decryption. Thus, only the intended recipient can decrypt the message encrypted with the shared public key, as they are intrinsically related. to The first step is to use Python to generate an encryption key pair in order to encrypt and decrypt data:
+This code is meant to encrypt and decrypt basic data using `asymmetric encryption`, `Python` and the `Linux Command Line`. This means that it leverages Python encryption capabilities in a `Linux OS`, and uses a relatively secure method of encryption that relies on a `public key` for encryption and a `private key` for decryption. Thus, only the intended recipient can decrypt the message encrypted with the shared public key, as they are intrinsically related. to The first step is to use Python to generate an encryption key pair in order to encrypt and decrypt data:
 
 ### Generate Key Pair
 
@@ -13,7 +13,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives import serialization
 ```
 
-This snippet imports functions from Python's 'cryptography' module such as RSA-related cryptographic primitives and serialization functions from the cryptography library, which are necessary to create, serialize, and save the key pair.
+This snippet imports functions from Python's `cryptography` module such as RSA-related cryptographic primitives and `serialization` functions from the cryptography library, which are necessary to create, serialize, and save the key pair.
 
 ```python
 private_key = rsa.generate_private_key(
@@ -22,7 +22,7 @@ private_key = rsa.generate_private_key(
 )
 ```
 
-This code snippet creates a private RSA key with a key size of 2048 bits. The public_exponent 65537 was chosen, because a standard choice for RSA, as it provides a balance between security and computational efficiency.
+This code snippet creates a private `RSA ke`y with a key size of `2048 bits`. The `public_exponent 65537` was chosen, because a standard choice for RSA, as it provides a balance between security and computational efficiency.
 
 ```python
 priv_pem = private_key.private_bytes(
@@ -32,20 +32,20 @@ priv_pem = private_key.private_bytes(
 )
 ```
 
-This code snippet converts the private key to a byte format suitable for saving to a file. The encoding is set to PEM, a Base64 encoded format commonly used for cryptographic keys, and no encryption is applied.
+This code snippet converts the private key to a byte format suitable for saving to a file. The encoding is set to PEM, a `Base64` encoded format commonly used for `cryptographic keys`, and no encryption is applied.
 
 ```python
 with open("priv.pem", 'wb') as priv_pem_file:
     priv_pem_file.write(priv_pem)
 ```
 
-This snippet opens a new file, priv.pem, in binary write mode and saves the serialized private key to this file.
+This snippet opens a new file, `priv.pem`, in binary write mode and saves the serialized private key to this file.
 
 ```python
 public_key = private_key.public_key()
 ```
 
-This snippet derives the public key from the generated private key.
+This snippet derives the `public key` from the generated `private key`.
 
 ```python
 pub_pem = public_key.public_bytes(
@@ -54,18 +54,18 @@ pub_pem = public_key.public_bytes(
 )
 ```
 
-This snippet converts the public key to a PEM-encoded byte format, making it suitable for saving in a file.
+This snippet converts the public key to a `PEM-encoded` byte format, making it suitable for saving in a file.
 
 ```python
 with open("pub.pem", 'wb') as pub_pem_file:
     pub_pem_file.write(pub_pem)
 ```
 
-This snippet opens a new file, 'pub.pem' in binary write mode and saves the serialized public key to this file.
+This snippet opens a new file, `pub.pem` in binary write mode and saves the serialized public key to this file.
 
 ### Encrypting and Decrypting
 
-The following code encrypts a message ('news_alert') using a public key, then decrypts it using the corresponding private key. It reads the key file paths from environment variables and uses asymmetric encryption (RSA) with Optimal asymmetric encryption padding (OAEP) to improve the process.
+The following code encrypts a message (`news_alert`) using a public key, then decrypts it using the corresponding private key. It reads the key file paths from environment variables and uses `asymmetric encryption` (RSA) with `Optimal asymmetric encryption padding` (OAEP) to improve the process.
 
 ```python
 from cryptography.hazmat.primitives import serialization
@@ -74,7 +74,7 @@ from cryptography.hazmat.primitives.asymmetric import padding
 import sys, os
 ```
 
-Imports the relevant modules: serialization, to manage key loading and format handling; hashes, to provides cryptographic hash functions (SHA-256); padding, to provide padding options for secure RSA encryption (OAEP); sys and os to Handle command-line arguments and environment variables.
+Imports the relevant modules: serialization, to manage key loading and format handling; hashes, to provides cryptographic hash functions (`SHA-256`); padding, to provide padding options for secure RSA encryption (`OAEP`); sys and os to Handle command-line arguments and environment variables.
 
 ```python
 if (len(sys.argv)) != 2:
@@ -96,7 +96,7 @@ with open(pub_pem, 'rb') as pub_key_file:
     public_key = serialization.load_pem_public_key(pub_key_file.read())
 ```
 
-This code snippet reads the public key file path from the environment variable 'PUB_PEMK'; and then opens the public key file in binary mode, reads it, and loads it as a PEM-encoded public key using 'serialization.load_pem_public_key'.
+This code snippet reads the public key file path from the environment variable `PUB_PEMK`; and then opens the public key file in binary mode, reads it, and loads it as a PEM-encoded public key using `serialization.load_pem_public_key`.
 
 ```python
 encrypted = public_key.encrypt(
@@ -109,7 +109,7 @@ encrypted = public_key.encrypt(
 )
 ```
 
-This code snippet encrypts org_alert using the public key; and then uses OAEP with SHA-256 algorithm for both the main hash and the mask generation function 1 'MGF1', which adds security by making the encryption include a factor of randomness, so as to produce different encryption outputs even if the same message is encrypted with the same key.
+This code snippet encrypts `org_alert` using the `public key`; and then uses `OAEP` with `SHA-256` algorithm for both the main hash and the mask generation function 1 `MGF1`, which adds security by making the encryption include a factor of randomness, so as to produce different encryption outputs even if the same message is encrypted with the same key.
 
 ```python
 priv_pem = os.environ.get('PEMK')
@@ -120,7 +120,7 @@ with open(priv_pem, 'rb') as key_file:
     )
 ```
 
-This code snippet retrieves the private key file path from the environment variable 'PEMK'; and opens the file in binary mode, reads it, and loads it as a PEM-encoded private key. The password parameter is set to None because the key is unecrypted.
+This code snippet retrieves the private key file path from the environment variable `PEMK`; and opens the file in binary mode, reads it, and loads it as a PEM-encoded private key. The password parameter is set to None because the key is unecrypted.
 
 ```python
 decrypted = private_key.decrypt(
@@ -133,7 +133,7 @@ decrypted = private_key.decrypt(
 )
 ```
 
-This code snippet decrypts the encrypted message using the private key; and again uses OAEP padding with SHA-256 for both the main hash algorithm and the MGF1 function to ensure secure decryption.
+This code snippet decrypts the encrypted message using the private key; and again uses `OAEP` padding with `SHA-256` for both the main hash algorithm and the `MGF1` function to ensure secure decryption.
 
 ```python
 print(decrypted.decode())
