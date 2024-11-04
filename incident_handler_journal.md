@@ -28,7 +28,7 @@ The criteria given to document is the following:
 *1-2 sentences on any additional thoughts or questions about the scenario.
 "
 
-### Entry #1
+## Entry #1
 
 The first entry scenario:
 
@@ -68,7 +68,7 @@ _Why did the incident happen?_ The cause of the incident was a successful spear 
 
 "
 
-### Entry #2
+## Entry #2
 
 The second entry scenario is not specified beyond simulating being a Security Analyst investigating network traffic using Wireshark. 
 
@@ -116,7 +116,7 @@ _Why did the incident happen?_ N/A
 
 "
 
-### Entry #3
+## Entry #3
 
 The third entry scenario is the same as entry 2: simulating being a Security Analyst investigating Network Traffic, but with different tools. These are 'tcpdump' and the Linux Bash Shell.
 
@@ -167,7 +167,7 @@ _Why did the incident happen?_ N/A
 
 "
 
-### Entry #4
+## Entry #4
 
 The fourth entry scenario is described as such:
 
@@ -255,5 +255,5 @@ _Why did the incident happen?_ Because there wasn’t enough awareness about soc
 
 "
 
-### Entry #5
+## Entry #5
 
