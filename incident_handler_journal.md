@@ -92,7 +92,7 @@ Exploring DNS traffic by filtering for UDP port 53 packets, and inspect the DNS 
 
 Filtering for TCP port 80 traffic to examine web-related packets, looking at details like Time to Live, frame length, and destination addresses. 
 
-Finally, using a more advanced filter to locate packets containing specific text data, such as those involving the "curl" command. 
+Finally, using a more advanced filter to locate packets containing specific text data, such as those involving the 'curl' command. 
 
 Throughout the activity, the focus is on using Wireshark's powerful filtering and packet inspection capabilities to understand the structure and contents of network traffic, which is an essential skill for network analysis and troubleshooting. 
 
