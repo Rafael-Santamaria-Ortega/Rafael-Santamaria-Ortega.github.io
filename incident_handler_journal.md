@@ -44,27 +44,27 @@ This is the documentation I made concerning the incident:
 
 "
 
-Date: 10/04/2024 
+_Date:_ 10/04/2024 
 
-Entry: 1  
+_Entry:_ 1  
 
-Description: A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. 
+_Description:_ A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. 
 
-Tool(s) used: NO TOOLS WERE USED 
+_Tool(s) used:_ NO TOOLS WERE USED 
 
-The 5 W's:  
+_The 5 W's:_  
 
-* Who caused the incident? A group of unethical hackers that target the healthcare and transportation industries.  
+**Who caused the incident?** A group of unethical hackers that target the healthcare and transportation industries.  
 
-* What happened? Through spear phishing the malicious actors were able to gain access to the company data and encrypt it, to then send a ransom monetary request to provide the decryption key. This security incident is called a Ransomware attack. 
+**What happened?** Through spear phishing the malicious actors were able to gain access to the company data and encrypt it, to then send a ransom monetary request to provide the decryption key. This security incident is called a Ransomware attack. 
 
-* When did the incident occur? The incident occurred on Tuesday at 9:00 a.m. 
+**When did the incident occur?** The incident occurred on Tuesday at 9:00 a.m. 
 
-* Where did the incident happen? The incident happened in a small health care provider in the U.S.A.  
+**Where did the incident happen?** The incident happened in a small health care provider in the U.S.A.  
 
-* Why did the incident happen? The cause of the incident was a successful spear phishing attack. This means that one or more targeted employees unwillingly gave access to the threat actors. 
+**Why did the incident happen?** The cause of the incident was a successful spear phishing attack. This means that one or more targeted employees unwillingly gave access to the threat actors. 
 
-Additional notes: To avoid further incidents like this, it is recommended to encrypt the company’s data in the three states of data, apply stronger password policies, enforce the principle of least privilege and separation of duties, and finally, increase employee training to detect and report these incidents. 
+**Additional notes:** To avoid further incidents like this, it is recommended to encrypt the company’s data in the three states of data, apply stronger password policies, enforce the principle of least privilege and separation of duties, and finally, increase employee training to detect and report these incidents. 
 
 "
 
@@ -76,11 +76,13 @@ This is my documentation of the activity:
 
 "
 
-Date: 11/04/2024  
+_Date:_ 11/04/2024  
 
-Entry: 2 
+_Entry:_ 2 
 
-Description: In this hands-on scenario I simulated being a security analyst investigating traffic to a website, using Wireshark network protocol analyzer. First I analyzed an existing capture. The key steps were: 
+_Description:_ In this hands-on scenario I simulated being a security analyst investigating traffic to a website, using Wireshark network protocol analyzer. First I analyzed an existing capture. 
+
+The key steps were: 
 
 * Opening a network packet capture file in Wireshark and examine the high-level overview of the data, including the different packet types, protocols, and visual cues provided by the coloring rules. 
 
@@ -96,21 +98,21 @@ Description: In this hands-on scenario I simulated being a security analyst inve
 
 Throughout the activity, the focus is on using Wireshark's powerful filtering and packet inspection capabilities to understand the structure and contents of network traffic, which is an essential skill for network analysis and troubleshooting. 
 
-Tool(s) used: **Wireshark:** a free and open source tool for network analysis and troubleshooting. 
+_Tool(s) used:_ **Wireshark:** a free and open source tool for network analysis and troubleshooting. 
 
-The 5 W's:  
+_The 5 W's:_  
 
-Who caused the incident? N/A 
+**Who caused the incident?** N/A 
 
-What happened? N/A 
+**What happened?** N/A 
 
-When did the incident occur? N/A 
+**When did the incident occur?** N/A 
 
-Where did the incident happen? N/A 
+**Where did the incident happen?** N/A 
 
-Why did the incident happen? N/A 
+**Why did the incident happen?** N/A 
 
-Additional notes: Wireshark is a very good tool to use in network traffic analysis. The best parts is that it is an open-source and easy to use because of the GUI. 
+_Additional notes:_ Wireshark is a very good tool to use in network traffic analysis. The best parts is that it is an open-source and easy to use because of the GUI. 
 
 "
 
@@ -122,11 +124,11 @@ This is my documentation of the activity:
 
 "
 
-Date: 11/04/2024  
+_Date:_ 11/04/2024  
 
-Entry: 3 
+_Entry:_ 3 
 
-Description: In this hands-on lab I learned how to capture and filter network traffic using tcpdump on a Linux system, by simulating being a security analyst. The goal was to become familiar with using tcpdump to identify network interfaces, inspect live network traffic, capture traffic to a file, and then filter the captured data. 
+_Description:_ In this hands-on lab I learned how to capture and filter network traffic using tcpdump on a Linux system, by simulating being a security analyst. The goal was to become familiar with using tcpdump to identify network interfaces, inspect live network traffic, capture traffic to a file, and then filter the captured data. 
 
 The key steps were: 
 
@@ -142,27 +144,27 @@ The lab emphasized the importance of using the -nn option to avoid resolving IP 
 
 Overall, this lab provides a solid introduction to network traffic capture and analysis using tcpdump on a Linux system, which is an essential skill for security analysts. 
 
-Tool(s) used: Tcpdump and Linux Bash Shell 
+_Tool(s) used:_ Tcpdump and Linux Bash Shell 
 
 * **tcpdump** is a free data-network packet analyzer computer program that runs under a command line interface. It allows the user to display TCP/IP and other packets being transmitted or received over a network.  
 
 * **Linux Bash Shell** is a command interpreter into which all other commands are entered. 
 
-The 5 W's: 
+_The 5 W's:_ 
 
 Capture the 5 W's of an incident. 
 
-Who caused the incident? N/A 
+**Who caused the incident?** N/A 
 
-What happened? N/A 
+**What happened?** N/A 
 
-When did the incident occur? N/A 
+**When did the incident occur?** N/A 
 
-Where did the incident happen? N/A 
+**Where did the incident happen?** N/A 
 
-Why did the incident happen? N/A 
+**Why did the incident happen?** N/A 
 
-Additional notes: Using tcpdump is very fun because I like typing shell commands to feel more in control of the instructions given to the program.
+_Additional notes:_ Using tcpdump is very fun because I like typing shell commands to feel more in control of the instructions given to the program.
 
 "
 
@@ -182,11 +184,11 @@ This is my documentation of the activity:
 
 "
 
-Date: 11/04/2024 1:20 p.m. 
+_Date:_ 11/04/2024 1:20 p.m. 
 
-Entry: 4 
+_Entry:_ 4 
 
-Description: In this hands-on scenario I simulated being a SOC analyst that received an IDS alert of an employee downloading and executing a file from an email. The key steps were: 
+_Description:_ In this hands-on scenario I simulated being a SOC analyst that received an IDS alert of an employee downloading and executing a file from an email. The key steps were: 
 
 * Reviewing the details of the alert: 
 
@@ -220,42 +222,39 @@ Description: In this hands-on scenario I simulated being a SOC analyst that rece
 
   * Network/host artifacts: The malware executes HTTP requests to e86303.dscx.akamaiedge.net. This is listed in the Network Communications section under the Behavior tab. 
 
-Tools: Execution of runtime modules. Malicious actors use runtime modules to avoid detection. 
+  * Tools: Execution of runtime modules. Malicious actors use runtime modules to avoid detection. 
 
-TTPs: Defense evasion. Malicious actor execute different strategies to avoid being detected. 
+  * TTPs: Defense evasion. Malicious actor execute different strategies to avoid being detected. 
  
+_Tool(s) used:_ VirusTotal and Pyramid of Pain 
 
-Tool(s) used: VirusTotal and Pyramid of Pain 
+**VirusTotal** is a service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content. Through crowdsourcing, VirusTotal gathers and reports on threat intelligence from the global cybersecurity community. This helps security analysts determine which IoCs have been reported as malicious. So, hands-on experience this service is essential. 
 
-* **VirusTotal** is a service that allows anyone to analyze suspicious files, domains, URLs, and IP addresses for malicious content. Through crowdsourcing, VirusTotal gathers and reports on threat intelligence from the global cybersecurity community. This helps security analysts determine which IoCs have been reported as malicious. So, hands-on experience this service is essential. 
+The **Pyramid of Pain** is a conceptual model for understanding cybersecurity threats that organizes IOCs into six different levels: TTPs, Tools, Network/host artifacts, Domain names, IP adresses, and Hash values. 
 
-* The **Pyramid of Pain** is a conceptual model for understanding cybersecurity threats that organizes IOCs into six different levels: TTPs, Tools, Network/host artifacts, Domain names, IP adresses, and Hash values. 
-
-The 5 W's  
+_The 5 W's_  
 
 Capture the 5 W's of an incident. 
 
-Who caused the incident? An employee unknowingly downloading a malicious file 
+**Who caused the incident?** An employee unknowingly downloading a malicious file 
 
-What happened? The employee downloaded a file that was executed via a password given as a pretense to open the document. 
+**What happened?** The employee downloaded a file that was executed via a password given as a pretense to open the document. 
 
-When did the incident occur?  
+**When did the incident occur?**  
 
-1:11 p.m.: An employee receives an email containing a file attachment. 
+  * 1:11 p.m.: An employee receives an email containing a file attachment. 
 
-1:13 p.m.: The employee successfully downloads and opens the file. 
+  * 1:13 p.m.: The employee successfully downloads and opens the file. 
 
-1:15 p.m.: Multiple unauthorized executable files are created on the employee's computer. 
+  * 1:15 p.m.: Multiple unauthorized executable files are created on the employee's computer. 
 
-1:20 p.m.: An intrusion detection system detects the executable files and sends out an alert to the SOC. 
+  * 1:20 p.m.: An intrusion detection system detects the executable files and sends out an alert to the SOC. 
 
-Where did the incident happen? In the employee’s work computer. 
+  * Where did the incident happen? In the employee’s work computer. 
 
-Why did the incident happen? Because there wasn’t enough awareness about social engineering attacks, email filters and lack of user restrictions to download and execute files. 
+  * Why did the incident happen? Because there wasn’t enough awareness about social engineering attacks, email filters and lack of user restrictions to download and execute files. 
 
-Additional notes 
-
-The company must do more awareness campaigns and install filters. Also, the principle of least privilege must be more strongly enforced,  
+_Additional notes:_ The company must do more awareness campaigns and install filters. Also, the principle of least privilege must be more strongly enforced,  
 
 "
 
