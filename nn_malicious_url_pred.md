@@ -16,7 +16,7 @@ However, this kind of apps already exists, so I'm not claiming to reinvent the w
 
 With that being said, the project is divided in 5 phases and it is being devolped using a `Jupyter Notebook` and dividing the `neural network` in individual components using custom functions, each one commented and explained. I made this choice makes the code easier to understand, debug, and tweak individual components (such as changing activation functions, model architecture, or hyperparameters) without risking the entire NN. Furthermore, that modular structure streamlines repurposing parts of the code in other `machine learning` projects, especially when using similar preprocessing or model evaluation steps. This is particularly helpful in `cybersecurity`, where some components of this neural network can be applied to apply similar models for other tasks like phishing detection, malware classification, or anomaly detection. Last, but not least, using this approach makes it possible to call the complete neural network training and prediction pipeline in just a few lines!
 
-### Phase 0: Importing Modules
+## Phase 0: Importing Modules
 
 In this phase I imported the necessary modules for the project: 
 
@@ -40,7 +40,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 import matplotlib.pyplot as plt
 ```
 
-### Phase 1: Data loading, Data Spliting and Url Preprocessing Functios
+## Phase 1: Data loading, Data Spliting and Url Preprocessing Functios
 
 In this phase I define the custom functions to load the data, split it and preprocess the urls using tokenization:
 
@@ -115,7 +115,7 @@ def preprocessor_urls(urls):
     return X_preprocessed #X_preprocessed
 ```
 
-### Phase 2: Creating, Training, and Testing model Functions
+## Phase 2: Creating, Training, and Testing model Functions
 
 In this phase I define the custom functions to create, train and test the model.
 
@@ -268,7 +268,7 @@ def evaluate_model(X_test_preprocessed,y_test):
     return f'Loss: {test_loss}',f'Accuracy: {test_accuracy}',f'Precision: {test_precision}',f'Recall:{test_recall}'
 ```
 
-### Phase 3: Predicting Maliciousness for Previously Unseen URL
+## Phase 3: Predicting Maliciousness for Previously Unseen URL
 
 In this phase I define a function to predict wether a url found in the wild is likely `Malicious` or `Bening`, using the trained model. Things to note:
 
@@ -291,7 +291,7 @@ def predict_url(url,trained_model,threshold:float,tokenizer):
         return f'{url} is likely BENINGN!: {prediction}' #close to 0
 ```
 
-### Phase 4: Implementing the Model
+## Phase 4: Implementing the Model
 
 In this phase I call each function to actually build, train, evaluate the model; and to predict urls gathered "from the wild". 
 
