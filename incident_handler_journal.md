@@ -206,19 +206,19 @@ Description: In this hands-on scenario I simulated being a SOC analyst that rece
 
 *Analyzed the VirusTotal report and determined if the file is malicious:  
 
-The fact that three sandboxes and a high community score in VirusTotal indicates that it is likely a malicious file of the trojan family. Furthermore, the hash has been found with other names that suggest a threat actor has changed and it downloads some files that make system changes.
+  * The fact that three sandboxes and a high community score in VirusTotal indicates that it is likely a malicious file of the trojan family. Furthermore, the hash has been found with other names that suggest a threat actor has changed and it downloads some files that make system changes.
 
-However, the fil bfsvc.exe is also a legitimate Windows OS file, so it is likely that threat actors masquerade their malware with that legitimate file’s name. There are some insights that can tell apart the malware from the actual file: first, the size, if it’s relatively small, it is most likely the legitimate file. Second, the description of the file states properly that it’s a Microsoft file that doesn’t have the ability to change files or make files. Third, if the date in properties of last execution or update matches the last Windows update, it most likely is the legitimate file. 
+  * However, the fil bfsvc.exe is also a legitimate Windows OS file, so it is likely that threat actors masquerade their malware with that legitimate file’s name. There are some insights that can tell apart the malware from the actual file: first, the size, if it’s relatively small, it is most likely the legitimate file. Second, the description of the file states properly that it’s a Microsoft file that doesn’t have the ability to change files or make files. Third, if the date in properties of last execution or update matches the last Windows update, it most likely is the legitimate file. 
 
-Filling a Pyramid of Pain with the IoCs pertaining the .exe file:
+* Filling a Pyramid of Pain with the IoCs pertaining the .exe file:
 
-* Domain names: e11290.dspg.akamaiedge.net is reported as a malicious contacted domain under the Relations tab in the VirusTotal report. 
+  * Domain names: e11290.dspg.akamaiedge.net is reported as a malicious contacted domain under the Relations tab in the VirusTotal report. 
 
-* IP address: 104.115.151.81 is listed as one of many IP addresses under the Relations tab in the VirusTotal report. This IP address is also associated with the e11290.dspg.akamaiedge.net domain as listed in the DNS Resolutions section under the Behavior tab from the Zenbox sandbox report. 
+  * IP address: 104.115.151.81 is listed as one of many IP addresses under the Relations tab in the VirusTotal report. This IP address is also associated with the e11290.dspg.akamaiedge.net domain as listed in the DNS Resolutions section under the Behavior tab from the Zenbox sandbox report. 
 
-* Hash value: 287d612e29b71c90aa54947313810a25 is a MD5 hash listed under the Details tab in the VirusTotal report. 
+  * Hash value: 287d612e29b71c90aa54947313810a25 is a MD5 hash listed under the Details tab in the VirusTotal report. 
 
-* Network/host artifacts: The malware executes HTTP requests to e86303.dscx.akamaiedge.net. This is listed in the Network Communications section under the Behavior tab. 
+  * Network/host artifacts: The malware executes HTTP requests to e86303.dscx.akamaiedge.net. This is listed in the Network Communications section under the Behavior tab. 
 
 Tools: Execution of runtime modules. Malicious actors use runtime modules to avoid detection. 
 
