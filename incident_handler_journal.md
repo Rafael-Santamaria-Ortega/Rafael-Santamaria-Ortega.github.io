@@ -4,7 +4,7 @@ layout: default
 
 ## Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
-In this activity, I reviewed the details of various security incidents and documented them using an 'incident handler's journal'. This excercise from the Google Cybersecurity Professional Certificate gave me hands-on experience documenting incident response, something essential for any cybersecurity position. The criteria given to document is the following:
+In this activity, I reviewed the details of various security incidents and documented them using an 'incident handler's journal'. This excercise from the Google Cybersecurity Professional Certificate gave me hands-on experience documenting incident response with various tools such as IDS or packet sniffers, something essential for any cybersecurity position. The criteria given to document is the following:
 
 "
 * The journal entry date and number
