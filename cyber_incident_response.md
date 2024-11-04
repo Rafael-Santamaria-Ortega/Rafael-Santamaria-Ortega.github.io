@@ -4,10 +4,10 @@ layout: default
 
 ## Cybersecurity Incident Response | Incident response, Threat analysis and mitigation, Digital Forensics
 
-This project is part of the cybersecurity virtual internship offered by Telstra on Forage, and the main idea behind is to perform some of the daily tasks that a Information Security Analyst would be tasked with. In this case, the situation is incident response, Threat analysis and mitigation, and forensics. The scenario of the simulation is:
+This project is part of the `cybersecurity virtual internship` offered by `Telstra` on Forage, and the main idea behind is to perform some of the daily tasks that a `Information Security Analyst` would be tasked with. In this case, the situation is incident response, Threat analysis and mitigation, and forensics. The scenario of the simulation is:
 
 "
-You are an information security analyst in the Security Operations Centre. A common task and responsibility of information security analysts in the SOC is to respond to triage incoming threats and respond appropriately, by notifying the correct team depending on the severity of the threat. It’s important to be able to communicate the severity of the incident to the right person so that the organisation can come together in times of attack.
+You are an information security analyst in the `Security Operations Centre`. A common task and responsibility of information security analysts in the SOC is to respond to triage incoming threats and respond appropriately, by notifying the correct team depending on the severity of the threat. It’s important to be able to communicate the severity of the incident to the right person so that the organisation can come together in times of attack.
 
 The firewall logs & list of infrastructure has been provided, which shows critical services that run the Spring Framework and need to be online / uninterrupted. A list of teams has also been provided, which depending on the severity of the threat, must be contacted.
 
@@ -16,9 +16,9 @@ It’s important to note that the service is down and functionality is impaired 
 
 ### First Task: Respond to Malware Attack
 
-WIth that in mind, my task a Information Security Analyst was to first triage the malware threat and figure out what infrastructure was compromised; and second, to alert via email the respective team so as to kickstart incident response. For this, I was provided an [excel document](https://github.com/Rafael-Santamaria-Ortega/Telstra-internship/blob/main/Task%201_2%20-%20Firewall_Infrastructure%20List%20(1).xlsx) with a dashboard, a list of firewall logs, and a list of the company's infrastructure with their priorities and stakeholders. 
+WIth that in mind, my task a `Information Security Analyst` was to first `triage` the malware threat and figure out what infrastructure was compromised; and second, to alert via email the respective team so as to kickstart incident response. For this, I was provided an [excel document](https://github.com/Rafael-Santamaria-Ortega/Telstra-internship/blob/main/Task%201_2%20-%20Firewall_Infrastructure%20List%20(1).xlsx) with a dashboard, a list of `firewall logs`, and a list of the company's infrastructure with their priorities and stakeholders. 
 
-After analyzing the logs and the list I concluded that the affected infrastructure was the 'NBN connection', as the logs revealed an unusual http request that exploited a [zero day vulnerability](https://spring.io/security/cve-2022-22965) of the Spring Framework to impair the service. Then, I wrote an email to the nbn team notifying them of the incident:
+After analyzing the logs and the list I concluded that the affected infrastructure was the `NBN connection`, as the logs revealed an unusual http request that exploited a [zero day vulnerability](https://spring.io/security/cve-2022-22965) of the `Spring Framework` to impair the service. Then, I wrote an email to the nbn team notifying them of the incident:
 
 "
 From: Telstra Security Operations
@@ -40,7 +40,7 @@ Telstra Security Operations
 
 ### Second Task: Analyze the Attack
 
-The next step was to properly analyze the attack by deep diving into the firewall logs to find patterns of attack against the network. However, as the attack appears to be distributed, blocking an IP is not effective. Indeed, by reviewing the SpringCore payload another pattern emerged: the attacks had a common request path "/tomcatwar.jsp" and the fellowing HTTP header information:  
+The next step was to properly analyze the attack by deep diving into the `firewall logs` to find patterns of attack against the network. However, as the attack appears to be distributed, blocking an `IP` is not effective. Indeed, by reviewing the SpringCore payload another pattern emerged: the attacks had a common request path `/tomcatwar.jsp` and the fellowing `HTTP header information`:  
 
 "
 suffix=%>//
@@ -83,7 +83,7 @@ Telstra Security Operations
 
 ### Third Task: Mitigate the Attack
 
-With the malware patterns identified, the attack can be mitigated by implementing a firewall rule using Python. So, first I started the server and scripted the firewall rule:
+With the `malware patterns` identified, the attack can be mitigated by implementing a `firewall rule` using `Python`. So, first I started the server and scripted the firewall rule:
 
 ```python
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
 [Picture related](https://github.com/Rafael-Santamaria-Ortega/Telstra-internship/blob/main/Screenshot%20(916).png)
 
-Then I proceeded to test the firewall rule by making 5 requests using the malicious payload using this code:
+Then I proceeded to test the `firewall rule` by making 5 requests using the `malicious payload` using this code:
 
 ```python
 import http.client
@@ -193,7 +193,7 @@ if __name__ == "__main__":
     main()
 ```
 
-As expected the firewall rule blocked each attempt:
+As expected the `firewall rule` blocked each attempt:
 
 [Picture related client side](https://github.com/Rafael-Santamaria-Ortega/Telstra-internship/blob/main/Screenshot%20(915).png)
 
@@ -201,7 +201,7 @@ As expected the firewall rule blocked each attempt:
 
 ### Fourth Task: Incident Postmortem
 
-With the server protected, the next task was documenting the incident with a 'postmortem' incident report, covering the timeline, who was involved, a root cause and actions taken. This can be used later for GRC audits or to generate Incident Response Playbooks:
+With the server protected, the next task was documenting the incident with a `postmortem incident report`, covering the timeline, who was involved, a root cause and actions taken. This can be used later for GRC audits or to generate Incident Response Playbooks:
 
 "
 **Incident Postmortem: RCE by exploiting ‘SpringCore0day’ attack**
@@ -245,6 +245,6 @@ The following 60 minutes were allocated to create and implement said firewall ru
 To avoid this type of attacks in the future it is essential to enforce the firewall rule, monitor request to external networks more closely, keeping software up to date, implementing playbooks and perform threat intelligence for similar vulnerabilities.
 "
 
-This concluded the project. In summary, in this job simulation I played the part of an Information Security Analyst by responding, analyzing, mitigating and performin digital forensics on a malware attack. The experience was wonderful and challenging. But, most important of all, I learned how to perform many cybersecurity tasks in a simulation of real-world scenario. I am eager to learn more!
+This concluded the project. In summary, in this job simulation I played the part of an `Information Security Analyst` by `responding, analyzing, mitigating and performin digital forensics on a malware attack`. The experience was wonderful and challenging. But, most important of all, I learned how to perform many cybersecurity tasks in a simulation of real-world scenario. I am eager to learn more!
 
 [back](./)
