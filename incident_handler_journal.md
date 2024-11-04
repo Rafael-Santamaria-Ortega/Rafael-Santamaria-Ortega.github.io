@@ -80,9 +80,7 @@ Date: 11/04/2024
 
 Entry: 2 
 
-Description:
-
-In this hands-on scenario I simulated being a security analyst investigating traffic to a website, using Wireshark network protocol analyzer. First I analyzed an existing capture. The key steps were: 
+Description: In this hands-on scenario I simulated being a security analyst investigating traffic to a website, using Wireshark network protocol analyzer. First I analyzed an existing capture. The key steps were: 
 
 Opening a network packet capture file in Wireshark and examine the high-level overview of the data, including the different packet types, protocols, and visual cues provided by the coloring rules. 
 
