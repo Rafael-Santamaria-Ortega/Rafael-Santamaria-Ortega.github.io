@@ -48,15 +48,15 @@ layout: default
 * Fraud Transaction Analyzer and Visualizer [(More details)](./fraud_analyzer_visualizer.html)
 * Set up and Secure a `Django` Web Server [(More details)](./set_and_secure_django_server.html)
 * `Machine Learning` Algorithm to Predict Spam [(More details)](./ml_spam_predict.html)
-* Role Based Access Control Algorithm [(More details)](./rbac.html)
+* `Role Based Access Control` Algorithm [(More details)](./rbac.html)
 
 ### Generative AI for Cybersecurity
 
-* Phishing Response Playbook [(More details)](./phishing_playbook.html)
-* Malware Response Playbook [(More details)](./malware_response_playbook.html)
-* Python Algorithm for Keyboard Stroke Tracking [(More details)](./keystroke_track.html)
-* Python Algorithm to Block Ports [(More details)](./block_ports.html)
-* Python Algorithm of a `Daemon` malware [(More details)](./daemon_example.html)
+* `Phishing` Response `Playbook` [(More details)](./phishing_playbook.html)
+* `Malware` Response `Playbook` [(More details)](./malware_response_playbook.html)
+* `Python` Algorithm for `Keyboard Stroke Tracking` [(More details)](./keystroke_track.html)
+* `Python` Algorithm to `Block Ports` [(More details)](./block_ports.html)
+* `Python` Algorithm of a `Daemon` malware [(More details)](./daemon_example.html)
 
 ### Telstra Cybersecurity Job Simulation
 
