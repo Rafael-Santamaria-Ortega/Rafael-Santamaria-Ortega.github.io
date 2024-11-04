@@ -7,17 +7,17 @@ layout: default
 
 * This project is a Neural Network built and trained from scratch using Kaggle's Malicious Url Dataset (working on improving it with my own data) and TensorFlow, to accurately predict if urls gathered from the wild are malicious or not. [(More details)](./nn_malicious_url_pred.html)
 
-### Windows Malware Scanner | Python, Windows, csv
-
-* This algorithm automates file-based malware scanning of Windows Operating Systems. [(More details)](./malware_scanner.html)
-
 ### Cybersecurity Incident Response | Incident response, Threat analysis and mitigation, Digital Forensics
 
 * In this project I responded, analyzed, mitigated and performed a postmortem on a simulated distributed denial of service (DDoS) attack. [(More details)](./cyber_incident_response.html)
 
+### Windows Malware Scanner | Python, Windows, csv
+
+* This algorithm automates file-based malware scanning of Windows Operating Systems. [(More details)](./malware_scanner.html)
+
 ### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
-* In this activity, I document the details of various security incidents and how I handled them using technical tools like Wireshark, Ticketing systems, Suricata. [(More details)](./incident_handler_journal.html)
+* In this excercise from the Google Cybersecurity Professional Certificate, I document the details of various security incidents and how I handled them using technical tools in hands-on labs. [(More details)](./incident_handler_journal.html)
 
 ### Encryption with Python | Cryptography, Linux
 
@@ -30,7 +30,6 @@ layout: default
 ### Google Cybersecurity Professional Certificate
 
 * Incident Handler's Journal [(More details)](./incident_handler_journal.html)
-* Alert Ticket Escalation [(More details)](./ticketing.html)
 * Managing Linux File Permission [(More details)](./linux_file_perm.html)
 * File Update Python Algorithm [(More details)](./file_updade.html)
 * Applying Filters to SQL queries [(More details)](./filter_sql.html)
