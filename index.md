@@ -15,7 +15,7 @@ layout: default
 
 * In this project I responded, analyzed, mitigated and performed a postmortem on a simulated distributed denial of service (DDoS) attack. [(More details)](./cyber_incident_response.html)
 
-### Digital Dumpster Diving Executable Malware | Python, Penetration testing
+### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
 * This Python script performs 'digital dumpster diving' by exfiltrating all data from a Windows Recycle Bin into a USB, even if the compromised device does not have Python installed. [(More details)](./dumpster_diving.html)
 
