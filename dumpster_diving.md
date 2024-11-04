@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Digital Dumpster Diving Executable Malware | Python, Penetration testing
+# Digital Dumpster Diving Executable Malware | Python, Penetration testing
 
 This `Python` script for offensive security conducts `digital dumpster diving` by exfiltrating all data from a `Windows Recycle Bin`, even if Python isn't installed on the compromised device.
 
