@@ -82,17 +82,17 @@ Entry: 2
 
 Description: In this hands-on scenario I simulated being a security analyst investigating traffic to a website, using Wireshark network protocol analyzer. First I analyzed an existing capture. The key steps were: 
 
-Opening a network packet capture file in Wireshark and examine the high-level overview of the data, including the different packet types, protocols, and visual cues provided by the coloring rules. 
+* Opening a network packet capture file in Wireshark and examine the high-level overview of the data, including the different packet types, protocols, and visual cues provided by the coloring rules. 
 
-Applying a basic filter to inspect a specific TCP packet in detail, drilling down into the different protocol layers (Ethernet, IP, TCP) to understand the packet structure and contents. 
+* Applying a basic filter to inspect a specific TCP packet in detail, drilling down into the different protocol layers (Ethernet, IP, TCP) to understand the packet structure and contents. 
 
-Using filters to select packets based on source/destination IP addresses or Ethernet MAC addresses, and examine the protocol information contained within. 
+* Using filters to select packets based on source/destination IP addresses or Ethernet MAC addresses, and examine the protocol information contained within. 
 
-Exploring DNS traffic by filtering for UDP port 53 packets, and inspect the DNS query and response data. 
+* Exploring DNS traffic by filtering for UDP port 53 packets, and inspect the DNS query and response data. 
 
-Filtering for TCP port 80 traffic to examine web-related packets, looking at details like Time to Live, frame length, and destination addresses. 
+* Filtering for TCP port 80 traffic to examine web-related packets, looking at details like Time to Live, frame length, and destination addresses. 
 
-Finally, using a more advanced filter to locate packets containing specific text data, such as those involving the 'curl' command. 
+* Finally, using a more advanced filter to locate packets containing specific text data, such as those involving the 'curl' command. 
 
 Throughout the activity, the focus is on using Wireshark's powerful filtering and packet inspection capabilities to understand the structure and contents of network traffic, which is an essential skill for network analysis and troubleshooting. 
 
@@ -194,31 +194,31 @@ Description: In this hands-on scenario I simulated being a SOC analyst that rece
 
   **The timeline of events is:**  
 
-  1:11 p.m.: Employee receives an email containing a file attachment 
+  * 1:11 p.m.: Employee receives an email containing a file attachment 
 
-  1:13 p.m.: Employee successfully downloads and opens the file 
+  * 1:13 p.m.: Employee successfully downloads and opens the file 
 
-  1:15 p.m.: Multiple unauthorized executable files are created on the employee's computer 
+  * 1:15 p.m.: Multiple unauthorized executable files are created on the employee's computer 
 
-  1:20 p.m.: Intrusion detection system detects the executable files and sends an alert to the SOC 
+  * 1:20 p.m.: Intrusion detection system detects the executable files and sends an alert to the SOC 
 
-* Entered the file hash in VirusTotal  
+*Entered the file hash in VirusTotal
 
-* Analyzed the VirusTotal report and determined if the file is malicious:  
+*Analyzed the VirusTotal report and determined if the file is malicious:  
 
- * The fact that three sandboxes and a high community score in VirusTotal indicates that it is likely a malicious file of the trojan family. Furthermore, the hash has been found with other names that suggest a threat actor has changed and it downloads some files that make system changes.  
+The fact that three sandboxes and a high community score in VirusTotal indicates that it is likely a malicious file of the trojan family. Furthermore, the hash has been found with other names that suggest a threat actor has changed and it downloads some files that make system changes.
 
- * However, the fil bfsvc.exe is also a legitimate Windows OS file, so it is likely that threat actors masquerade their malware with that legitimate file’s name. There are some insights that can tell apart the malware from the actual file: first, the size, if it’s relatively small, it is most likely the legitimate file. Second, the description of the file states properly that it’s a Microsoft file that doesn’t have the ability to change files or make files. Third, if the date in properties of last execution or update matches the last Windows update, it most likely is the legitimate file. 
+However, the fil bfsvc.exe is also a legitimate Windows OS file, so it is likely that threat actors masquerade their malware with that legitimate file’s name. There are some insights that can tell apart the malware from the actual file: first, the size, if it’s relatively small, it is most likely the legitimate file. Second, the description of the file states properly that it’s a Microsoft file that doesn’t have the ability to change files or make files. Third, if the date in properties of last execution or update matches the last Windows update, it most likely is the legitimate file. 
 
-* Filling a Pyramid of Pain with the IoCs pertaining the .exe file:
+Filling a Pyramid of Pain with the IoCs pertaining the .exe file:
 
-    * Domain names: e11290.dspg.akamaiedge.net is reported as a malicious contacted domain under the Relations tab in the VirusTotal report. 
+* Domain names: e11290.dspg.akamaiedge.net is reported as a malicious contacted domain under the Relations tab in the VirusTotal report. 
 
- * IP address: 104.115.151.81 is listed as one of many IP addresses under the Relations tab in the VirusTotal report. This IP address is also associated with the e11290.dspg.akamaiedge.net domain as listed in the DNS Resolutions section under the Behavior tab from the Zenbox sandbox report. 
+* IP address: 104.115.151.81 is listed as one of many IP addresses under the Relations tab in the VirusTotal report. This IP address is also associated with the e11290.dspg.akamaiedge.net domain as listed in the DNS Resolutions section under the Behavior tab from the Zenbox sandbox report. 
 
- * Hash value: 287d612e29b71c90aa54947313810a25 is a MD5 hash listed under the Details tab in the VirusTotal report. 
+* Hash value: 287d612e29b71c90aa54947313810a25 is a MD5 hash listed under the Details tab in the VirusTotal report. 
 
- * Network/host artifacts: The malware executes HTTP requests to e86303.dscx.akamaiedge.net. This is listed in the Network Communications section under the Behavior tab. 
+* Network/host artifacts: The malware executes HTTP requests to e86303.dscx.akamaiedge.net. This is listed in the Network Communications section under the Behavior tab. 
 
 Tools: Execution of runtime modules. Malicious actors use runtime modules to avoid detection. 
 
