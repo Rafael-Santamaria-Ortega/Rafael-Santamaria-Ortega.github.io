@@ -18,8 +18,8 @@ def exercise_0(file):
     return df
 ```
 
-* Imports pandas and matplotlib
-* Loads the dataset from a specified CSV file and returns it as a pandas DataFrame.
+* Imports `pandas` and `matplotlib`
+* Loads the dataset from a specified `CSV` file and returns it as a pandas `DataFrame`.
 
 ```python
 def exercise_1(df):
@@ -83,7 +83,7 @@ def exercise_6(df):
     print(f'Number of frauds: {count2}')
 ```
 
-* Counts and prints details of fraudulent transactions, identified by the isFraud or isFlaggedFraud flags.
+* Counts and prints details of fraudulent transactions, identified by the isFraud or `isFlaggedFraud` flags.
 
 ```python
 def exercise_7(df):
@@ -167,7 +167,7 @@ def visual_2(df):
 
 [Output](https://github.com/Rafael-Santamaria-Ortega/JPMorgan-Chase_Internship/blob/main/Task%201_Pandas_DataAnalysis_FraudDetection/v2.png) 
 
-* Plots a scatter plot of balance changes (deltas) for CASH_OUT transactions, showing the differences between origin and destination balances for these transactions.
+* Plots a scatter plot of balance changes (deltas) for `CASH_OUT` transactions, showing the differences between origin and destination balances for these transactions.
 
 ### 4. Custom Analysis
 
