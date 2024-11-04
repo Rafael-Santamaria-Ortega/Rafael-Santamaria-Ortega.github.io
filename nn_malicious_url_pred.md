@@ -4,27 +4,27 @@ layout: default
 
 ## Neural Network for Malicious Url Predicting (In development) | Python, TensorFlow, Deep Learning, Data Engineering
 
-This neural network, built and trained from scratch using TensorFlow, predicts whether URLs gathered from the wild are malicious or benign. The model was initially trained on Kaggle's Malicious URL Dataset, and I'm currently working on enhancing its capabilities by incorporating learning rate decay, an F1 score to better assess metrics, and my own collected data from 'https://urlhaus.abuse.ch/'. Thus, I must state that this project is still in development, but I would say it is about 85% completed and usable to accurately predict malicious urls from "the wild". 
+This `neural network`, built and trained from scratch using `TensorFlow`, predicts whether URLs gathered from the wild are malicious or benign. The model was initially trained on `Kaggle's Malicious URL Dataset`, and I'm currently working on enhancing its capabilities by incorporating learning rate decay, an F1 score to better assess metrics, and my own collected data from `https://urlhaus.abuse.ch/`. Thus, I must state that this project is still in development, but I would say it is about 85% completed and usable to accurately predict malicious urls from "the wild". 
 
-The idea behind this project stems from the growing sophistication of phishing attacks and malicious websites, aswell as from our usually bad human performance when faced with social engineering. Also, traditional blacklist approaches often fail to detect new or modified malicious URLs, creating a need for more dynamic, intelligent detection methods. If not, it's going to be an endless game of cat and mouse. 
+The idea behind this project stems from the growing sophistication of phishing attacks and malicious websites, aswell as from our usually bad human performance when faced with _social engineering_. Also, traditional blacklist approaches often fail to detect new or modified malicious URLs, creating a need for more dynamic, intelligent detection methods. If not, it's going to be an endless game of cat and mouse. 
 
-As far as results, the model has demonstrated acceptable performance metrics on the test set, indicates strong real-world applicability. Indeed, this neural network could serve as a valuable component in a company's security infrastructure, particularly for real-time threat detection and prevention. After all, in cybersecurity:
+As far as results, the model has demonstrated acceptable performance metrics on the test set, indicates strong real-world applicability. Indeed, this `neural network` could serve as a valuable component in a company's security infrastructure, particularly for real-time threat detection and prevention. After all, in cybersecurity:
 
 "Prevention is better than cure."
 
 However, this kind of apps already exists, so I'm not claiming to reinvent the wheel as the saying goes. The primary objective here is to demonstrate a way to leverage machine learning to engineer more robust, adaptive cybersecurity solutions. 
 
-With that being said, the project is divided in 5 phases and it is being devolped using a Jupyter Notebook and dividing the neural network in individual components using custom functions, each one commented and explained. I made this choice makes the code easier to understand, debug, and tweak individual components (such as changing activation functions, model architecture, or hyperparameters) without risking the entire NN. Furthermore, that modular structure streamlines repurposing parts of the code in other machine learning projects, especially when using similar preprocessing or model evaluation steps. This is particularly helpful in cybersecurity, where some components of this neural network can be applied to apply similar models for other tasks like phishing detection, malware classification, or anomaly detection. Last, but not least, using this approach makes it possible to call the complete neural network training and prediction pipeline in just a few lines!
+With that being said, the project is divided in 5 phases and it is being devolped using a `Jupyter Notebook` and dividing the `neural network` in individual components using custom functions, each one commented and explained. I made this choice makes the code easier to understand, debug, and tweak individual components (such as changing activation functions, model architecture, or hyperparameters) without risking the entire NN. Furthermore, that modular structure streamlines repurposing parts of the code in other `machine learning` projects, especially when using similar preprocessing or model evaluation steps. This is particularly helpful in `cybersecurity`, where some components of this neural network can be applied to apply similar models for other tasks like phishing detection, malware classification, or anomaly detection. Last, but not least, using this approach makes it possible to call the complete neural network training and prediction pipeline in just a few lines!
 
 ### Phase 0: Importing Modules
 
 In this phase I imported the necessary modules for the project: 
 
-* 'pandas': handles the csv data of the database.
-* 'numpy':  helps in calculating class weights weights.
-* 'sklearn': splits the data into training, cross validation and test sets; and adds class weights.
-* 'tensorflow': builds, trains, evaluates and tests the model. Also, allows to tokenize data before feeeding it to the model.
-* 'matplotlib': illustrates evaluations of the model's performance with graphics.
+* `pandas`: handles the `csv` data of the database.
+* `numpy`:  helps in calculating class weights weights.
+* `sklearn`: splits the data into training, cross validation and test sets; and adds class weights.
+* `tensorflow`: builds, trains, evaluates and tests the model. Also, allows to tokenize data before feeeding it to the model.
+* `matplotlib`: illustrates evaluations of the model's performance with graphics.
 
 ```python
 import pandas as pd
@@ -44,7 +44,7 @@ import matplotlib.pyplot as plt
 
 In this phase I define the custom functions to load the data, split it and preprocess the urls using tokenization:
 
-**1. Data loading using 'pandas'**
+**1. Data loading using `pandas`**
 
 ```python
 def load_data(filepath):
@@ -68,7 +68,7 @@ def load_data(filepath):
     return X,y
 ```
 
-**2. Data Splitting using 'sklearn'**
+**2. Data Splitting using `sklearn`**
 
 ```python
 def split_data(X,y,test_size,random_state):
@@ -86,7 +86,7 @@ def split_data(X,y,test_size,random_state):
     return X_train,X_test,y_train,y_test
 ```
 
-**3. Preprocessing the data (urls) using 'tensorflow.keras.Tokenizer'**
+**3. Preprocessing the data (urls) using `tensorflow.keras.Tokenizer`**
 
 ```python
 
@@ -119,13 +119,13 @@ def preprocessor_urls(urls):
 
 In this phase I define the custom functions to create, train and test the model.
 
-**4. Creating the Model using 'TensorFlow'**
+**4. Creating the Model using `TensorFlow`**
 
-In this function there are actually two models. The first is the shallower initial architecture and is commented because it's results were not acceptable. So, I created a second more deep architecture that added more 'Dense' layers, with the addition of 'BatchDrop' to avoid overrelying in particular units, and 'BatchNormalization' for more efficient training and reducing risks of overfitting to the training data. 
+In this function there are actually two models. The first is the shallower initial architecture and is commented because it's results were not acceptable. So, I created a second more deep architecture that added more `Dense` layers, with the addition of `BatchDrop` to avoid overrelying in particular units, and `BatchNormalization` for more efficient training and reducing risks of overfitting to the training data. 
 
-Another note concerning the architecture: I chose to use mainly 'relu' activations for a number of reasons: 
+Another note concerning the architecture: I chose to use mainly `relu` activations for a number of reasons: 
 
-* First, because its non-linearity and simplicity reduces computational efficiency, in contrast of using tanh for example; it also helps mitigate vanishing gradients, as it doesn't "caps" positive values; furthermore, since negative values are output as zero in 'relu', it produces sparse activations which reduce layer interdependency and improves the learning efficiency of learned features. Not only that, when combined with 'BatchNormalization', on the one hand, it mitigates "dead RelUs", that is neurons always outputing 0, as outputs are normalized close to 0; and on the other hand, it allows for more aggressive learning rates, thus speeding up convergence. Finnaly, I chose 'Dense' layers, because they allow each neuron to connect to every neuron in the previous layer, making them very effective for learning complex representations, such as malicious urls.
+* First, because its non-linearity and simplicity reduces computational efficiency, in contrast of using tanh for example; it also helps mitigate vanishing gradients, as it doesn't "caps" positive values; furthermore, since negative values are output as zero in `relu`, it produces sparse activations which reduce layer interdependency and improves the learning efficiency of learned features. Not only that, when combined with `BatchNormalization`, on the one hand, it mitigates "dead RelUs", that is neurons always outputing 0, as outputs are normalized close to 0; and on the other hand, it allows for more aggressive learning rates, thus speeding up convergence. Finnaly, I chose `Dense` layers, because they allow each neuron to connect to every neuron in the previous layer, making them very effective for learning complex representations, such as `malicious urls`.
 
 ```python
 def create_model(input_shape): #Call: model=create_model(X_train_preprocessed.shape[1:])
@@ -204,15 +204,15 @@ def create_model(input_shape): #Call: model=create_model(X_train_preprocessed.sh
     return model
 ```
 
-**5. Training the Model using 'TensorFlow'**
+**5. Training the Model using `TensorFlow`**
 
 This function trains the model using the preprocessed data. Things to note: 
 
-* Class weights have been added using 'sklearn' to balance the training data set, because the Kaggle dats over-represents non-malicious urls by a factor of roughly 1 to 4.
-* Defines early stopping, so as to stop training if loss doesn't reduce significantly.
+* Class weights have been added using `sklearn` to balance the training data set, because the Kaggle dats over-represents non-malicious urls by a factor of roughly 1 to 4.
+* Defines `early stopping`, so as to stop training if loss doesn't reduce significantly.
 * The function returns both the trained model, and the history of training in a verbose (verbose=1) manner to get the whole picture of the training.
-* The .fit() function uses the argument 'validation_split' to reserve a small amount of training data (0.1 or 10%), so as to evaluate how well the model does when confronted with new, unseen data. In each iteration of forward propagation and backpropagation the results are validated with said data to prevent overfitting, track performance at each step, and helping determine what hyperparameters to tune.
-* The custom function takes 'batch_size' and 'epochs' as arguments, so as to experiment with different values.
+* The `.fit()` function uses the argument `validation_split` to reserve a small amount of training data (0.1 or 10%), so as to evaluate how well the model does when confronted with new, unseen data. In each iteration of forward propagation and backpropagation the results are validated with said data to prevent overfitting, track performance at each step, and helping determine what hyperparameters to tune.
+* The custom function takes `batch_size` and `epochs` as arguments, so as to experiment with different values.
 
 ```python
 def train_model(X_train_preprocessed,y_train,batch_size,epochs): #Call: model_trained,history=train_model(X_train,y_train,epochs,batch_size)
@@ -256,9 +256,9 @@ def train_model(X_train_preprocessed,y_train,batch_size,epochs): #Call: model_tr
     return model,history
 ```
 
-**6. Evaluating the model using 'TensorFlow'**
+**6. Evaluating the model using `TensorFlow`**
 
-This code evaluates the model using test data and the following metrics: 'loss' (measurement of the difference between predictions and actual labels of the test set), 'accuracy' (percentage of times the model predicted correctly), 'precision' (true positive rate, indicating reliability in malicious URL identification), and 'recall' (sensitivity, showing effectiveness in finding actual threats). As I mentioned far above, I am currently working in adding an F1 score to better assess the model.
+This code evaluates the model using test data and the following metrics: `loss` (measurement of the difference between predictions and actual labels of the test set), `accuracy` (percentage of times the model predicted correctly), `precision` (true positive rate, indicating reliability in malicious URL identification), and `recall` (sensitivity, showing effectiveness in finding actual threats). As I mentioned far above, I am currently working in adding an `F1 score` to better assess the model.
 
 ```python
 def evaluate_model(X_test_preprocessed,y_test):
@@ -270,13 +270,13 @@ def evaluate_model(X_test_preprocessed,y_test):
 
 ### Phase 3: Predicting Maliciousness for Previously Unseen URL
 
-In this phase I define a function to predict wether a url found in the wild is likely 'Malicious' or 'Bening', using the trained model. Things to note:
+In this phase I define a function to predict wether a url found in the wild is likely `Malicious` or `Bening`, using the trained model. Things to note:
 
 * The prediction is a float between 0 (Bening) and 1 (Malicious).
-* Defined a singular url argument so as to use any url. This implies applying the preprocessing and the global tokenizer to be able to feed the url to the trained model.
-* Defined an argument of the function as 'threshold' to adjust the value according to needs. Indeed, it can be set lower so as to catalog more urls as malicious, or higher to do the opposite. The answer is a blanced threshold, but in the context of cybersecurity it is better to err in the side of caution. So, it is adviced to set it very low (0.3). Evenmore, the model learns patterns very well, so many times the float is very close to 0 or to 1.
+* Defined a singular `url` argument so as to use any url. This implies applying the preprocessing and the global tokenizer to be able to feed the url to the trained model.
+* Defined an argument of the function as `threshold` to adjust the value according to needs. Indeed, it can be set lower so as to catalog more urls as malicious, or higher to do the opposite. The answer is a blanced threshold, but in the context of cybersecurity it is better to err in the side of caution. So, it is adviced to set it very low (0.3). Evenmore, the model learns patterns very well, so many times the float is very close to 0 or to 1.
 
-**7. Predicting with the trained model using 'TensorFlow'**
+**7. Predicting with the trained model using `TensorFlow`**
 
 ```python
 def predict_url(url,trained_model,threshold:float,tokenizer): 
@@ -299,7 +299,7 @@ In this phase I call each function to actually build, train, evaluate the model;
 
 Something to note: 
 
-* This was implemented using a Jupyter Notebook, so each part of the code was run in a separate cell for easier implementation and debugging if needed. However, as I can't represent that functionality, I will transcribe the last results I got. 
+* This was implemented using a `Jupyter Notebook`, so each part of the code was run in a separate cell for easier implementation and debugging if needed. However, as I can't represent that functionality, I will transcribe the last results I got. 
 
 ```python
 #Load data
