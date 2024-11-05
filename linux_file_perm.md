@@ -1,5 +1,5 @@
 ---
-Layout_ Default
+Layout: Default
 ---
 
 # Managing Linux File Permissions: 
