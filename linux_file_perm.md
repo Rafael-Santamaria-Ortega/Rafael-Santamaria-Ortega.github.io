@@ -13,15 +13,17 @@ Check file and directory details
 
 To check file and directory permissions I used the following Linux command after navigating to the /projects directory: 
 
-![image](./LinuxPerm1.png)
-
+```bash
+researcher20@f0a293ae3f7e:~$ cd projects
+researcher20@f0a293ae3f7e:~/projects$ ls -la
+```
 This command is composed of a command (ls) and an option (-la) that modifies said command. The first of these, if no option were given, would just show the contents of the directory, excluding hidden files or directories which are identified with a ‘.’ or a ‘..’ at the start. If the option was just ‘-l’, the output would be the contents of the directory and the respective permission, but still excluding the hidden contents. So, to display both hidden and visible contents and their permissions the option ‘-la’ is used (if it was just ‘-a’ it would display all contents including hidden ones, but not their permissions). 
 
 Describe the permissions string 
 
 The output of said command was: 
 
-![LinuxPerm2](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/LinuxPerm2.png)
+
 
 The first part of every line displays the type of content (file or directory) and respective permissions. This consists of a 10 digit string. The first digit specifies if it is a file with a ‘-’ or a directory with a ‘d’. The next three digits are the user permissions, the next three are the group permissions and the last three are the other permissions. The last part displays the name of the directory or file.  
 
@@ -41,7 +43,19 @@ Change file permissions on a hidden file
 
 Next, the permissions for the hidden file ‘.project_x.txt’ must be changed, since no user should be able to write on it, but the user and group should be able to read it. To accomplish this I used the next command to remove said permission of the ‘.project_x.txt’ file for other and group users with the argument ‘u=r,g=r’, which means overwrite (=) the user (u) and group (g) users reading permissions (r): 
 
-![LinuxPerm5](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/LinuxPerm5.png)
+```bash
+researcher2@f0a293ae3f7e:~/projects$ chmod u=r, g=r .project_x.txt
+researcher2@f0a293ae3f7e:~/projects$ ls -la
+total 32
+drwxr-xr-x  3 researcher2 research_team 4096 Apr  3 20:41 .
+drwxr-x---  3 researcher2 research_team 4096 Apr  3 20:57 ..
+-r--r-----  1 researcher2 research_team   46 Apr  3 20:41 .project_x.txt
+drwxr-xr--  2 researcher2 research_team 4096 Apr  3 20:41 drafts
+-rw-rw-r--  1 researcher2 research_team   46 Apr  3 20:41 project_k.txt
+-rw-rw-r--  1 researcher2 research_team   46 Apr  3 20:41 project_m.txt
+-rw-rw-r--  1 researcher2 research_team   46 Apr  3 20:41 project_r.txt
+-rw-rw-r--  1 researcher2 research_team   46 Apr  3 20:41 project_t.txt
+```
 
 As the screenshot shows, I changed the permissions successfully. 
 
@@ -49,7 +63,19 @@ Change directory permissions
 
 Next, the ‘drafts’ directory permissions must be changed to restrict it’s access to the user, instead of also the group, so I used the next command to remove said permission of the ‘drafts’ directory for group users with the argument g-x, which means remove (-) the groupr users (g) executing permissions (x): 
 
-![LinuxPerm6](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/LinuxPerm6.png)  
+```bash
+researcher2@f0a293ae3f7e:~/projects$ chmod g-x drafts
+researcher2@f0a293ae3f7e:~/projects$ ls -la
+total 32
+drwxr-xr-x  3 researcher2 research_team 4096 Apr  3 20:41 .
+drwxr-x---  3 researcher2 research_team 4096 Apr  3 20:57 ..
+-r--r-----  1 researcher2 research_team   46 Apr  3 20:41 .project_x.txt
+drwxr-xr--  2 researcher2 research_team 4096 Apr  3 20:41 drafts
+-rw-rw-r--  1 researcher2 research_team   46 Apr  3 20:41 project_k.txt
+-rw-rw-r--  1 researcher2 research_team   46 Apr  3 20:41 project_m.txt
+-rw-rw-r--  1 researcher2 research_team   46 Apr  3 20:41 project_r.txt
+-rw-rw-r--  1 researcher2 research_team   46 Apr  3 20:41 project_t.txt
+```
 
 As the screenshot shows, I changed the permissions successfully. 
 
