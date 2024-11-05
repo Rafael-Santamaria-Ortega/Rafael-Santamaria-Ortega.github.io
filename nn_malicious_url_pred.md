@@ -8,7 +8,7 @@ This `neural network`, built and trained from scratch using `TensorFlow`, predic
 
 The idea behind this project stems from the growing sophistication of phishing attacks and malicious websites, aswell as from our usually bad human performance when faced with _social engineering_. Also, traditional blacklist approaches often fail to detect new or modified malicious URLs, creating a need for more dynamic, intelligent detection methods. If not, it's going to be an endless game of cat and mouse. 
 
-As far as results, the model has demonstrated acceptable performance metrics on the test set, indicates strong real-world applicability. Indeed, this `neural network` could serve as a valuable component in a company's security infrastructure, particularly for real-time threat detection and prevention. After all, in cybersecurity:
+As far as results, the model has demonstrated acceptable performance metrics on the test set, indicating strong real-world applicability. Indeed, this `neural network` could serve as a valuable component in a company's security infrastructure, particularly for real-time threat detection and prevention. After all, in cybersecurity:
 
 "Prevention is better than cure."
 
