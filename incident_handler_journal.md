@@ -47,9 +47,13 @@ This is the documentation I made concerning the incident:
 "
 
 | **_Date:_** | 10/04/2024 |
+
 | **_Entry:_** | 1  |
+
 | **_Description:_** | A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. |
+
 | **_Tool(s) used:_** | NO TOOLS WERE USED |
+
 |**_The 5 W's:_** | _Who caused the incident?_ A group of unethical hackers that target the healthcare and transportation industries. 
 _What happened?_ Through spear phishing the malicious actors were able to gain access to the company data and encrypt it, to then send a ransom monetary request to provide the decryption key. This security incident is called a Ransomware attack. 
 _When did the incident occur?_ The incident occurred on Tuesday at 9:00 a.m. 
