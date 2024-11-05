@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
+# Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering, Threat Intelligence
 
 In this exercise from the Google Cybersecurity Professional Certificate, I document the details of 9 simulated security incidents and how I handled them using technical tools in hands-on labs. This excercise also gave me hands-on experience with various tools such as suricata, tcpdump, Wireshark, ticketing systems, Splunk, Chronicle, and the Linux Bash Shell; which are all essential proficiencies for any cybersecurity position. 
 
@@ -30,7 +30,9 @@ The criteria given to document is the following:
 
 ## Entry #1
 
-The first entry scenario:
+In this first entry, I simulated being a level one security operations center (SOC) analyst responding to a security incident at a small U.S. healthcare clinic. The scenario involved investigating a ransomware attack where the attackers gained access through phishing emails and encrypted critical files, disrupting business operations. My goal was to document the incident and analyze the steps taken to identify and mitigate the ransomware threat.
+
+The scenario is described as such:
 
 "A small U.S. health care clinic specializing in delivering primary-care services experienced a security incident on a Tuesday morning, at approximately 9:00 a.m. Several employees reported that they were unable to use their computers to access files like medical records. Business operations shut down because employees were unable to access the files and software needed to do their job.
 
@@ -70,7 +72,7 @@ _Why did the incident happen?_ The cause of the incident was a successful spear 
 
 ## Entry #2
 
-The second entry scenario is not specified beyond simulating being a Security Analyst investigating network traffic using Wireshark. 
+In this secon entry I simulated being a Security Analyst tasked with investigating network traffic using Wireshark. 
 
 This is my documentation of the activity:
 
@@ -118,7 +120,7 @@ _Why did the incident happen?_ N/A
 
 ## Entry #3
 
-The third entry scenario is the same as entry 2: simulating being a Security Analyst investigating Network Traffic, but with different tools. These are 'tcpdump' and the Linux Bash Shell.
+In this third entry, I continued my simulation as a level one security operations center (SOC) analyst at a financial services company. The scenario was similar to the previous one, where I received an alert about suspicious network activity. The goal was to become familiar with using tcpdump to identify network interfaces, inspect live network traffic, capture traffic to a file, and then filter the captured data.
 
 This is my documentation of the activity:
 
@@ -128,7 +130,7 @@ This is my documentation of the activity:
 
 **_Entry:_** 3 
 
-**_Description:_** In this hands-on lab I learned how to capture and filter network traffic using tcpdump on a Linux system, by simulating being a security analyst. The goal was to become familiar with using tcpdump to identify network interfaces, inspect live network traffic, capture traffic to a file, and then filter the captured data. 
+**_Description:_** Captured and filtered network traffic using tcpdump on a Linux system.  
 
 _The key steps were:_ 
 
@@ -169,17 +171,19 @@ _Why did the incident happen?_ N/A
 
 ## Entry #4
 
-The fourth entry scenario is described as such:
+In this fourth entry I simulated being a level one security operations center (SOC) analyst at a financial services company, that received an alert about a suspicious file being downloaded on an employee's computer.
 
-"You are a level one security operations center (SOC) analyst at a financial services company. You have received an alert about a suspicious file being downloaded on an employee's computer. 
+The scenario is described as such:
 
-You investigate this alert and discover that the employee received an email containing an attachment. The attachment was a password-protected spreadsheet file. The spreadsheet's password was provided in the email. The employee downloaded the file, then entered the password to open the file. When the employee opened the file, a malicious payload was then executed on their computer. 
+"You are a level one security operations center (SOC) analyst at a financial services company. You have received an alert about a suspicious file being downloaded on an employee's computer.
 
-You retrieve the malicious file and create a `SHA256` hash of the file. You might recall from a previous course that a hash function is an algorithm that produces a code that can't be decrypted. Hashing is a cryptographic method used to uniquely identify malware, acting as the file's unique fingerprint. 
+You investigate this alert and discover that the employee received an email containing an attachment. The attachment was a password-protected spreadsheet file. The spreadsheet's password was provided in the email. The employee downloaded the file, then entered the password to open the file. When the employee opened the file, a malicious payload was then executed on their computer.
+
+You retrieve the malicious file and create a SHA256 hash of the file. You might recall from a previous course that a hash function is an algorithm that produces a code that can't be decrypted. Hashing is a cryptographic method used to uniquely identify malware, acting as the file's unique fingerprint.
 
 Now that you have the file hash, you will use VirusTotal to uncover additional IoCs that are associated with the file."
 
-This is my documentation of the activity:
+This is my documentation of the hands-on lab:
 
 "
 
@@ -187,7 +191,7 @@ This is my documentation of the activity:
 
 **_Entry:_** 4 
 
-**_Description:_** In this hands-on scenario I simulated being a SOC analyst that received an IDS alert of an employee downloading and executing a file from an email. The key steps were: 
+**_Description:_** Received an IDS alert of an employee downloading and executing a file from an email, and performed an investigation of the alert. The key steps were: 
 
 * _Reviewing the details of the alert:_ 
 
@@ -257,9 +261,9 @@ _Why did the incident happen?_ Because there wasn’t enough awareness about soc
 
 ## Entry #5
 
-This entry builds up on entry #4 as the investigation and escalation by means of ticketing of the incident mentioned.
+This fifth entry builds up on entry #4 as the investigation and escalation by means of ticketing of the incident mentioned. 
 
-This is my documentation of the activity:
+This is my documentation of the hands-on lab:
 
 "
 
@@ -267,7 +271,7 @@ This is my documentation of the activity:
 
 **_Entry:_** 5 
 
-Description: In this incident investigation, I learned how to analyze a `phishing alert` for a financial services company as a `Level 1 SOC analyst`. The goal was to evaluate and respond to an alert involving a suspicious file download from a phishing email. 
+Description: Analyzed a `phishing alert` for a financial services company as a `Level 1 SOC analyst`, to evaluate and escalete an alert involving a suspicious file download from a phishing email. 
 
 _The key steps were:_ 
 
@@ -276,8 +280,6 @@ _The key steps were:_
 * Updating the alert ticket status to "Investigating" to reflect active analysis 
 
 * Evaluating the alert details including severity, sender information, message content, and attachment analysis 
-
-* Documenting the incident using the 5 W's methodology 
 
 * Determining if escalation is required based on alert severity and findings 
 
@@ -343,22 +345,22 @@ _Why did the incident happen?_ The incident happened because a supposed ‘job a
 
 ## Entry #6 
 
-The scenario of this hands-on activity is the following:
+In this hands-on lab, I simulated being a Security Analyst for the mid-sized retail company, and investigated the final report for the recent data breach incident. 
 
-"
-You recently joined the security team as a level-one security operation center (SOC) analyst at a mid-sized retail company. Along with its physical store locations, your company also conducts operations in e-commerce, which account for 80% of its sales.
+The scenario of this entry is described as such:
 
-You are spending your first week of training becoming familiar with the company's security processes and procedures. Recently, the company experienced a major security incident involving a data breach of over one million users. Because this was a recent and major security incident, your team is working to prevent incidents like this from happening again. This breach happened before you began working at the company. You have been asked to review the final report.
-"
+"You recently joined the security team as a level-one security operation center (SOC) analyst at a mid-sized retail company. Along with its physical store locations, your company also conducts operations in e-commerce, which account for 80% of its sales.
 
-This is my documentation of the activity:
+You are spending your first week of training becoming familiar with the company's security processes and procedures. Recently, the company experienced a major security incident involving a data breach of over one million users. Because this was a recent and major security incident, your team is working to prevent incidents like this from happening again. This breach happened before you began working at the company. You have been asked to review the final report."
+
+This is my documentation of the hansds-on lab:
 
 "
 **_Date:_** 12/04/2024 11:40 a.m. 
 
 **_Entry:_** 6 
 
-**_Description:_** In this review activity, I analyzed a `final incident report` for a `data breach` that occurred at a mid-sized retail company, focusing on forced browsing attack that exposed customer `PII` and `financial information`. The incident resulted in approximately 50,000 affected customer records and an estimated financial impact of $100,000 in direct costs and potential revenue loss. 
+**_Description:_** I analyzed a `final incident report` for a `data breach` that occurred at the company, focusing on forced browsing attack that exposed customer `PII` and `financial information`. The incident resulted in approximately 50,000 affected customer records and an estimated financial impact of $100,000 in direct costs and potential revenue loss. 
 
 _The key events and findings were:_ 
 
@@ -402,9 +404,9 @@ _Why did the incident happen?_ Vulnerability in URL string handling of order num
 
 ## Entry #7
 
-This hands-on lab gave me first hand experience configuring and using `Suricata`, and Intrusion Detection System `IDS`, throught commands using a `Linux Bash Shell`.
+This scenario gave me first hand experience configuring and using `Suricata`, an Intrusion Detection System (`IDS`), through `Linux Bash Shell` commands. The exercise focused on understanding Suricata's rule structure, running the tool with custom rules, and analyzing different types of log outputs. 
 
-This is my documentation of the lab:
+This is my documentation of the hands-on lab:
 
 "
 
@@ -412,17 +414,17 @@ This is my documentation of the lab:
 
 **_Entry:_** 7 
 
-**_Description:_** In this hands-on lab activity, I learned how to configure and use `Suricata`, an Intrusion Detection System (`IDS`), to monitor network traffic and trigger alert. The exercise focused on understanding Suricata's rule structure, running the tool with custom rules, and analyzing different types of log outputs. 
+**_Description:_** Configured and used `Suricata` custom alerts to monitor network traffic and trigger alert. 
 
 _The key steps were:_ 
 
-* Examining custom rules in Suricata and understanding their components (action, header, rule options) 
+* Examining custom rules in `Suricata` and understanding their components (action, header, rule options) 
 
 * Running Suricata with a custom rule against sample PCAP file to trigger alerts 
 
-* Analyzing output logs in both fast.log and eve.json formats 
+* Analyzing output logs in both `fast.log` and eve.json formats 
 
-* Using jq tool to parse and format JSON output from eve.json 
+* Using jq tool to parse and format `JSON` output from `eve.json` 
 
 * The lab emphasized the importance of understanding rule components: 
 
@@ -452,9 +454,117 @@ _When did the incident occur?_ N/A
 
 _Why did the incident happen?_ N/A 
 
-**_Additional notes:_** The exercise demonstrated the difference between fast.log (deprecated but useful for quick checks) and eve.json (main, detailed log format) in Suricata. Working with JSON-formatted logs using jq made the data much more readable and easier to analyze, which is crucial for real-world incident response and threat hunting tasks. 
+**_Additional notes:_** The exercise demonstrated the difference between `fast.log` (deprecated but useful for quick checks) and `eve.json` (main, detailed log format) in `Suricata`. Working with `JSON`-formatted logs using `jq` made the data much more readable and easier to analyze, which is crucial for real-world incident response and threat hunting tasks. 
 "
 
 ## Entry #8
 
+In this scenario I simulated investigating a security incident for Buttercup Games (a fictional e-commerce) as a Security Analyst, which mainly consisted in performing `Splunk` queries and analyzing the results.
+
+This is my documentation of the hands-on lab:
+
+"
+
+**_Date:_** 15/04/2024 
+
+**_Entry:_** 8 
+
+**_Description:_** Using the `Splunk Cloud Platform` I investigated potential security issues with the company's mail server. Specifically, any `failed SSH login attempts` for the root account. 
+
+_The key steps were:_
+
+* Logged into the `Splunk Cloud Platform` and navigated to the `Splunk` home page. 
+
+* Uploaded the sample `tutorialdata.zip` file, which contained data that could be ingested and indexed by Splunk. 
+
+* Performed an initial search using the query `index=main` to confirm that the data had been successfully ingested and was searchable. 
+
+* Examined the search results, noting the various host, source, and sourcetype fields that were attached to the indexed events. 
+
+* Narrowed the search to focus on events generated by the `mailsv` host, which represented the company's mail server. 
+
+* Crafted a more targeted search query to look for any failed SSH login attempts for the root account: `index=main host=mailsv fail* root`. 
+
+The search results from this final query provided over 300 events that matched the specified criteria, indicating there were potentially security issues with failed root account login attempts on the mail server. 
+ 
+The `Ip` is associated with two domains: `signin.accounts-gooqle.com` and `signin.office365x24.com`. 
+
+**_Tool(s) used:_** **Splunk Cloud Platform and Splunk Search**  
+
+The `Splunk Cloud Platform` is a `SIEM` (Security Information and Event Management) tool used to ingest, index, and analyze security-related data. 
+
+Splunk Search is the query language and interface used to search and analyze data within the Splunk platform. 
+
+**_The 5 W's:_**  
+
+_Who caused the incident?_ An employee sgared it's credentials in to a malicious link.
+
+_What happened?_ At 14:10 on 2023-01-31 `ashton-davidson-pc` signed in to the malicious link and and the `POST` flag suggests a successful phishing attempt, likewise other devices are possible compromised. 
+
+_Where did the incident happen?_ `ashton-davidson-pc`, but possibly other affected devices.
+
+When did the incident occur? 14:10 on 2023-01-31
+
+Why did the incident happen? Lack of `security awareness campaigns`, as well as lack of email filtering. 
+
+Additional notes 
+
+The `Splunk search queries` and analysis techniques demonstrated in this exercise are essential skills for security analysts. By leveraging the data indexing and querying capabilities of a `SIEM` tool like `Splunk`, I was able to efficiently sift through large volumes of log data to identify potential security concerns. This information can then be used to inform further investigation, remediation, and overall security improvements for the organization 
+
+"
+
 ## Entry #9
+
+In this scenario I simulated being a Security Analyst for a financial services company, and investigated an alert about an employee receiving a phishing email containing a suspicious domain.
+
+This is my documentation of the hands-on lab:
+
+"
+
+**_Date: 15/06/2024_**
+
+**_Entry:_** 9 
+
+**_Description:_** I conducted an investigation into the suspicious domain `signin.office365x24.com` that was identified in a phishing email received by one of the company's employees. 
+
+_The key steps were:_
+
+* Searched for the domain `signin.office365x24.com` in the `Chronicle` search bar to retrieve information about it. 
+
+* Analyzed the `threat intelligence data` available for this domain and its top-level domain `office365x24.com`, including `VirusTotal` and `WHOIS` information. 
+
+* Reviewed the Timeline and Assets tabs to identify the specific assets (employees/devices) that had accessed the domain, as well as the `HTTP requests` made (including `POST` requests). 
+
+* Followed up by searching for the `IP address (40.100.174.34)` that the domain resolved to, to see if it was associated with any other suspicious domains. 
+
+_Based on the investigation, I concluded:_
+
+* Several employee assets had accessed the `signin.office365x24.com domain`, indicating many potential phishing attempts. 
+
+* The domain resolved to the `IP address 40.100.174.34`, which was also associated with the domain `signin.accounts-gooqle.com`, further raising suspicions of maliciousness. 
+
+* Multiple `POST` requests were made to the `signin.office365x24.com/login.php` page, suggesting that employees may have entered sensitive information like login credentials on the malicious site. 
+
+Given the evidence gathered, it is clear that the `signin.office365x24.com` domain is highly suspicious and likely part of a phishing campaign targeting the company's employees. I will recommend further investigation and appropriate actions to mitigate the potential compromise. 
+
+**_Tool(s) used :_** **Chronicle** 
+
+**Chronicle** is a security investigation platform developed by Google that provides threat intelligence and analysis capabilities. 
+
+**_The 5 W's_**  
+
+_Who caused the incident?_ Several employees that accessed the `signin.office365x24.com` suspicious domain. 
+
+_What happened?_ The `signin.office365x24.com` domain was likely part of a phishing campaign, with multiple POST requests made to the login page, suggesting employees may have entered sensitive information. 
+
+_When did the incident occur?_ 31/01/2023 at 14:40  
+
+_Where did the incident happen?_ In several employee assests (`roger-spence-pc`, `emil-palmer-pc`, `coral-alvarez-pc`) 
+
+_Why did the incident happen?_ Lack of security awareness campaigns concerning phishing. 
+
+**_Additional notes:_** This investigation highlights the value of having a robust security monitoring and investigation platform like Chronicle. By quickly analyzing the relevant threat intelligence and activity data, I was able to assess the risk posed by the suspicious domain and the associated indicators of compromise. This information will be crucial in guiding the company's incident response and security improvement efforts. Furthermore, this exercise underscores the importance of security awareness campaigns to avoid security incidents. 
+
+"
+
+[Back](./)
