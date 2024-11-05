@@ -140,7 +140,7 @@ def visual_1(df):
     return 'This is a table that compares, on the one hand, the activity of each type in the dataset; on the other hand, it compares each type with frauds to show which activity presents more frauds.'
 ```
 
-![Output](https://github.com/Rafael-Santamaria-Ortega/JPMorgan-Chase_Internship/blob/main/Task%201_Pandas_DataAnalysis_FraudDetection/v1.png)
+![Output](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/v1.png)
 
 * Plots the counts of transaction types alongside counts for each type associated with fraud, using two bar charts for side-by-side comparison.
 
@@ -165,7 +165,7 @@ def visual_2(df):
 
 ```
 
-![Output](https://github.com/Rafael-Santamaria-Ortega/JPMorgan-Chase_Internship/blob/main/Task%201_Pandas_DataAnalysis_FraudDetection/v2.png) 
+![Output](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/v2.png)
 
 * Plots a scatter plot of balance changes (deltas) for `CASH_OUT` transactions, showing the differences between origin and destination balances for these transactions.
 
@@ -205,7 +205,7 @@ def exercise_custom(df):
     return delta_df
 ```
 
-[Output](https://github.com/Rafael-Santamaria-Ortega/JPMorgan-Chase_Internship/blob/main/Task%201_Pandas_DataAnalysis_FraudDetection/c1.png)
+![Output](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/c1.png)
 
 * Analyzes and prints several statistics related to fraudulent transactions, such as percentage of fraud, and calculates the average delta balance for origin and destination accounts involved in fraud.
 
@@ -231,7 +231,7 @@ def visual_custom(df):
     return 'This graph plots the distribution of origin and destination deltas to help understand the spread and characteristics of the deltas in fraudulent transactions.'
 ```
 
-[Output](https://github.com/Rafael-Santamaria-Ortega/JPMorgan-Chase_Internship/blob/main/Task%201_Pandas_DataAnalysis_FraudDetection/c2.png)
+![Output](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/c2.png)
 
 * Creates histograms showing the distribution of balance deltas for origin and destination accounts involved in fraudulent transactions, allowing a closer look at fraudulent activity patterns.
 
