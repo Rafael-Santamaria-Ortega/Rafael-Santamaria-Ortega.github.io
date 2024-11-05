@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Managing Linux File Permissions: 
+# Managing Linux File Permissions | Linux
 
 In the scenario presented by Google Cybersecurity Certificate, I was tasked with examining and managing the permissions on the files in the /home/researcher2/projects directory for the researcher2 user, who is a is part of the research_team group. 
 
