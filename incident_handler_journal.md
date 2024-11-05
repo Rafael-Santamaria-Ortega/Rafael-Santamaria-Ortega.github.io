@@ -111,58 +111,25 @@ This fifth entry builds up on entry #4 as the investigation and escalation by me
 This is my documentation of the hands-on lab:
 
 "
+| **_Entry:_** | 5 |
+|:-------------|---|
+| <br> **_Date:_** <br> | <br> 12/04/2024 at 10:04 a.m. <br> |
+| <br> Description <br> |<br> Analyzed a `phishing alert` for a financial services company as a `Level 1 SOC analyst`, to evaluate and escalete an alert involving a suspicious file download from a phishing email. <br> _The key steps were:_ <br> 1. Reviewing the [`Phishing Playbook and Flowchart`](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/Phishing%20incident%20response%20playbook.pdf) to understand the proper incident response procedures <br> 2. Updating the alert ticket status to "Investigating" to reflect active analysis. <br> 3. Evaluating the alert details including severity, sender information, message content, and attachment analysis. <br> 4. Determining if escalation is required based on alert severity and findings <br> _Conclusion:_The investigation confirmed that the email attachment's file hash was malicious, indicating a successful phishing attempt that requires further analysis and `escalation to Level 2 SOC`. <br> |  
+| <br> **_Tool(s) used_** <br> | <br> `Ticketing system`: a software applications designed to manage and track various types of service requests or issues, by providing a structured way for organizations to receive, categorize, prioritize, and respond to requests from customers, clients, or internal teams. <br><br> `Phishing Playbook`: a manual on how to respond, mitigate and document a phishing related security incident. <br> | 
+| <br> **_The 5 W's_** <br> | <br> _Who caused the incident?_ A ‘Clyde West’, probably a malicious actor impersonating a real person. <br><br> _What happened?_ Said person sent an email expressing interest to work in the company, so a password protected ‘CV’ named ‘bsfc.exe’ was attached to the mail. <br><br> _When did the incident occur?_ The incident occurred in 12/04/2024 <br><br> _Where did the incident happen?_ In the company’s premises <br><br> _Why did the incident happen?_ The incident happened because a supposed ‘job application’ bypassed the email filters. <br> |
+| **_Additional notes:_** | The company must ensure that execution permits are in accordance to the least privilege principle. Also, even more awareness campaigns to detect and report more phishing attacks. |
 
-**_Date:_** 12/04/2024 at 10:04 a.m. 
 
-**_Entry:_** 5 
+**_Simulated Alert ticket resulting from this activity:_**  
 
-Description: Analyzed a `phishing alert` for a financial services company as a `Level 1 SOC analyst`, to evaluate and escalete an alert involving a suspicious file download from a phishing email. 
-
-_The key steps were:_ 
-
-* Reviewing the [`Phishing Playbook and Flowchart`](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/Phishing%20incident%20response%20playbook.pdf) to understand the proper incident response procedures 
-
-* Updating the alert ticket status to "Investigating" to reflect active analysis 
-
-* Evaluating the alert details including severity, sender information, message content, and attachment analysis 
-
-* Determining if escalation is required based on alert severity and findings 
-
-The investigation confirmed that the email attachment's file hash was malicious, indicating a successful phishing attempt that requires further analysis and `escalation to Level 2 SOC`. 
-
-_Simulated Alert ticket:_  
-
-| Ticket ID | Alert Message | Severity | Details | Ticket status | Ticket comments | 
-|:-------------|:------------------|:-------------|:-------------|:-------------|:-------------|
-| A-2703  | SERVER-MAIL Phishing attempt possible download of malware | Medium | The user may have opened a malicious email and opened attachments or clicked links. | Escalated  | The email is probably a phishing email sent to gain access to the company’s systems, since it has a known malware file attached to it, as confirmed by the hash value and name of the file ‘bfscv.exe’. Not only that, but the sender’s email also ‘76tguyhh6tgftrt7tg.su’ and IP are very suspicious, since the name ‘Clyde West’ |is inconsistent with it, as well as the name ‘Def Communications’. Also suspicious are the grammatical mistakes, which usually are strong indicators of a phishing attempt. If the user opens the attachment is recommended to scan the network for malicious activity. Based on all this evidence, and the ‘medium’ severity of the incident, I proceed to escalate it. |
-
-| Additional information: | Known malicious file hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b |
+| Ticket ID | Alert Message | Severity | Details | Ticket status | Ticket comments | Additional information: |
+|:-------------|:------------------|:-------------|:-------------|:-------------|:-------------|:------------|
+| A-2703  | SERVER-MAIL Phishing attempt possible download of malware | Medium | The user may have opened a malicious email and opened attachments or clicked links. | Escalated  | The email is probably a phishing email sent to gain access to the company’s systems, since it has a known malware file attached to it, as confirmed by the hash value and name of the file ‘bfscv.exe’. Not only that, but the sender’s email also ‘76tguyhh6tgftrt7tg.su’ and IP are very suspicious, since the name ‘Clyde West’ |is inconsistent with it, as well as the name ‘Def Communications’. Also suspicious are the grammatical mistakes, which usually are strong indicators of a phishing attempt. If the user opens the attachment is recommended to scan the network for malicious activity. Based on all this evidence, and the ‘medium’ severity of the incident, I proceed to escalate it. | Known malicious file hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b |
 
 | **_Malicious Email Sample:_** | 
 |:-------------------------------| 
 | From: Def Communications <76tguyhh6tgftrt7tg.su>  <114.114.114.114> <br><br> Sent: Wednesday, July 20, 2022 09:30:14 AM <br><br> To: <hr@inergy.com> <176.157.125.93> <br> Subject: Re: Infrastructure Egnieer role <br><br> Dear HR at Ingergy, <br><br> I am writing for to express my interest in the engineer role posted from the website. <br><br> There is attached my resume and cover letter. For privacy, the file is password protected. Use the password paradise10789 to open. <br><br> Thank you, <br> Clyde West <br><br> Attachment: filename="bfsvc.exe" |
 
-**_Tool(s) used_** `Ticketing` system and `Phishing Playbook`. 
-
-**Ticketing systems** are software applications designed to manage and track various types of service requests or issues. They provide a structured way for organizations to receive, categorize, prioritize, and respond to requests from customers, clients, or internal teams. 
-
-**Phishing Playbooks** are manuals on how to respond, mitigate and document a phishing related security incident. 
-
-**_The 5 W's_** 
-
-_Who caused the incident?_ A ‘Clyde West’, probably a malicious actor impersonating a real person. 
-
-_What happened?_ Said person sent an email expressing interest to work in the company, so a password protected ‘CV’ named ‘bsfc.exe’ was attached to the mail. 
-
-_When did the incident occur?_ The incident occurred in 12/04/2024 
-
-_Where did the incident happen?_ In the company’s premises 
-
-_Why did the incident happen?_ The incident happened because a supposed ‘job application’ bypassed the email filters. 
-
-**_Additional notes:_** The company must ensure that execution permits are in accordance to the least privilege principle. Also, even more awareness campaigns to detect and report more phishing attacks. 
-
-"
 
 ## Entry #6 
 
