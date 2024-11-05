@@ -46,17 +46,17 @@ This is the documentation I made concerning the incident:
 
 "
 
-**_Date:_** 10/04/2024 
-
-**_Entry:_** 1  
-
-**_Description:_** A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. 
-
-**_Tool(s) used:_** NO TOOLS WERE USED 
-
-**_The 5 W's:_**  
-
-_Who caused the incident?_ A group of unethical hackers that target the healthcare and transportation industries.  
+| **_Date:_** | 10/04/2024 |
+|:-------------|:-------------|
+| **_Entry:_** | 1  |
+|:-------------|:-------------|
+| **_Description:_** | A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. |
+|:-------------|:-------------|
+| **_Tool(s) used:_** | NO TOOLS WERE USED |
+|:-------------|:-------------|
+|**_The 5 W's:_** |  
+|:-------------|
+| _Who caused the incident?_ A group of unethical hackers that target the healthcare and transportation industries. | 
 
 _What happened?_ Through spear phishing the malicious actors were able to gain access to the company data and encrypt it, to then send a ransom monetary request to provide the decryption key. This security incident is called a Ransomware attack. 
 
@@ -287,13 +287,12 @@ The investigation confirmed that the email attachment's file hash was malicious,
 
 _Simulated Alert ticket:_  
 
-------------------------------------------------------------------
 | Ticket ID | Alert Message | Severity | Details | Ticket status |
-------------------------------------------------------------------
+|:-------------|:------------------|:-------------|:-------------|:-------------|
 | A-2703  | SERVER-MAIL Phishing attempt possible download of malware | Medium | The user may have opened a malicious email and opened attachments or clicked links. | Escalated  |
-------------------------------------------------------------------------------------------------------------
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ticket comments  |
-------------------------------------------------------------------------------------------------------------
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | The email is probably a phishing email sent to gain access to the company’s systems, since it has a known |malware file attached to it, as confirmed by the hash value and name of the file ‘bfscv.exe’. Not only that, |but the sender’s email also ‘76tguyhh6tgftrt7tg.su’ and IP are very suspicious, since the name ‘Clyde West’ |is inconsistent with it, as well as the name ‘Def Communications’. Also suspicious are the grammatical |mistakes, which usually are strong indicators of a phishing attempt. If the user opens the attachment is |recommended to scan the network for malicious activity. Based on all this evidence, and the ‘medium’ severity of the incident, I proceed to escalate it. |
 
 Additional information 
