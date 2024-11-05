@@ -47,7 +47,7 @@ This is the documentation I made concerning the incident:
 "
 
 | **_Date:_** | 10/04/2024 |
-
+|:------------------|:------------------|
 | **_Entry:_** | 1  |
 
 | **_Description:_** | A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. |
