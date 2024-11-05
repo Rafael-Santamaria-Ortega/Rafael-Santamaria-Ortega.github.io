@@ -49,18 +49,10 @@ This is the documentation I made concerning the incident:
 | **_Date:_** | 10/04/2024 |
 |:------------------|:------------------|
 | **_Entry:_** | 1  |
-|:------------------|:------------------|
 | **_Description:_** | A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. |
-|:------------------|:------------------|
 | **_Tool(s) used:_** | NO TOOLS WERE USED |
-|:------------------|:------------------|
-|**_The 5 W's:_** | _Who caused the incident?_ A group of unethical hackers that target the healthcare and transportation industries. 
-_What happened?_ Through spear phishing the malicious actors were able to gain access to the company data and encrypt it, to then send a ransom monetary request to provide the decryption key. This security incident is called a Ransomware attack. 
-_When did the incident occur?_ The incident occurred on Tuesday at 9:00 a.m. 
-_Where did the incident happen?_ The incident happened in a small health care provider in the U.S.A.  
-_Why did the incident happen?_ The cause of the incident was a successful spear phishing attack. This means that one or more targeted employees unwillingly gave access to the threat actors. |
-
-**_Additional notes:_** To avoid further incidents like this, it is recommended to encrypt the company’s data in the three states of data, apply stronger password policies, enforce the principle of least privilege and separation of duties, and finally, increase employee training to detect and report these incidents. 
+|**_The 5 W's:_** | _Who caused the incident?_ A group of unethical hackers that target the healthcare and transportation industries. _What happened?_ Through spear phishing the malicious actors were able to gain access to the company data and encrypt it, to then send a ransom monetary request to provide the decryption key. This security incident is called a Ransomware attack. _When did the incident occur?_ The incident occurred on Tuesday at 9:00 a.m. _Where did the incident happen?_ The incident happened in a small health care provider in the U.S.A. _Why did the incident happen?_ The cause of the incident was a successful spear phishing attack. This means that one or more targeted employees unwillingly gave access to the threat actors. |
+| **_Additional notes:_** | To avoid further incidents like this, it is recommended to encrypt the company’s data in the three states of data, apply stronger password policies, enforce the principle of least privilege and separation of duties, and finally, increase employee training to detect and report these incidents. 
 
 "
 
