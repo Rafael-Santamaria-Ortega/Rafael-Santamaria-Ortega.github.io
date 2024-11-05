@@ -44,16 +44,13 @@ Once the attackers gained access, they deployed their ransomware, which encrypte
 
 This is the documentation I made concerning the incident:
 
-"
-
 | **_Date:_**             | 10/04/2024 |
 |-------------------------|------------|
 | **_Entry:_**            | 1          |
 | **_Description:_**      | A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. |
 | **_Tool(s) used:_**     | NO TOOLS WERE USED |
-| **_The 5 W's:_**        | **Who caused the incident?** A group of unethical hackers that target the healthcare and transportation industries.<br><br> **What happened?** Through spear phishing, the malicious actors gained access to company data and encrypted it, then sent a ransom demand for the decryption key. This security incident is called a Ransomware attack.<br><br> **When did the incident occur?** The incident occurred on Tuesday at 9:00 a.m.<br><br> **Where did the incident happen?** The incident happened in a small health care provider in the U.S.A.<br><br> **Why did the incident happen?** The cause was a successful spear phishing attack. One or more targeted employees inadvertently gave access to the threat actors. |
+| **_The 5 W's:_**        | _Who caused the incident?_ A group of unethical hackers that target the healthcare and transportation industries.<br><br> _What happened?_ Through spear phishing, the malicious actors gained access to company data and encrypted it, then sent a ransom demand for the decryption key. This security incident is called a Ransomware attack.<br><br> _When did the incident occur?_ The incident occurred on Tuesday at 9:00 a.m.<br><br> _Where did the incident happen?_ The incident happened in a small health care provider in the U.S.A.<br><br> _Why did the incident happen?_ The cause was a successful spear phishing attack. One or more targeted employees inadvertently gave access to the threat actors. |
 | **_Additional notes:_** | To avoid further incidents like this, it is recommended to encrypt the company’s data in the three states of data, apply stronger password policies, enforce the principle of least privilege and separation of duties, and finally, increase employee training to detect and report these incidents. |
-"
 
 ## Entry #2
 
@@ -61,47 +58,13 @@ In this secon entry I simulated being a Security Analyst tasked with investigati
 
 This is my documentation of the activity:
 
-"
-
-**_Date:_** 11/04/2024  
-
-**_Entry:_** 2 
-
-**_Description:_** In this hands-on scenario I simulated being a security analyst investigating traffic to a website, using Wireshark network protocol analyzer. First I analyzed an existing capture. 
-
-_The key steps were:_ 
-
-* Opening a network packet capture file in `Wireshark` and examine the high-level overview of the data, including the different packet types, protocols, and visual cues provided by the coloring rules. 
-
-* Applying a basic filter to inspect a specific TCP packet in detail, drilling down into the different protocol layers (Ethernet, IP, TCP) to understand the packet structure and contents. 
-
-* Using filters to select packets based on source/destination IP addresses or Ethernet MAC addresses, and examine the protocol information contained within. 
-
-* Exploring DNS traffic by filtering for `UDP port 53 packets`, and inspect the DNS query and response data. 
-
-* Filtering for `TCP port 80` traffic to examine web-related packets, looking at details like Time to Live, frame length, and destination addresses. 
-
-* Finally, using a more advanced filter to locate packets containing specific text data, such as those involving the `curl` command. 
-
-Throughout the activity, the focus is on using `Wireshark`'s powerful filtering and packet inspection capabilities to understand the structure and contents of network traffic, which is an essential skill for network analysis and troubleshooting. 
-
-**_Tool(s) used:_** `Wireshark:` a free and open source tool for network analysis and troubleshooting. 
-
-**_The 5 W's:_**  
-
-_Who caused the incident?_ N/A 
-
-_What happened?_ N/A 
-
-_When did the incident occur?_ N/A 
-
-_Where did the incident happen?_ N/A 
-
-_Why did the incident happen?_ N/A 
-
-**_Additional notes:_** Wireshark is a very good tool to use in network traffic analysis. The best parts is that it is an open-source and easy to use because of the GUI. 
-
-"
+| **_Date:_**             | 11/04/2024 |
+|-------------------------|------------|
+| **_Entry:_**            | 2          |
+| **_Description:_**      | In this hands-on scenario, I simulated being a security analyst investigating traffic to a website using the Wireshark network protocol analyzer. First, I analyzed an existing capture. <br><br> _The key steps were:_ <br><br> * Opening a network packet capture file in `Wireshark` and examining the high-level overview of the data, including packet types, protocols, and visual cues provided by coloring rules.<br><br> * Applying a basic filter to inspect a specific TCP packet in detail, examining protocol layers (Ethernet, IP, TCP) to understand packet structure and contents.<br><br> * Using filters to select packets based on source/destination IP addresses or MAC addresses and examine protocol information.<br><br> * Exploring DNS traffic by filtering for `UDP port 53` packets and inspecting DNS query and response data.<br><br> * Filtering for `TCP port 80` traffic to examine web-related packets, reviewing details like Time to Live, frame length, and destination addresses.<br><br> * Finally, using an advanced filter to locate packets containing specific text data, such as those involving the `curl` command.<br><br> Throughout the activity, the focus was on using `Wireshark`'s filtering and packet inspection capabilities to understand network traffic structure and contents—an essential skill for network analysis and troubleshooting. |
+| **_Tool(s) used:_**     | `Wireshark:` A free and open-source tool for network analysis and troubleshooting. |
+| **_The 5 W's:_**        | _Who caused the incident?_ N/A<br><br> _What happened?_ N/A<br><br> _When did the incident occur?_ N/A<br><br> _Where did the incident happen?_ N/A<br><br> _Why did the incident happen?_ N/A |
+| **_Additional notes:_** | Wireshark is an excellent tool for network traffic analysis. The best part is that it is open-source and easy to use, thanks to its GUI. |
 
 ## Entry #3
 
