@@ -164,52 +164,12 @@ In this scenario I simulated being a Security Analyst for a financial services c
 
 This is my documentation of the hands-on lab:
 
-"
-
-**_Date: 15/06/2024_**
-
-**_Entry:_** 9 
-
-**_Description:_** I conducted an investigation into the suspicious domain `signin.office365x24.com` that was identified in a phishing email received by one of the company's employees. 
-
-_The key steps were:_
-
-* Searched for the domain `signin.office365x24.com` in the `Chronicle` search bar to retrieve information about it. 
-
-* Analyzed the `threat intelligence data` available for this domain and its top-level domain `office365x24.com`, including `VirusTotal` and `WHOIS` information. 
-
-* Reviewed the Timeline and Assets tabs to identify the specific assets (employees/devices) that had accessed the domain, as well as the `HTTP requests` made (including `POST` requests). 
-
-* Followed up by searching for the `IP address (40.100.174.34)` that the domain resolved to, to see if it was associated with any other suspicious domains. 
-
-_Based on the investigation, I concluded:_
-
-* Several employee assets had accessed the `signin.office365x24.com domain`, indicating many potential phishing attempts. 
-
-* The domain resolved to the `IP address 40.100.174.34`, which was also associated with the domain `signin.accounts-gooqle.com`, further raising suspicions of maliciousness. 
-
-* Multiple `POST` requests were made to the `signin.office365x24.com/login.php` page, suggesting that employees may have entered sensitive information like login credentials on the malicious site. 
-
-Given the evidence gathered, it is clear that the `signin.office365x24.com` domain is highly suspicious and likely part of a phishing campaign targeting the company's employees. I will recommend further investigation and appropriate actions to mitigate the potential compromise. 
-
-**_Tool(s) used :_** **Chronicle** 
-
-**Chronicle** is a security investigation platform developed by Google that provides threat intelligence and analysis capabilities. 
-
-**_The 5 W's_**  
-
-_Who caused the incident?_ Several employees that accessed the `signin.office365x24.com` suspicious domain. 
-
-_What happened?_ The `signin.office365x24.com` domain was likely part of a phishing campaign, with multiple POST requests made to the login page, suggesting employees may have entered sensitive information. 
-
-_When did the incident occur?_ 31/01/2023 at 14:40  
-
-_Where did the incident happen?_ In several employee assests (`roger-spence-pc`, `emil-palmer-pc`, `coral-alvarez-pc`) 
-
-_Why did the incident happen?_ Lack of security awareness campaigns concerning phishing. 
-
-**_Additional notes:_** This investigation highlights the value of having a robust security monitoring and investigation platform like Chronicle. By quickly analyzing the relevant threat intelligence and activity data, I was able to assess the risk posed by the suspicious domain and the associated indicators of compromise. This information will be crucial in guiding the company's incident response and security improvement efforts. Furthermore, this exercise underscores the importance of security awareness campaigns to avoid security incidents. 
-
-"
+| **_Entry:_** | 9 |
+|:-------------|:-------------------------------------------------------------------------------------------------------------------------|
+| <br> **_Date:_** <br> | <br> 15/06/2024 <br> |
+| <br> **_Description:_** <br> | I conducted an investigation into the suspicious domain `signin.office365x24.com` that was identified in a phishing email received by one of the company's employees. <br><br> _The key steps were:_ <br> 1. Searched for the domain `signin.office365x24.com` in the `Chronicle` search bar to retrieve information about it. <br> 2. Analyzed the `threat intelligence data` available for this domain and its top-level domain `office365x24.com`, including `VirusTotal` and `WHOIS` information. <br> 3. Reviewed the Timeline and Assets tabs to identify the specific assets (employees/devices) that had accessed the domain, as well as the `HTTP requests` made (including `POST` requests). <br> 4. Followed up by searching for the `IP address (40.100.174.34)` that the domain resolved to, to see if it was associated with any other suspicious domains. <br><br> _Based on the investigation, I concluded:_ <br> -Several employee assets had accessed the `signin.office365x24.com domain`, indicating many potential phishing attempts. <br> -The domain resolved to the `IP address 40.100.174.34`, which was also associated with the domain `signin.accounts-gooqle.com`, further raising suspicions of maliciousness. <br> -Multiple `POST` requests were made to the `signin.office365x24.com/login.php` page, suggesting that employees may have entered sensitive information like login credentials on the malicious site. <br><br> _In sum:_ Given the evidence gathered, it is clear that the `signin.office365x24.com` domain is highly suspicious and likely part of a phishing campaign targeting the company's employees. I will recommend further investigation and appropriate actions to mitigate the potential compromise. <br> | 
+| <br> **_Tool(s) used:_** <br> | <br> `Chronicle`: a security investigation platform developed by Google that provides threat intelligence and analysis capabilities. <br> |  
+| <br> **_The 5 W's_** <br> | <br> _Who caused the incident?_ Several employees that accessed the `signin.office365x24.com` suspicious domain. <br><br> _What happened?_ The `signin.office365x24.com` domain was likely part of a phishing campaign, with multiple POST requests made to the login page, suggesting employees may have entered sensitive information. <br><br> _When did the incident occur?_ 31/01/2023 at 14:40 <br><br> _Where did the incident happen?_ In several employee assests (`roger-spence-pc`, `emil-palmer-pc`, `coral-alvarez-pc`) <br><br> _Why did the incident happen?_ Lack of security awareness campaigns concerning phishing. <br> | 
+| **_Additional notes:_** | This investigation highlights the value of having a robust security monitoring and investigation platform like Chronicle. By quickly analyzing the relevant threat intelligence and activity data, I was able to assess the risk posed by the suspicious domain and the associated indicators of compromise. This information will be crucial in guiding the company's incident response and security improvement efforts. Furthermore, this exercise underscores the importance of security awareness campaigns to avoid security incidents. |
 
 [Back](./)
