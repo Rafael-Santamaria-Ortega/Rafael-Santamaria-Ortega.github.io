@@ -135,7 +135,10 @@ _Simulated Alert ticket:_
 | Ticket ID | Alert Message | Severity | Details | Ticket status |
 |:-------------|:------------------|:-------------|:-------------|:-------------|
 | A-2703  | SERVER-MAIL Phishing attempt possible download of malware | Medium | The user may have opened a malicious email and opened attachments or clicked links. | Escalated  |
-| Ticket comments  | The email is probably a phishing email sent to gain access to the company’s systems, since it has a known |malware file attached to it, as confirmed by the hash value and name of the file ‘bfscv.exe’. Not only that, |but the sender’s email also ‘76tguyhh6tgftrt7tg.su’ and IP are very suspicious, since the name ‘Clyde West’ |is inconsistent with it, as well as the name ‘Def Communications’. Also suspicious are the grammatical |mistakes, which usually are strong indicators of a phishing attempt. If the user opens the attachment is |recommended to scan the network for malicious activity. Based on all this evidence, and the ‘medium’ severity of the incident, I proceed to escalate it. |
+
+| Ticket comments  | 
+|:-----------------|
+|The email is probably a phishing email sent to gain access to the company’s systems, since it has a known |malware file attached to it, as confirmed by the hash value and name of the file ‘bfscv.exe’. Not only that, |but the sender’s email also ‘76tguyhh6tgftrt7tg.su’ and IP are very suspicious, since the name ‘Clyde West’ |is inconsistent with it, as well as the name ‘Def Communications’. Also suspicious are the grammatical |mistakes, which usually are strong indicators of a phishing attempt. If the user opens the attachment is |recommended to scan the network for malicious activity. Based on all this evidence, and the ‘medium’ severity of the incident, I proceed to escalate it. |
 
 Additional information 
 
