@@ -13,7 +13,7 @@ Check file and directory details
 
 To check file and directory permissions I used the following Linux command after navigating to the /projects directory: 
 
-![image](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/LinuxPerm1.png)
+![image](./LinuxPerm1.png)
 
 This command is composed of a command (ls) and an option (-la) that modifies said command. The first of these, if no option were given, would just show the contents of the directory, excluding hidden files or directories which are identified with a ‘.’ or a ‘..’ at the start. If the option was just ‘-l’, the output would be the contents of the directory and the respective permission, but still excluding the hidden contents. So, to display both hidden and visible contents and their permissions the option ‘-la’ is used (if it was just ‘-a’ it would display all contents including hidden ones, but not their permissions). 
 
