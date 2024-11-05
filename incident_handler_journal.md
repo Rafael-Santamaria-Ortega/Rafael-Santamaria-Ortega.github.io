@@ -343,3 +343,118 @@ _Why did the incident happen?_ The incident happened because a supposed ‘job a
 
 ## Entry #6 
 
+The scenario of this hands-on activity is the following:
+
+"
+You recently joined the security team as a level-one security operation center (SOC) analyst at a mid-sized retail company. Along with its physical store locations, your company also conducts operations in e-commerce, which account for 80% of its sales.
+
+You are spending your first week of training becoming familiar with the company's security processes and procedures. Recently, the company experienced a major security incident involving a data breach of over one million users. Because this was a recent and major security incident, your team is working to prevent incidents like this from happening again. This breach happened before you began working at the company. You have been asked to review the final report.
+"
+
+This is my documentation of the activity:
+
+"
+**_Date:_** 12/04/2024 11:40 a.m. 
+
+**_Entry:_** 6 
+
+**_Description:_** In this review activity, I analyzed a `final incident report` for a `data breach` that occurred at a mid-sized retail company, focusing on forced browsing attack that exposed customer `PII` and `financial information`. The incident resulted in approximately 50,000 affected customer records and an estimated financial impact of $100,000 in direct costs and potential revenue loss. 
+
+_The key events and findings were:_ 
+
+* Initial ransom email received on December 22, 2022 
+
+* Second email with proof of stolen data received on December 28, 2022 
+
+* Vulnerability in e-commerce web application allowed forced browsing attack 
+
+* Attacker exploited purchase confirmation page URLs to access customer data 
+
+* Organization provided free identity protection services to affected customers 
+
+The investigation effectively used web server logs to confirm the attack pattern, showing sequential access to customer orders - a clear indicator of automated exploitation. 
+
+**_Tool(s) used:_** **Final Incident Report**: s comprehensive document detailing the security incident, including timeline, investigation findings, response actions, and future security recommendations. 
+
+**_The 5 W's_**  
+
+_Who caused the incident?_ External threat actor who initially demanded $25,000 in cryptocurrency 
+
+_What happened?_ Forced browsing attack exploiting e-commerce web application vulnerability to access customer PII and financial data 
+
+_Where did the incident happen?_ Company's e-commerce web application, specifically in the purchase confirmation page system 
+
+_When did the incident occur?_ December 22-28, 2022, with initial contact on Dec 22 and escalation on Dec 28 
+
+_Why did the incident happen?_ Vulnerability in URL string handling of order numbers in purchase confirmation pages allowed unauthorized access 
+
+**_Additional notes:_** The incident highlightd e several key issues: 
+
+* Initial email was dismissed as spam, delaying response 
+
+* Attacker used proof of stolen data to escalate ransom demands from $25,000 to $50,000 
+
+* Company implemented allowlisting and authentication controls as preventive measures 
+
+* Importance of routine vulnerability scanning and penetration testing was emphasized in recommendations. 
+
+"
+
+## Entry #7
+
+This hands-on lab gave me first hand experience configuring and using `Suricata`, and Intrusion Detection System `IDS`, throught commands using a `Linux Bash Shell`.
+
+This is my documentation of the lab:
+
+"
+
+**_Date:_** 12/05/2024 
+
+**_Entry:_** 7 
+
+**_Description:_** In this hands-on lab activity, I learned how to configure and use `Suricata`, an Intrusion Detection System (`IDS`), to monitor network traffic and trigger alert. The exercise focused on understanding Suricata's rule structure, running the tool with custom rules, and analyzing different types of log outputs. 
+
+_The key steps were:_ 
+
+* Examining custom rules in Suricata and understanding their components (action, header, rule options) 
+
+* Running Suricata with a custom rule against sample PCAP file to trigger alerts 
+
+* Analyzing output logs in both fast.log and eve.json formats 
+
+* Using jq tool to parse and format JSON output from eve.json 
+
+* The lab emphasized the importance of understanding rule components: 
+
+* Action: Determines what happens when conditions are met (alert, drop, pass, reject) 
+
+* Header: Defines traffic parameters (protocols, source/destination IPs, ports, direction) 
+
+* Rule Options: Additional parameters to customize signatures (msg, flow, content, sid, rev) 
+
+**_Tool(s) used:_** `Suricata`, `jq`, and `Linux Bash Shell` 
+
+`Suricata` is an open source threat detection engine that can act as an IDS, IPS, network security monitoring and packet processing engine.
+
+`jq` is a lightweight command-line `JSON` processor for parsing and formatting JSON data. 
+
+`Linux Bash Shell` is a Command line interface (`CLI`) used to execute commands and scripts.
+
+**_The 5 W's:_**  
+
+_Who caused the incident?_ N/A 
+
+_What happened?_ Configured and tested Suricata IDS rules against sample network traffi. 
+
+_Where did the incident happen?_ Test environment using sample `PCAP` file. 
+
+_When did the incident occur?_ N/A 
+
+_Why did the incident happen?_ N/A 
+
+**_Additional notes:_** The exercise demonstrated the difference between fast.log (deprecated but useful for quick checks) and eve.json (main, detailed log format) in Suricata. Working with JSON-formatted logs using jq made the data much more readable and easier to analyze, which is crucial for real-world incident response and threat hunting tasks. 
+"
+
+## Entry #8
+
+## Entry #9
