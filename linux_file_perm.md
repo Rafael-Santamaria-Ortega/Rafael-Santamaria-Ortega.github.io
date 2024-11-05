@@ -23,7 +23,15 @@ Describe the permissions string
 
 The output of said command was: 
 
-
+```bash
+drwxr-xr-x 3 researcher2 research_team 4096 Apr  3 20:41 .
+drwxr-xr-x 3 researcher2 research_team 4096 Apr  3 20:57 ..
+-rw-r--r-- 1 researcher2 research_team   46 Apr  3 20:41 .project_x.txt
+drwx------ 2 researcher2 research_team 4096 Apr  3 20:41 .drafts
+-rw-r--r-- 1 researcher2 research_team   46 Apr  3 20:41 project_k.txt
+-rw-r--r-- 1 researcher2 research_team   46 Apr  3 20:41 project_m.txt
+-rw-r--r-- 1 researcher2 research_team   46 Apr  3 20:41 project_t.txt
+```
 
 The first part of every line displays the type of content (file or directory) and respective permissions. This consists of a 10 digit string. The first digit specifies if it is a file with a ‘-’ or a directory with a ‘d’. The next three digits are the user permissions, the next three are the group permissions and the last three are the other permissions. The last part displays the name of the directory or file.  
 
@@ -31,11 +39,33 @@ Change file permissions
 
 The ‘other’ users shouldn’t have any write permissions, so I used command ‘chmod’ (change mode) to remove said permission of the ‘project_k.txt file’ for other users with the argument o-w, which means remove (-) the other users (o) writing permissions (w): 
 
-![LinuxPerm3](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/LinuxPerm3.png)
+```bash
+researcher2@f0a293ae3f7e:~/project$ chmod o-w project_k.txt
+researcher2@f0a293ae3f7e:~/project$ ls -l
+total 32
+drwxr-xr-x 3 researcher2 research_team 4096 Apr  3 20:41 .
+drwxr-xr-x 3 researcher2 research_team 4096 Apr  3 20:57 ..
+-rw-r--r-- 1 researcher2 research_team   16 Apr  3 20:41 .project_x.txt
+drwx------ 2 researcher2 research_team 4096 Apr  3 20:41 .drafts
+-rw-r--r-- 1 researcher2 research_team   46 Apr  3 20:41 project_k.txt
+-rw----r-- 1 researcher2 research_team   46 Apr  3 20:41 project_m.txt
+-rw-r--r-- 1 researcher2 research_team   46 Apr  3 20:41 project_t.txt
+```
 
 As the screenshot shows, I removed the permission successfully. The next permission to change is the group user read permission for the file project_m.txt, since it should only be readable and writable by the user because it’s restricted. So I used the next command to remove said permission of the ‘project_m.txt file’ for group users with the argument g-r, which means remove (-) the group users (g) reading permissions (r): 
 
-![LinuxPerm4](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/LinuxPerm4.png) 
+```bash
+researcher2@f0a293ae3f7e:~/project$ chmod g-r project_m.txt
+researcher2@f0a293ae3f7e:~/project$ ls -l
+total 32
+drwxr-xr-x 3 researcher2 research_team 4096 Apr  3 20:41 .
+drwxr-xr-x 3 researcher2 research_team 4096 Apr  3 20:57 ..
+-rw-r--r-- 1 researcher2 research_team   16 Apr  3 20:41 .project_x.txt
+drwx------ 2 researcher2 research_team 4096 Apr  3 20:41 .drafts
+-rw-r--r-- 1 researcher2 research_team   46 Apr  3 20:41 project_k.txt
+-rw----r-- 1 researcher2 research_team   46 Apr  3 20:41 project_m.txt
+-rw-r--r-- 1 researcher2 research_team   46 Apr  3 20:41 project_t.txt
+```
 
 As the screenshot shows, I successfully changed the permissions for the file.  
 
