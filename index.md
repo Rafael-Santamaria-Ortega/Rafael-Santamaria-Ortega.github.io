@@ -17,7 +17,7 @@ layout: default
 
 ### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
-* In this excercise from the `Google Cybersecurity Professional Certificate`, I document the details of various security incidents and how I handled them using technical tools in hands-on labs. [(More details)](./incident_handler_journal.html)
+* In this exercise from the `Google Cybersecurity Professional Certificate`, I document the details of various security incidents and how I handled them using technical tools in hands-on labs. [(More details)](./incident_handler_journal.html)
 
 ### Encryption with Python | Cryptography, Linux
 
