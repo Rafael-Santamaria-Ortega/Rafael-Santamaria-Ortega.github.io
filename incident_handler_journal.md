@@ -6,28 +6,6 @@ layout: default
 
 In this exercise from the Google Cybersecurity Professional Certificate, I document the details of 9 simulated security incidents and how I handled them using technical tools in hands-on labs. This excercise also gave me hands-on experience with various tools such as suricata, tcpdump, Wireshark, ticketing systems, Splunk, Chronicle, and the Linux Bash Shell; which are all essential proficiencies for any cybersecurity position. 
 
-The criteria given to document is the following:
-
-"
-* The journal entry date and number
-
-* A description of the journal entry
-
-* 1-2 sentences addressing each of the 5 W's of the scenario:
-
-  * Who caused the incident?
-
-  * What happened?
-
-  * When did the incident occur?
-
-  * Where did the incident happen?
-
-  * Why did the incident happen?
-
-*1-2 sentences on any additional thoughts or questions about the scenario.
-"
-
 ## Entry #1
 
 In this first entry, I simulated being a level one security operations center (SOC) analyst responding to a security incident at a small U.S. healthcare clinic. The scenario involved investigating a ransomware attack where the attackers gained access through phishing emails and encrypted critical files, disrupting business operations. My goal was to document the incident and analyze the steps taken to identify and mitigate the ransomware threat.
@@ -143,52 +121,13 @@ You are spending your first week of training becoming familiar with the company'
 
 This is my documentation of the hansds-on lab:
 
-"
-**_Date:_** 12/04/2024 11:40 a.m. 
-
-**_Entry:_** 6 
-
-**_Description:_** I analyzed a `final incident report` for a `data breach` that occurred at the company, focusing on forced browsing attack that exposed customer `PII` and `financial information`. The incident resulted in approximately 50,000 affected customer records and an estimated financial impact of $100,000 in direct costs and potential revenue loss. 
-
-_The key events and findings were:_ 
-
-* Initial ransom email received on December 22, 2022 
-
-* Second email with proof of stolen data received on December 28, 2022 
-
-* Vulnerability in e-commerce web application allowed forced browsing attack 
-
-* Attacker exploited purchase confirmation page URLs to access customer data 
-
-* Organization provided free identity protection services to affected customers 
-
-The investigation effectively used web server logs to confirm the attack pattern, showing sequential access to customer orders - a clear indicator of automated exploitation. 
-
-**_Tool(s) used:_** **Final Incident Report**: s comprehensive document detailing the security incident, including timeline, investigation findings, response actions, and future security recommendations. 
-
-**_The 5 W's_**  
-
-_Who caused the incident?_ External threat actor who initially demanded $25,000 in cryptocurrency 
-
-_What happened?_ Forced browsing attack exploiting e-commerce web application vulnerability to access customer PII and financial data 
-
-_Where did the incident happen?_ Company's e-commerce web application, specifically in the purchase confirmation page system 
-
-_When did the incident occur?_ December 22-28, 2022, with initial contact on Dec 22 and escalation on Dec 28 
-
-_Why did the incident happen?_ Vulnerability in URL string handling of order numbers in purchase confirmation pages allowed unauthorized access 
-
-**_Additional notes:_** The incident highlightd e several key issues: 
-
-* Initial email was dismissed as spam, delaying response 
-
-* Attacker used proof of stolen data to escalate ransom demands from $25,000 to $50,000 
-
-* Company implemented allowlisting and authentication controls as preventive measures 
-
-* Importance of routine vulnerability scanning and penetration testing was emphasized in recommendations. 
-
-"
+| **_Entry:_** | 6 |
+|:-------------|:-------------------------------------------------------------------------------------------------------------------------|
+| <br> **_Date:_** <br> | <br> 12/04/2024 11:40 a.m.<br> |
+| <br> **_Description:_** <br> | <br> I analyzed a `final incident report` for a `data breach` that occurred at the company, focusing on forced browsing attack that exposed customer `PII` and `financial information`. The incident resulted in approximately 50,000 affected customer records and an estimated financial impact of $100,000 in direct costs and potential revenue loss. <br><br> _The key events and findings were:_ <br> 1. Initial ransom email received on December 22, 2022 <br> 2. Second email with proof of stolen data received on December 28, 2022 <br> 3. Vulnerability in e-commerce web application allowed forced browsing attack <br> 4. Attacker exploited purchase confirmation page URLs to access customer data <br> 5. Organization provided free identity protection services to affected customers <br>  6. The investigation effectively used web server logs to confirm the attack pattern, showing sequential access to customer orders - a clear indicator of automated exploitation. <br> | 
+| <br> **_Tool(s) used:_** <br> | <br> **Final Incident Report**: s comprehensive document detailing the security incident, including timeline, investigation findings, response actions, and future security recommendations. <br> |
+| <br> **_The 5 W's_** <br> | <br> _Who caused the incident?_ External threat actor who initially demanded $25,000 in cryptocurrency <br><br> _What happened?_ Forced browsing attack exploiting e-commerce web application vulnerability to access customer PII and financial data <br><br> _Where did the incident happen?_ Company's e-commerce web application, specifically in the purchase confirmation page system <br><br> _When did the incident occur?_ December 22-28, 2022, with initial contact on Dec 22 and escalation on Dec 28 <br><br> _Why did the incident happen?_ Vulnerability in URL string handling of order numbers in purchase confirmation pages allowed unauthorized access <br> |
+| <br> **_Additional notes:_** <br> | <br> The incident highlightd e several key issues: <br> 1. Initial email was dismissed as spam, delaying response <br> 2. Attacker used proof of stolen data to escalate ransom demands from $25,000 to $50,000 <br> 3. Company implemented allowlisting and authentication controls as preventive measures <br> 4. Importance of routine vulnerability scanning and penetration testing was emphasized in recommendations. | 
 
 ## Entry #7
 
@@ -196,54 +135,13 @@ This scenario gave me first hand experience configuring and using `Suricata`, an
 
 This is my documentation of the hands-on lab:
 
-"
-
-**_Date:_** 12/05/2024 
-
-**_Entry:_** 7 
-
-**_Description:_** Configured and used `Suricata` custom alerts to monitor network traffic and trigger alert. 
-
-_The key steps were:_ 
-
-* Examining custom rules in `Suricata` and understanding their components (action, header, rule options) 
-
-* Running Suricata with a custom rule against sample PCAP file to trigger alerts 
-
-* Analyzing output logs in both `fast.log` and eve.json formats 
-
-* Using jq tool to parse and format `JSON` output from `eve.json` 
-
-* The lab emphasized the importance of understanding rule components: 
-
-* Action: Determines what happens when conditions are met (alert, drop, pass, reject) 
-
-* Header: Defines traffic parameters (protocols, source/destination IPs, ports, direction) 
-
-* Rule Options: Additional parameters to customize signatures (msg, flow, content, sid, rev) 
-
-**_Tool(s) used:_** `Suricata`, `jq`, and `Linux Bash Shell` 
-
-`Suricata` is an open source threat detection engine that can act as an IDS, IPS, network security monitoring and packet processing engine.
-
-`jq` is a lightweight command-line `JSON` processor for parsing and formatting JSON data. 
-
-`Linux Bash Shell` is a Command line interface (`CLI`) used to execute commands and scripts.
-
-**_The 5 W's:_**  
-
-_Who caused the incident?_ N/A 
-
-_What happened?_ Configured and tested Suricata IDS rules against sample network traffi. 
-
-_Where did the incident happen?_ Test environment using sample `PCAP` file. 
-
-_When did the incident occur?_ N/A 
-
-_Why did the incident happen?_ N/A 
-
-**_Additional notes:_** The exercise demonstrated the difference between `fast.log` (deprecated but useful for quick checks) and `eve.json` (main, detailed log format) in `Suricata`. Working with `JSON`-formatted logs using `jq` made the data much more readable and easier to analyze, which is crucial for real-world incident response and threat hunting tasks. 
-"
+| <br> **_Entry:_** <br> | <br> 7 <br>| 
+|:-----------------------|:---------------------------------------------------------------------------------------------------------------------|
+| <br> **_Date:_** <br> | <br> 12/05/2024 <br> | 
+| <br> **_Description:_** <br> | <br> Configured and used `Suricata` custom alerts to monitor network traffic and trigger alert. <br><br> _The key steps were:_ <br> 1. Examining custom rules in `Suricata` and understanding their components (action, header, rule options) <br> 2. Running Suricata with a custom rule against sample PCAP file to trigger alerts <br> 2. Analyzing output logs in both `fast.log` and eve.json formats <br> 3. Using jq tool to parse and format `JSON` output from `eve.json` <br><br> _Conclusion:_ The lab emphasized the importance of understanding rule components: <br> -Action: Determines what happens when conditions are met (alert, drop, pass, reject) <br> -Header: Defines traffic parameters (protocols, source/destination IPs, ports, direction) <br> -Rule Options: Additional parameters to customize signatures (msg, flow, content, sid, rev) <br> | 
+| <br> **_Tool(s) used:_** <br> | `Suricata`: an open source threat detection engine that can act as an IDS, IPS, network security monitoring and packet processing engine. <br><br> `jq`: a lightweight command-line `JSON` processor for parsing and formatting JSON data. <br><br> `Linux Bash Shell`: a Command line interface (`CLI`) used to execute commands and scripts. <br> |
+| <br> **_The 5 W's:_**  <br> | <br> _Who caused the incident?_ N/A <br><br> _What happened?_ Configured and tested Suricata IDS rules against sample network traffic. <br><br> _Where did the incident happen?_ Test environment using sample `PCAP` file. <br><br> _When did the incident occur?_ N/A <br><br> _Why did the incident happen?_ N/A | 
+| **_Additional notes:_** | The exercise demonstrated the difference between `fast.log` (deprecated but useful for quick checks) and `eve.json` (main, detailed log format) in `Suricata`. Working with `JSON`-formatted logs using `jq` made the data much more readable and easier to analyze, which is crucial for real-world incident response and threat hunting tasks. |
 
 ## Entry #8
 
@@ -251,55 +149,14 @@ In this scenario I simulated investigating a security incident for Buttercup Gam
 
 This is my documentation of the hands-on lab:
 
-"
+| **_Entry:_** | 8  | 
+|:-------------|:------------------------------------------------------------------------------------------------------------------------------------|
+| <br> **_Date:_** <br> | <br> 15/04/2024 <br> | 
+| <br> **_Description:_** <br> | <br> Using the `Splunk Cloud Platform` I investigated potential security issues with the company's mail server. Specifically, any `failed SSH login attempts` for the root account. <br><br> _The key steps were:_ <br> 1. Logged into the `Splunk Cloud Platform` and navigated to the `Splunk` home page. <br> 2. Uploaded the sample `tutorialdata.zip` file, which contained data that could be ingested and indexed by Splunk. <br> 3. Performed an initial search using the query <br> 4. `index=main` to confirm that the data had been successfully ingested and was searchable. <br> 5. Examined the search results, noting the various host, source, and sourcetype fields that were attached to the indexed events. <br> 6. Narrowed the search to focus on events generated by the `mailsv` host, which represented the company's mail server. <br> 7. Crafted a more targeted search query to look for any failed SSH login attempts for the root account: `index=main host=mailsv fail* root`. <br><br> _Conclusion:_ The search results from this final query provided over 300 events that matched the specified criteria, indicating there were potentially security issues with failed root account login attempts on the mail server. Furthermore, the `Ip` is associated with two domains: `signin.accounts-gooqle.com` and `signin.office365x24.com`. <br> | 
+| <br> **_Tool(s) used:_ <br> | <br> `Splunk Cloud Platform`: a `SIEM` (Security Information and Event Management) tool used to ingest, index, and analyze security-related data. <br><br> `Splunk Search` is the query language and interface used to search and analyze data within the `Splunk` platform. | 
+| <br> **_The 5 W's:_** <br> | <br> _Who caused the incident?_ An employee sgared it's credentials in to a malicious link. <br><br> _What happened?_ At 14:10 on 2023-01-31 `ashton-davidson-pc` signed in to the malicious link and and the `POST` flag suggests a successful phishing attempt, likewise other devices are possible compromised. <br><br> _Where did the incident happen?_ `ashton-davidson-pc`, but possibly other affected devices. <br><br> When did the incident occur? 14:10 on 2023-01-31 <br><br> Why did the incident happen? Lack of `security awareness campaigns`, as well as lack of email filtering. <br> | 
+| <br> **_Additional notes_** <br> | The `Splunk search queries` and analysis techniques demonstrated in this exercise are essential skills for security analysts. By leveraging the data indexing and querying capabilities of a `SIEM` tool like `Splunk`, I was able to efficiently sift through large volumes of log data to identify potential security concerns. This information can then be used to inform further investigation, remediation, and overall security improvements for the organization |
 
-**_Date:_** 15/04/2024 
-
-**_Entry:_** 8 
-
-**_Description:_** Using the `Splunk Cloud Platform` I investigated potential security issues with the company's mail server. Specifically, any `failed SSH login attempts` for the root account. 
-
-_The key steps were:_
-
-* Logged into the `Splunk Cloud Platform` and navigated to the `Splunk` home page. 
-
-* Uploaded the sample `tutorialdata.zip` file, which contained data that could be ingested and indexed by Splunk. 
-
-* Performed an initial search using the query `index=main` to confirm that the data had been successfully ingested and was searchable. 
-
-* Examined the search results, noting the various host, source, and sourcetype fields that were attached to the indexed events. 
-
-* Narrowed the search to focus on events generated by the `mailsv` host, which represented the company's mail server. 
-
-* Crafted a more targeted search query to look for any failed SSH login attempts for the root account: `index=main host=mailsv fail* root`. 
-
-The search results from this final query provided over 300 events that matched the specified criteria, indicating there were potentially security issues with failed root account login attempts on the mail server. 
- 
-The `Ip` is associated with two domains: `signin.accounts-gooqle.com` and `signin.office365x24.com`. 
-
-**_Tool(s) used:_** **Splunk Cloud Platform and Splunk Search**  
-
-The `Splunk Cloud Platform` is a `SIEM` (Security Information and Event Management) tool used to ingest, index, and analyze security-related data. 
-
-Splunk Search is the query language and interface used to search and analyze data within the Splunk platform. 
-
-**_The 5 W's:_**  
-
-_Who caused the incident?_ An employee sgared it's credentials in to a malicious link.
-
-_What happened?_ At 14:10 on 2023-01-31 `ashton-davidson-pc` signed in to the malicious link and and the `POST` flag suggests a successful phishing attempt, likewise other devices are possible compromised. 
-
-_Where did the incident happen?_ `ashton-davidson-pc`, but possibly other affected devices.
-
-When did the incident occur? 14:10 on 2023-01-31
-
-Why did the incident happen? Lack of `security awareness campaigns`, as well as lack of email filtering. 
-
-Additional notes 
-
-The `Splunk search queries` and analysis techniques demonstrated in this exercise are essential skills for security analysts. By leveraging the data indexing and querying capabilities of a `SIEM` tool like `Splunk`, I was able to efficiently sift through large volumes of log data to identify potential security concerns. This information can then be used to inform further investigation, remediation, and overall security improvements for the organization 
-
-"
 
 ## Entry #9
 
