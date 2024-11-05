@@ -46,11 +46,11 @@ This is the documentation I made concerning the incident:
 
 | **_Entry:_**            | **1**      |
 |-------------------------|------------|
-| <br><br> **_Date:_** <br><br>    | <br><br> 10/04/2024 <br><br> |
-| <br><br> **_Description:_** <br><br> | <br><br> A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. <br><br> |
-|<br><br> **_Tool(s) used:_**  <br><br>   | <br><br> NO TOOLS WERE USED <br><br>|
-| <br><br> **_The 5 W's:_**     <br><br>   | <br><br> _Who caused the incident?_ A group of unethical hackers that target the healthcare and transportation industries.<br><br> _What happened?_ Through spear phishing, the malicious actors gained access to company data and encrypted it, then sent a ransom demand for the decryption key. This security incident is called a Ransomware attack.<br><br> _When did the incident occur?_ The incident occurred on Tuesday at 9:00 a.m.<br><br> _Where did the incident happen?_ The incident happened in a small health care provider in the U.S.A.<br><br> _Why did the incident happen?_ The cause was a successful spear phishing attack. One or more targeted employees inadvertently gave access to the threat actors. <br><br>|
-| <br><br> **_Additional notes:_** <br><br> | <br><br> To avoid further incidents like this, it is recommended to encrypt the company’s data in the three states of data, apply stronger password policies, enforce the principle of least privilege and separation of duties, and finally, increase employee training to detect and report these incidents. <br><br> |
+| <br> **_Date:_** <br>    | <br> 10/04/2024 <br> |
+| <br> **_Description:_** <br> | <br> A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. <br> |
+|<br> **_Tool(s) used:_**  <br> | <br> NO TOOLS WERE USED <br> |
+| <br> **_The 5 W's:_**  <br>   | <br> _Who caused the incident?_ A group of unethical hackers that target the healthcare and transportation industries.<br><br> _What happened?_ Through spear phishing, the malicious actors gained access to company data and encrypted it, then sent a ransom demand for the decryption key. This security incident is called a Ransomware attack.<br><br> _When did the incident occur?_ The incident occurred on Tuesday at 9:00 a.m.<br><br> _Where did the incident happen?_ The incident happened in a small health care provider in the U.S.A.<br><br> _Why did the incident happen?_ The cause was a successful spear phishing attack. One or more targeted employees inadvertently gave access to the threat actors. <br>|
+| <br> **_Additional notes:_** <br> | <br> To avoid further incidents like this, it is recommended to encrypt the company’s data in the three states of data, apply stronger password policies, enforce the principle of least privilege and separation of duties, and finally, increase employee training to detect and report these incidents. <br> |
 
 ## Entry #2
 
