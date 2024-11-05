@@ -110,7 +110,6 @@ This fifth entry builds up on entry #4 as the investigation and escalation by me
 
 This is my documentation of the hands-on lab:
 
-"
 | **_Entry:_** | 5 |
 |:-------------|---|
 | <br> **_Date:_** <br> | <br> 12/04/2024 at 10:04 a.m. <br> |
@@ -119,8 +118,7 @@ This is my documentation of the hands-on lab:
 | <br> **_The 5 W's_** <br> | <br> _Who caused the incident?_ A ‘Clyde West’, probably a malicious actor impersonating a real person. <br><br> _What happened?_ Said person sent an email expressing interest to work in the company, so a password protected ‘CV’ named ‘bsfc.exe’ was attached to the mail. <br><br> _When did the incident occur?_ The incident occurred in 12/04/2024 <br><br> _Where did the incident happen?_ In the company’s premises <br><br> _Why did the incident happen?_ The incident happened because a supposed ‘job application’ bypassed the email filters. <br> |
 | **_Additional notes:_** | The company must ensure that execution permits are in accordance to the least privilege principle. Also, even more awareness campaigns to detect and report more phishing attacks. |
 
-
-**_Simulated Alert ticket resulting from this activity:_**  
+This is the Simulated Alert Ticket I completed from the exercise:
 
 | Ticket ID | Alert Message | Severity | Details | Ticket status | Ticket comments | Additional information: |
 |:-------------|:------------------|:-------------|:-------------|:-------------|:-------------|:------------|
