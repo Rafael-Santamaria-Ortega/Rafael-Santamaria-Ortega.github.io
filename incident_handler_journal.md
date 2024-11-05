@@ -45,7 +45,6 @@ Once the attackers gained access, they deployed their ransomware, which encrypte
 This is the documentation I made concerning the incident:
 
 | **_Date:_**             | 10/04/2024 |
-|-------------------------|------------|
 | **_Entry:_**            | 1          |
 | **_Description:_**      | A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. |
 | **_Tool(s) used:_**     | NO TOOLS WERE USED |
@@ -59,7 +58,6 @@ In this secon entry I simulated being a Security Analyst tasked with investigati
 This is my documentation of the activity:
 
 | **_Date:_**             | 11/04/2024 |
-|-------------------------|------------|
 | **_Entry:_**            | 2          |
 | **_Description:_**      | In this hands-on scenario, I simulated being a security analyst investigating traffic to a website using the Wireshark network protocol analyzer. First, I analyzed an existing capture. <br><br> _The key steps were:_ <br><br> * Opening a network packet capture file in `Wireshark` and examining the high-level overview of the data, including packet types, protocols, and visual cues provided by coloring rules.<br><br> * Applying a basic filter to inspect a specific TCP packet in detail, examining protocol layers (Ethernet, IP, TCP) to understand packet structure and contents.<br><br> * Using filters to select packets based on source/destination IP addresses or MAC addresses and examine protocol information.<br><br> * Exploring DNS traffic by filtering for `UDP port 53` packets and inspecting DNS query and response data.<br><br> * Filtering for `TCP port 80` traffic to examine web-related packets, reviewing details like Time to Live, frame length, and destination addresses.<br><br> * Finally, using an advanced filter to locate packets containing specific text data, such as those involving the `curl` command.<br><br> Throughout the activity, the focus was on using `Wireshark`'s filtering and packet inspection capabilities to understand network traffic structure and contents—an essential skill for network analysis and troubleshooting. |
 | **_Tool(s) used:_**     | `Wireshark:` A free and open-source tool for network analysis and troubleshooting. |
