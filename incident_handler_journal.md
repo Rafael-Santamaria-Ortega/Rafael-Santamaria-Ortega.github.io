@@ -22,7 +22,7 @@ Once the attackers gained access, they deployed their ransomware, which encrypte
 
 This is the documentation I made concerning the incident:
 
-| **_Entry:_**            | **1**      |
+| **_Entry:_** | **1** |
 |-------------------------|------------|
 | <br> **_Date:_** <br>    | <br> 10/04/2024 <br> |
 | <br> **_Description:_** <br> | <br> A small health care provider in the U.S.A. experienced a security incident that completely disrupted business continuity. <br> |
