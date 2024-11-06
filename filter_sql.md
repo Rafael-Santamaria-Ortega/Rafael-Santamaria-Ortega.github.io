@@ -10,6 +10,7 @@ In this scenario, I obtain specific information about employees, their machines,
 
 To retrieve after hours failed login attempts I ran the following query: 
 
+```sql
 MariaDB [organization]> SELECT * FROM log_in_attempts WHERE login_time>'18:00' AND success=0;
 +----------+-----------+------------+------------+---------+---------------+---------+
 | event_id | username  | login_date | login_time | country | ip_address    | success |
@@ -35,6 +36,7 @@ MariaDB [organization]> SELECT * FROM log_in_attempts WHERE login_time>'18:00' A
 |     199  | ypaphah   | 2022-05-11 | 19:34:48   | MEXICO  | 192.168.44.232|    0    |
 +----------+-----------+------------+------------+---------+---------------+---------+
 19 rows in set (0.156 sec)
+```
 
 Breaking it down to it’s components: I use ‘SELECT’ to select the columns to return, in this case all, represented by the ‘*’. Then, ‘FROM’ to indicate the table containing said columns, in this case ‘log_in_attempts’. After, I use ‘WHERE’ to filter the relevant data, in this case unsuccessful login times past 18:00. The unsuccessful are represented by ‘0’ since the database stores success and failure in boolean. The ‘AND’ filter states that both conditions must be met. Of course, I also properly stated that the query is finished with a ‘;’. The output displays a table with failed login attempts after business hours (18:00). 
 
