@@ -33,7 +33,7 @@ layout: default
 * Managing `Linux` File Permission [(More details)](./linux_file_perm.html)
 * File Update `Python` Algorithm [(More details)](./file_updade.html)
 * Applying Filters to `SQL` queries [(More details)](./filter_sql.html)
-* Suspicious `Network Traffic Analysis` for a Fictional IT Services Company [(More details)](./network_traffic_analysis.html)
+* Suspicious `Network Traffic Analysis` [(More details)](./network_traffic_analysis.html)
 * `Incident Report` for a `DoS SYN Flood Attack` [(More details)](./incident_report_syn_flood.html)
 * `Incident Report` for a `Brute Force Attack` [(More details)](./incident_report_brute.html)
 * `Vulnerability Assesment Report` for a Fictional Company [(More details)](./vulnerability_assessment.html)
