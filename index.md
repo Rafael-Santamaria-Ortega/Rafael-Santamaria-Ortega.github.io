@@ -38,7 +38,7 @@ layout: default
 * `Incident Report` for a `Brute Force Attack` [(More details)](./incident_report_brute.html)
 * `Security Risk Assesment Report` for a Fictional Company [(More details)](./sec_risk_assesment.html)
 * `Internal Security Audit` for a Fictional Toy Company [(More details)](./int_sec_audit.html)
-* Applying `NIST CSF` to a Fictional Case [(More details)](./nist_csf_applied.html)
+* Incident report applying the `NIST CSF` to a Fictional Case [(More details)](./nist_csf_applied.html)
 * Applying the `PASTA` Framework for a Fictional Company [(More details)](./pasta_applied.html)
 * `Risk Matrix` for a Fictional Bank [(More details)](./risk_matrix.html)
 * Access Control Worksheet [(More details)](./access_control.html)
