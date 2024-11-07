@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Control and Compliance Checklist for a Fictional Toy Company | GRC (Governance, Risk & Compliance) 
+# Internal Security Audit for a Fictional Toy Company | GRC (Governance, Risk & Compliance) 
 
 In this exercise from the Google Cybersecurity Professional Certificate, I simulated being an IT auditor for `Botium Toys`, a small U.S. toy company that is expanding its online presence. The scenario involved reviewing the company’s `security posture` to support its growing international market. My goal was to assess the IT manager’s scope, goals, and risk assessment for an internal `security audit`, focused on identifying risks, ensuring compliance (particularly with online payment and E.U. regulations), and recommending steps to `strengthen the company’s security posture`.
 
@@ -21,7 +21,7 @@ To complete the `Control and Compliance Checklist` I had to review the following
 * [Botium Toys:  Scope, goals, and risk assessment report](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/Botium%20Toys%20Scope%2C%20goals%2C%20and%20risk%20assessment%20report.pdf)
 * [Botium Toys Controls Catagories](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/Botium%20Toys%20Control%20categories.pdf)
 
-Then, I completed the checklist:
+Then, I completed the audit by means of the following checklist:
 
 ## Controls and compliance checklist
 
