@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Suspicious Network Traffic Analysis for a Fictional IT Services Company | Networking, tcpdump, logs
+# Suspicious Network Traffic Analysis for a Fictional IT Services Company | Networking, tcpdump, logs, TCP/IP model
 
 In this hands-on activity I simulated being a Cybersecurity analyst from a Fictional IT Services Company investigating why customers cannot access the fictional site `www.yummyrecipesforme.com`, using a `tcpdump` log: 
 
