@@ -6,7 +6,7 @@ layout: default
 
 In this hands-on activity from the `Google Cybersecurity Certificate`, I simulated being a security analyst in a fictional travel agency that advertises sales and promotions on the company’s website, tasked with investigating a network attack using a `Wireshark` log and filling an incident report. The scenario is described The log shows the following:
 
-```docx
+```md
 You work as a security analyst for a travel agency that advertises sales and promotions on the company’s website. The employees of the company regularly access the company’s sales webpage to search for vacation packages their customers might like. 
 
 One afternoon, you receive an automated alert from your monitoring system indicating a problem with the web server. You attempt to visit the company’s website, but you receive a connection timeout error message in your browser.
