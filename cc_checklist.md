@@ -16,3 +16,28 @@ _The IT manager starts by implementing the National Institute of Standards and T
 
 _Your task is to review the IT manager’s scope, goals, and risk assessment report. Then, perform an internal audit by completing a controls and compliance checklist._" 
 
+To complete the `Control and Compliance Checklist` I had to review the following documents:
+
+* [Botium Toys:  Scope, goals, and risk assessment report](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/Botium%20Toys%20Scope%2C%20goals%2C%20and%20risk%20assessment%20report.pdf)
+* [Botium Toys Controls Catagories](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/Botium%20Toys%20Control%20categories.pdf)
+
+Then, I completed the checklist:
+
+## Controls and compliance checklist
+
+| **Control Assesments checklist**                     | **Yes** | **No** |
+|:-----------------------------------------------------|---------|--------|
+| Least Privilege                                      |         |   X     |
+| Disaster recovery plans                              |         |   X     |
+| Password policies                                    |   X      |        |
+| Separation of duties                                 |         |    X    |
+| Firewall                                             |   X      |        |
+| Intrusion detection system (IDS)                     |         |   X     |
+| Backups                                              |         |    X    |
+| Antivirus software                                   |    X     |        |
+| Manual monitoring, maintenance, and intervention for legacy systems | X | |
+| Encryption                                           |         |    X    |
+| Password management system                           |         |    X   |
+| Locks (offices, storefront, warehouse)               |     X    |        |
+| Closed-circuit television (CCTV) surveillance        |     X    |        |
+| Fire detection/prevention (fire alarm, sprinkler system, etc.) | X | |
