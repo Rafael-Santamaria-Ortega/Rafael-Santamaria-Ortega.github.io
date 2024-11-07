@@ -31,7 +31,7 @@ layout: default
 
 * Incident Handler's Journal [(More details)](./incident_handler_journal.html)
 * Managing `Linux` File Permission [(More details)](./linux_file_perm.html)
-* File Update `Python` Algorithm [(More details)](./file_updade.html)
+* File Update `Python` Algorithm [(More details)](./file_update.html)
 * Applying Filters to `SQL` queries [(More details)](./filter_sql.html)
 * Suspicious `Network Traffic Analysis` [(More details)](./network_traffic_analysis.html)
 * `Incident Report` for a `DoS SYN Flood Attack` [(More details)](./incident_report_syn_flood.html)
