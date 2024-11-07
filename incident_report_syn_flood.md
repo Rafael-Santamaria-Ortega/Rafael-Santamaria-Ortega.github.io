@@ -4,16 +4,15 @@ layout: default
 
 # Incident Report for a DoS SYN Flood Attack | Network Traffic Analysis, Network Security, Network Protocols, Wireshark, Documentation
 
-In this hands-on activity from the `Google Cybersecurity Certificate`, I simulated being a security analyst in a fictional travel agency that advertises sales and promotions on the company’s website, tasked with investigating a network attack using a `Wireshark` log and filling an incident report. The scenario is described The log shows the following:
+In this hands-on activity from the `Google Cybersecurity Certificate`, I simulated being a `security analyst` in a fictional travel agency that advertises sales and promotions on the company’s website, tasked with investigating a network attack using a `Wireshark` log and filling an incident report. The scenario is described The log shows the following:
 
-```python
-You work as a security analyst for a travel agency that advertises sales and promotions on the company’s website. The employees of the company regularly access the company’s sales webpage to search for vacation packages their customers might like. 
+"_You work as a security analyst for a travel agency that advertises sales and promotions on the company’s website. The employees of the company regularly access the company’s sales webpage to search for vacation packages their customers might like._ 
 
-One afternoon, you receive an automated alert from your monitoring system indicating a problem with the web server. You attempt to visit the company’s website, but you receive a connection timeout error message in your browser.
+_One afternoon, you receive an automated alert from your monitoring system indicating a problem with the web server. You attempt to visit the company’s website, but you receive a connection timeout error message in your browser._
 
-You use a packet sniffer to capture data packets in transit to and from the web server. You notice a large number of TCP SYN requests coming from an unfamiliar IP address. The web server appears to be overwhelmed by the volume of incoming traffic and is losing its ability to respond to the abnormally large number of SYN requests. You suspect the server is under attack by a malicious actor. 
+_You use a packet sniffer to capture data packets in transit to and from the web server. You notice a large number of TCP SYN requests coming from an unfamiliar IP address. The web server appears to be overwhelmed by the volume of incoming traffic and is losing its ability to respond to the abnormally large number of SYN requests. You suspect the server is under attack by a malicious actor. 
 
-You take the server offline temporarily so that the machine can recover and return to a normal operating status. You also configure the company’s firewall to block the IP address that was sending the abnormal number of SYN requests. You know that your IP blocking solution won’t last long, as an attacker can spoof other IP addresses to get around this block. You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again. You will need to be prepared to tell your boss about the type of attack you discovered and how it was affecting the web server and employees.
+_You take the server offline temporarily so that the machine can recover and return to a normal operating status. You also configure the company’s firewall to block the IP address that was sending the abnormal number of SYN requests. You know that your IP blocking solution won’t last long, as an attacker can spoof other IP addresses to get around this block. You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again. You will need to be prepared to tell your boss about the type of attack you discovered and how it was affecting the web server and employees._"
 ```
 The log in question is this one:
 
@@ -86,3 +85,17 @@ No.     Time           Source           Destination      Protocol Info
 151     29.535121      203.0.113.0      192.0.2.1        TCP      54770->443 [SYN] Seq=0 Win=5792 Len=0...
 152     29.858134      203.0.113.0      192.0.2.1        TCP      54770->443 [SYN] Seq=0 Win=5792 Len=0...
 ```
+
+This is the report in question:
+
+## Cybersecurity Incident Report
+
+| **Section 1: Identify the type of attack that may have caused this network interruption** |
+|:-----------------------------------------------------------------------------------------------------------|
+| <br> One potential explanation for the website's connection timeout error message is that the webserver is overwhelmed and thus unable to respond to user requests. Indeed, the log shows increasing `SYN packet` requests from the same `unrecognized IP address (203.0.113.0)` simulating legitimate `TCP activity`, along with the requests of `recognized employee IP addresses (198.51.100.0/24)`; which gradually resulted in the web server being overwhelmed with SYN requests, and thus becoming unable to acknowledge and complete any requests. This abnormal event is very likely a `DoS SYN flood attack`, and requires immediate action to mitigate damage. <br> |
+
+| **Section 2: Explain how the attack is causing the website to malfunction** | 
+|:-----------------------------------------------------------------------------------------------------------|
+| <br> When website visitors try to establish a connection with the web server, a three-way handshake occurs using the `TCP protocol`. Explain the three steps of the handshake: <br><br> 1.The user sends a `[SYN] (synchronize)` packet to request a connection to the webpage hosted on the company web server. <br> 2. The web server answers with a `[SYN, ACK(acknowledge)]` packet accepting the connection and reserves its system until the final part of the “handshake”. <br> 3.The user’s device acknowledges the connection with a `[ACK (acknowledge)]` packet, thus establishing the connection and accessing the web server system. <br><br> When a malicious actor sends a large number of SYN packets all at once, if the servers can’t process the amount of packets, it will become overwhelmed and thus unable to complete any request. That is why employees are being given the error message `HTTP/1.1 504 Gateway Time-out (text/html)`, which in more technical terms means that the server instead of acknowledging the connection, asks the user to reset it with the `[RST, ACK] packet`. <br><br> The log indicates an increasing and abnormal amount of SYN packets sent by an `unrecognized IP (203.0.113.0)`, along with the `SYN packet requests by employee addresses (198.51.100.0/24)`. The increasing amount of requests gradually taxes the web server capacity, thus at first slowing down the `[SYN, ACK] packets` and later outright causing the server to be overwhelmed and instead return `[RST,ACK] packets`. Eventually, if proper action is not taken the server will crash and business continuity will not be possible. This is dire since it would cost the company money, time and possibly reputation. <br> | 
+
+[Back](./)
