@@ -42,7 +42,7 @@ layout: default
 * Applying the `PASTA` Framework for a Fictional Company [(More details)](./pasta_applied.html)
 * `Risk Matrix` for a Fictional Bank [(More details)](./risk_matrix.html)
 * Access Control Worksheet [(More details)](./access_control.html)
-* Home IT Assets Report [(More details)](./home_it_assests.html)
+* Home Office Network Device Inventory [(More details)](./home_it_assests.html)
 
 ### J. P. Morgan & Chase Co. Virtual Internship
 
