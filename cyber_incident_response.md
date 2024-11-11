@@ -4,7 +4,7 @@ layout: default
 
 # Cybersecurity Incident Response | Incident response, Threat analysis and mitigation, Digital Forensics
 
-This project is part of the `cybersecurity virtual internship` offered by `Telstra` on Forage, and the main idea behind is to perform some of the daily tasks that a `Information Security Analyst` would be tasked with. In this case, the situation is incident response, Threat analysis and mitigation, and forensics. The scenario of the simulation is:
+This project is part of the `cybersecurity virtual internship` offered by `Telstra` on Forage, and the main idea behind is to perform some of the daily tasks that an `Information Security Analyst` would be tasked with. In this case, the situation is incident response, Threat analysis and mitigation, and forensics. The scenario of the simulation is:
 
 "
 You are an information security analyst in the `Security Operations Centre`. A common task and responsibility of information security analysts in the SOC is to respond to triage incoming threats and respond appropriately, by notifying the correct team depending on the severity of the threat. It’s important to be able to communicate the severity of the incident to the right person so that the organisation can come together in times of attack.
