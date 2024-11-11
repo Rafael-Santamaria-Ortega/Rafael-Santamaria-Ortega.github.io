@@ -27,7 +27,7 @@ Then, I completed the audit by means of the following checklist:
 
 ### Part 1: Controls Assesment checklist
 
-| ** Best practice**                                   | **Yes** | **No** |
+| **Best practice**                                   | **Yes** | **No** |
 |:-----------------------------------------------------|---------|--------|
 | Least Privilege                                      |         |   X     |
 | Disaster recovery plans                              |         |   X     |
