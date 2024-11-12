@@ -11,7 +11,7 @@ In this hands-on activity from the `Google Cybersecurity Professional Certificat
 * **Description**: A vulnerability that might lead to a security incident. 
 * **Likelihood**: Score from 1-3 of the chances of a vulnerability being exploited. A 1 means there's a low likelihood, a 2 means there's a moderate likelihood, and a 3 means there's a high likelihood. 
 * **Severity**: Score from 1-3 of the potential damage the threat would cause to the business. A 1 means a low severity impact, a 2 is a moderate severity impact, and a 3 is a high severity impact. 
-* **Priority**: How quickly a risk should be addressed to avoid the potential incident. Use the following formula to calculate the overall score: Likelihood x Impact Severity = Priority
+* **Priority**: How quickly a risk should be addressed to avoid the potential incident. Use the following formula to calculate the overall score: `Likelihood x Impact Severity = Priority`
 
 "You've joined a new cybersecurity team at a commercial bank. The team is conducting a risk assessment of the bank's current operational environment. As part of the assessment, they are creating a risk register to help them focus on securing the most vulnerable risks.
 
