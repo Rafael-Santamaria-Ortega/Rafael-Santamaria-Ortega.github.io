@@ -6,7 +6,7 @@ layout: default
 
 In this exercise from the `Google Cybersecurity Professional Certificate`, I simulated being a security analyst for a social media organization following a major data breach that compromised customer personal information. The scenario involved _identifying four key vulnerabilities_, including shared passwords, default admin credentials, lack of firewall traffic filtering, and absence of multifactor authentication (MFA). My task was to conduct a `security risk assessment` of the incident and recommend `network hardening practices` to prevent future breaches.
 
-The scenario is described as such: 
+The scenario was described as such: 
 
 "_You are a security analyst working for a social media organization. The organization recently experienced a major data breach, which compromised the safety of their customers’ personal information, such as names and addresses. Your organization wants to implement strong network hardening practices that can be performed consistently to prevent attacks and breaches in the future._ 
 
