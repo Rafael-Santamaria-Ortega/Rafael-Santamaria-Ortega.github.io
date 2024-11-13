@@ -328,7 +328,7 @@ model=create_model((X_train_preprocessed.shape[1:])) #Shape (1000,) representing
 #Visualize model
 model.summary()
 ```
-
+```jupyter
 Model: "Neural_Network_for_Malicious_Url_Detection"
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
 ┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
@@ -379,11 +379,13 @@ Total params: 206,849 (808.00 KB)
 Trainable params: 205,633 (803.25 KB)
 Non-trainable params: 1,216 (4.75 KB)
 Model input shape: (None, 1000)
+```
 
 ```python
 #Train the model (first test: 10 epochs, 32 batch size)
 trained_model,history=train_model(X_train_preprocessed,y_train,256,110) #110 epochs visualization, new deeper NN, class weights
 ```
+
 (Last 5 epochs of training)
 
 ```jupyter
@@ -399,6 +401,7 @@ Epoch 109/110
 1425/1425 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.9099 - loss: 0.2516 - precision: 0.7814 - recall: 0.8486 - val_accuracy: 0.9230 - val_loss: 0.2180 - val_precision: 0.8392 - val_recall: 0.8271
 Epoch 110/110
 1425/1425 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.9109 - loss: 0.2507 - precision: 0.7843 - recall: 0.8468 - val_accuracy: 0.9207 - val_loss: 0.2174 - val_precision: 0.8266 - val_recall: 0.8336
+```
 
 ```python
 #Evaluate the Model
