@@ -6,7 +6,7 @@ layout: default
 
 In this exercise from the `Google Cybersecurity Professional Certificate`, I simulated being a cybersecurity analyst for a multimedia company that experienced a Distributed Denial of Service (`DDoS`) attack, disrupting network services for two hours. The attack exploited an `unconfigured firewall`, allowing a flood of `ICMP packets` (Internet Control Message Protocol) to overwhelm the network. My task was to create a security improvement plan in an `Ìncident Report` and analyze it using the `NIST Cybersecurity Framework (CSF)`. This plan incorporated `new firewall rules`, `IP verification`, `network monitoring`, and `IDS/IPS systems` to enhance the company’s network resilience.
 
-The scenario is described as such:
+The scenario was described as such:
 
 "_You are a cybersecurity analyst working for a multimedia company that offers web design services, graphic design, and social media marketing solutions to small businesses. Your organization recently experienced a DDoS attack, which compromised the internal network for two hours until it was resolved._
 
