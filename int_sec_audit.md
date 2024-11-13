@@ -6,7 +6,7 @@ layout: default
 
 In this exercise from the Google Cybersecurity Professional Certificate, I simulated being an IT auditor for `Botium Toys`, a small U.S. toy company that is expanding its online presence. The scenario involved reviewing the company’s `security posture` to support its growing international market. My goal was to assess the IT manager’s scope, goals, and risk assessment for an internal `security audit`, focused on identifying risks, ensuring compliance (particularly with online payment and E.U. regulations), and recommending steps to `strengthen the company’s security posture`.
 
-The scenario is described as such: 
+The scenario was described as such: 
 
 "_Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide._
 
