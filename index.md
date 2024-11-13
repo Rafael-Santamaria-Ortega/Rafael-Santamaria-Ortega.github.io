@@ -7,7 +7,7 @@ layout: default
 
 * This project is a `Neural Network` built and trained from scratch using `Kaggle's Malicious Url Dataset` (working on improving it with my own data) and `TensorFlow`, to accurately predict if `urls` gathered from the wild are malicious or not. [(More details)](./nn_malicious_url_pred.html)
 
-### Cybersecurity Incident Response | Incident response, Threat analysis and mitigation, Digital Forensics
+### Simulated DDoS Incident Response and Mitigation | Incident response, Threat analysis and mitigation, Digital Forensics
 
 * In this project I responded, analyzed, mitigated and performed a postmortem on a simulated `distributed denial of service (DDoS) attack`. [(More details)](./cyber_incident_response.html)
 
@@ -61,7 +61,7 @@ layout: default
 
 ### Telstra Cybersecurity Job Simulation
 
-* Cybersecurity Incident Response [(More details)](./cyber_incident_response.html)
+* Simulated DDoS Incident Response and Mitigation [(More details)](./cyber_incident_response.html)
 
 ### Mastercard Cybersecurity Job Simulation
 
