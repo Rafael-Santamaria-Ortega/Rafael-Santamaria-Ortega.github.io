@@ -4,7 +4,7 @@ layout: default
 
 # Incident Report for a DoS SYN Flood Attack | Network Traffic Analysis, Network Security, Network Protocols, Wireshark, Documentation
 
-In this hands-on activity from the `Google Cybersecurity Certificate`, I simulated being a `security analyst` in a fictional travel agency that advertises sales and promotions on the company’s website, tasked with investigating a network attack using a `Wireshark` log and filling an incident report. The scenario is described like this:
+In this hands-on activity from the `Google Cybersecurity Certificate`, I simulated being a `security analyst` in a fictional travel agency that advertises sales and promotions on the company’s website, tasked with investigating a network attack using a `Wireshark` log and filling an incident report. The scenario was described like this:
 
 "_You work as a security analyst for a travel agency that advertises sales and promotions on the company’s website. The employees of the company regularly access the company’s sales webpage to search for vacation packages their customers might like._ 
 
@@ -14,7 +14,7 @@ _You use a packet sniffer to capture data packets in transit to and from the web
 
 _You take the server offline temporarily so that the machine can recover and return to a normal operating status. You also configure the company’s firewall to block the IP address that was sending the abnormal number of SYN requests. You know that your IP blocking solution won’t last long, as an attacker can spoof other IP addresses to get around this block. You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again. You will need to be prepared to tell your boss about the type of attack you discovered and how it was affecting the web server and employees._"
 
-**The log in question shows the following**:
+**The log in question showed the following**:
 
 ```wireshark
 No.     Time           Source           Destination      Protocol Info
