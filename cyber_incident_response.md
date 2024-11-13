@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Cybersecurity Incident Response | Incident response, Threat analysis and mitigation, Digital Forensics
+# Simulated DDoS Incident Response and Mitigation | Incident response, Threat analysis and mitigation, Digital Forensics
 
 This project is part of the `cybersecurity virtual internship` offered by `Telstra` on Forage, and the main idea behind is to perform some of the daily tasks that an `Information Security Analyst` would be tasked with. In this case, the situation is incident response, Threat analysis and mitigation, and forensics. The scenario of the simulation is:
 
