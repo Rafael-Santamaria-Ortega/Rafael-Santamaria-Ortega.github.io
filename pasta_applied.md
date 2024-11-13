@@ -4,7 +4,7 @@ layout: default
 
 # Applying the PASTA Framework for a Fictional Company | GRC (Governance, Regulation and Compliance), PASTA Framework
 
-In this hands-on activity, I simulated being as a security analyst for a sneaker company preparing to launch a mobile app for buying and selling shoes. Using the PASTA threat modeling framework, I conducted a comprehensive threat model to identify key security requirements at each stage of the framework:
+In this hands-on activity for the `Google Cybersecurity Professional Certificate`, I simulated being as a security analyst for a sneaker company preparing to launch a mobile app for buying and selling shoes. Using the PASTA threat modeling framework, I conducted a comprehensive threat model to identify key security requirements at each stage of the framework:
 
 1. Define Business Objectives – Reviewed the app’s functionality and objectives to align security with business needs.
 2. Define the Technical Scope – Identified the app's technical components, such as user authentication and transaction handling.
