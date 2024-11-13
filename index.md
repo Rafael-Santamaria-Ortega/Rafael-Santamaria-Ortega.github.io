@@ -41,7 +41,7 @@ layout: default
 * Incident report applying the `NIST CSF` to a Fictional Case [(More details)](./nist_csf_applied.html)
 * Applying the `PASTA` Framework for a Fictional Company [(More details)](./pasta_applied.html)
 * `Risk Matrix` for a Fictional Bank [(More details)](./risk_matrix.html)
-* Access Control Worksheet [(More details)](./access_control.html)
+* Data Leak Investigation [(More details)](./data_leak_investigation.html)
 * Home Office Network Device Inventory [(More details)](./home_it_assests.html)
 
 ### J. P. Morgan & Chase Co. Virtual Internship
