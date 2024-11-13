@@ -8,3 +8,6 @@ In this hands-on activity from the `Google Cybersecurity Professional Certificat
 
 The inventory is the following: 
 
+
+
+[Back](./)
