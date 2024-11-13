@@ -75,6 +75,7 @@ layout: default
 * `Encryption` with `Python` [(More details)](./encrypt_python.html)
 * Digital Dumpster Diving `Executable Malware` [(More details)](./dumpster_diving.html)
 * `Executable Malware` to Steal Google Chrome Credentials [(More details)](./steal_chrome_cred.html)
+* Twitter (now X) analytics key performance metrics parser [(More details)](./twitter_analytics.html)
 
 # Contact:
 
