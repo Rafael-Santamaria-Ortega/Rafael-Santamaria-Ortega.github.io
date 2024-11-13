@@ -1,5 +1,5 @@
 ---
-layout: defaul
+layout: default
 ---
 
 # Risk Matrix | Risk Assesments
