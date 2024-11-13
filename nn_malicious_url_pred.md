@@ -386,6 +386,7 @@ trained_model,history=train_model(X_train_preprocessed,y_train,256,110) #110 epo
 ```
 (Last 5 epochs of training)
 
+```jupyter
 Epoch 105/110
 1425/1425 ━━━━━━━━━━━━━━━━━━━━ 9s 6ms/step - accuracy: 0.9098 - loss: 0.2540 - precision: 0.7828 - recall: 0.8463 - val_accuracy: 0.9184 - val_loss: 0.2194 - val_precision: 0.8154 - val_recall: 0.8388
 Epoch 106/110
