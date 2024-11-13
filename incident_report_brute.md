@@ -6,7 +6,7 @@ layout: default
 
 In this exercise from the `Google Cybersecurity Professional Certificate`, I simulated being a cybersecurity analyst responding to a security incident at `yummyrecipesforme.com`, a website selling recipes and cookbooks. The scenario involved investigating an attack by a former employee who used a `brute force attack` to access the website’s admin panel, embedding malware that redirected users to a fake site. My goal was to document the incident, analyze network protocols used in the attack, and recommend preventive measures to improve security, including protections against brute force attacks. 
 
-The scenario is described as such:
+The scenario was described as such:
 
 "_You are a `cybersecurity analyst` for `yummyrecipesforme.com`, a website that sells recipes and cookbooks. A former employee has decided to lure users to a fake website with malware. The baker executed a brute force attack to gain access to the web host. They repeatedly entered several known default passwords for the administrative account until they correctly guessed the right one. After they obtained the login credentials, they were able to access the admin panel and change the website’s source code. They embedded a `javascript` function in the source code that prompted visitors to download and run a file upon visiting the website. After embedding the malware, the baker changed the password to the administrative account. When customers download the file, they are redirected to a fake version of the website that contains the malware._
 
