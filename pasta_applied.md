@@ -14,7 +14,7 @@ In this hands-on activity for the `Google Cybersecurity Professional Certificate
 6. Attack Modeling and Simulation – Simulated attack scenarios to assess potential impact and detect critical vulnerabilities.
 7. Risk and Impact Analysis – Prioritized risks based on likelihood and impact, developing targeted security measures for launch.
 
-The scenario is described as such:
+The scenario was described as such:
 
 "You’re part of the growing security team at a company for sneaker enthusiasts and collectors. The business is preparing to launch a mobile app that makes it easy for their customers to buy and sell shoes. 
 
