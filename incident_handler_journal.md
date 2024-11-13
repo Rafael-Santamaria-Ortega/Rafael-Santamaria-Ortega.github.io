@@ -10,7 +10,7 @@ In this exercise from the Google Cybersecurity Professional Certificate, I docum
 
 In this first entry, I simulated being a level one security operations center (SOC) analyst responding to a security incident at a small U.S. healthcare clinic. The scenario involved investigating a ransomware attack where the attackers gained access through phishing emails and encrypted critical files, disrupting business operations. My goal was to document the incident and analyze the steps taken to identify and mitigate the ransomware threat.
 
-The scenario is described as such:
+The scenario was described as such:
 
 "A small U.S. health care clinic specializing in delivering primary-care services experienced a security incident on a Tuesday morning, at approximately 9:00 a.m. Several employees reported that they were unable to use their computers to access files like medical records. Business operations shut down because employees were unable to access the files and software needed to do their job.
 
@@ -62,7 +62,7 @@ This is my documentation of the activity:
 
 In this fourth entry I simulated being a level one security operations center (SOC) analyst at a financial services company, that received an alert about a suspicious file being downloaded on an employee's computer.
 
-The scenario is described as such:
+The scenario was described as such:
 
 "You are a level one security operations center (SOC) analyst at a financial services company. You have received an alert about a suspicious file being downloaded on an employee's computer.
 
@@ -113,7 +113,7 @@ This is the malicious email in question:
 
 In this hands-on lab, I simulated being a Security Analyst for the mid-sized retail company, and investigated the final report for the recent data breach incident. 
 
-The scenario of this entry is described as such:
+The scenario of this entry was described as such:
 
 "You recently joined the security team as a level-one security operation center (SOC) analyst at a mid-sized retail company. Along with its physical store locations, your company also conducts operations in e-commerce, which account for 80% of its sales.
 
