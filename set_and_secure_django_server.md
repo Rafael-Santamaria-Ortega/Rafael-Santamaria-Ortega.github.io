@@ -4,7 +4,7 @@ layout: default
 
 # Set up and Secure a Django Web Server connected to a SQL Database | Python, Django, Web Servers, IAM
 
-In this hands-on activity from `J. P. Morgan & Chase Co. Cybersecurity Job Simulation` I simulated being a security analyst for the financial company tasked with setting up and securing a Django Web Server.
+In this hands-on activity from `J. P. Morgan & Chase Co. Cybersecurity Job Simulation` I simulated being a security analyst for the financial company tasked with setting up and securing a Django Web Server with `two-factor authentication`.
 
 ## Setting Up Server
 
@@ -325,6 +325,35 @@ MIDDLEWARE = [
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying sessions.0001_initial... OK
+Migrations applied successfully.
 ````
+
+4. Ran the server again:
+```cmd
+C:/users/redacted/forageenv>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 07, 2024 - 14:23:50
+Django version 3.2, using settings 'myproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+```
+
+5. Used `OTPAdminSite` from `django_otp` for the admin site:
+```cmd
+C:/users/redacted/forageenv>python -c "from django_otp.admin import OTPAdminSite; import admin; admin.site.__class__ = OTPAdminSite"
+```
+
 
 [Back](./)
