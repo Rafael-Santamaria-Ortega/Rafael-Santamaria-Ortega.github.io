@@ -13,6 +13,7 @@ In this hands-on activity from `J. P. Morgan & Chase Co. Cybersecurity Job Simul
 2. Unziped the `mysite.zip` folder in the virtual environment. The files contained are the following `.py` files (each one is explained at the head):
 
 * `asgi.py`
+
 ```python
 """
 ASGI config for mysite project.
@@ -33,6 +34,7 @@ application = get_asgi_application()
 ```
 
 * `settings.py`
+
 ```python
 """
 Django settings for mysite project.
@@ -158,6 +160,7 @@ STATIC_URL = '/static/'
 ```
 
 * `urls.py`
+
 ```python
 """mysite URL Configuration
 
@@ -186,6 +189,7 @@ urlpatterns = [
 ```
 
 * `wsgi.py`
+
 ```python
 """
 WSGI config for mysite project.
