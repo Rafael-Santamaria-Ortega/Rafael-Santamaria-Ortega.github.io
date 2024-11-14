@@ -235,6 +235,7 @@ C:/users/redacted/forageenv>python manage.py createsuperuser
 ```
 
 6. Established a username, email, and password when prompted:
+
 ```cmd
 C:/users/redacted/forageenv>python manage.py createsuperuser
 Username (leave blank to use 'admin'): admin
@@ -262,6 +263,7 @@ Quit the server with CTRL-BREAK.
 To ensure the server is set up securely I: 
 
 1. Stopped the server from running by using `ctrl+c`:
+
 ```cmd
 ^C
 Shutting down server...
@@ -342,6 +344,7 @@ Migrations applied successfully.
 ````
 
 4. Ran the server again:
+
 ```cmd
 C:/users/redacted/forageenv>python manage.py runserver
 Watching for file changes with StatReloader
@@ -355,6 +358,7 @@ Quit the server with CTRL-BREAK.
 ```
 
 5. Used `OTPAdminSite` from `django_otp` for the admin site:
+
 ```cmd
 C:/users/redacted/forageenv>python -c "from django_otp.admin import OTPAdminSite; import admin; admin.site.__class__ = OTPAdminSite"
 ```
