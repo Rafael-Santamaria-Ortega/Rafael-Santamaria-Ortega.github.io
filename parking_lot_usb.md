@@ -12,4 +12,13 @@ The scenario was described as such:
 
 You bring the USB drive back to your office where the team has virtualization software installed on a workstation. Virtualization software can be used for this very purpose because it’s one of the only ways to safely investigate an unfamiliar USB stick. The  software works by running a simulated instance of the computer on the same workstation. This simulation isn’t connected to other files or networks, so the USB drive can’t affect other systems if it happens to be infected with malicious software."
 
-The reflection 
+My reflection of the incident is the following:
+
+| **Category**            | **Details**                                                                                                                                                       |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Contents**            | - The USB drive contains PII, including family photos, family activities, and a CV.<br>- Sensitive work files, like schedules and employee budgets, are included.<br>- Storing personal files with work-related ones is unsafe and unprofessional. |
+| **Attacker Mindset**    | - **Employee Vulnerability**: An attacker could use the schedule to plan a break-in or even a kidnapping.<br>- **Relative Vulnerability**: Photos might be exploited to identify or impersonate family members.<br>- **Business Access**: The leaked schedule could help an attacker determine a good time for physical entry into the business. |
+| **Risk Analysis**       | - **Awareness Campaigns**: The company could provide training on proper incident responses.<br>- **Antivirus Checks**: Implement regular antivirus scans to detect potential threats.<br>- **Disable Autoplay**: Configure devices to prevent USB devices from automatically executing files. |
+
+
+[Back](./)
