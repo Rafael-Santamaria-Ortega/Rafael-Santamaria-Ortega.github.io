@@ -45,6 +45,7 @@ layout: default
 * Improving `Access Controls` for a fictional business [(More details)](./access_controls.html)
 * Data Leak Investigation [(More details)](./data_leak_investigation.html)
 * Home Office Network Device Inventory [(More details)](./home_it_assests.html)
+* Parking lot USB Baiting [More details](parking_lot_usb.html)
 
 ### J. P. Morgan & Chase Co. Virtual Internship
 
