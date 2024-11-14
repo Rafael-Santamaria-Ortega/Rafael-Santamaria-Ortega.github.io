@@ -315,12 +315,16 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django_otp.middleware.OTPMiddleware',                      # Properly add two-factor authentication as authentication middleware; i. e. a software layer that connects the operating system to applications, data, and users, and provides common services and capabilities. 
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_otp.middleware.OTPMiddleware',                      # Properly added two-factor authentication middleware with the line 'django_otp.middleware.OTPMiddleware'; 
+    'django.contrib.messages.middleware.MessageMiddleware',     # Middleware is a software layer that connects the operating system to applications, data, and users,
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',   # and provides common services and capabilities. 
 ]
 ```
 
-3.
+3. Applied the migrations again after modification:
 
+```cmd
 C:/users/redacted/forageenv>python manage.py migrate
+````
+
+[Back](./)
