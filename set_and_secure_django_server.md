@@ -14,7 +14,7 @@ In this hands-on activity from `J. P. Morgan & Chase Co. Cybersecurity Job Simul
 
 * `asgi.py`
 
-```python
+```py
 """
 ASGI config for mysite project.
 
@@ -35,7 +35,7 @@ application = get_asgi_application()
 
 * `settings.py`
 
-```python
+```py
 """
 Django settings for mysite project.
 
@@ -161,7 +161,7 @@ STATIC_URL = '/static/'
 
 * `urls.py`
 
-```python
+```py
 """mysite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -190,7 +190,7 @@ urlpatterns = [
 
 * `wsgi.py`
 
-```python
+```py
 """
 WSGI config for mysite project.
 
@@ -269,7 +269,7 @@ Shutting down server...
 
 2. Followed the [Django OTP installation docs](https://django-otp-official.readthedocs.io/en/stable/overview.html#installation) and modified `settings.py`, using the `otp_totp` plugin. This plugin adds `two-factor authentication` by adding a one time passwords sent to the email that must be provided in order to access as admin. Following the instructions I modified the `Application Definition` part of the code:
 
-```python
+```py
 
 # Application definition
 
@@ -295,7 +295,7 @@ MIDDLEWARE = [
 
 The additon of `two-factor authentication` is presented in this snippet of code:
 
-```python
+```py
 
 # Application definition
 
