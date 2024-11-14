@@ -14,7 +14,9 @@ You bring the USB drive back to your office where the team has virtualization so
 
 The contents of the USB were:
 
-![usb]()
+![usb](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/usb.png)
+
+To complete this task I described the contents of the USB, then applied an `attacker mindset` to define how this could be exploited by an attacker, and analyzing the risk of it happening.
 
 My `Risk Analysis` of the incident is the following:
 
@@ -23,6 +25,5 @@ My `Risk Analysis` of the incident is the following:
 | **Contents**            | - The USB drive contains PII, including family photos, family activities, and a CV.<br>- Sensitive work files, like schedules and employee budgets, are included.<br>- Storing personal files with work-related ones is unsafe and unprofessional. |
 | **Attacker Mindset**    | - **Employee Vulnerability**: An attacker could use the schedule to plan a break-in or even a kidnapping.<br>- **Relative Vulnerability**: Photos might be exploited to identify or impersonate family members.<br>- **Business Access**: The leaked schedule could help an attacker determine a good time for physical entry into the business. |
 | **Risk Analysis**       | - **Awareness Campaigns**: The company could provide training on proper incident responses.<br>- **Antivirus Checks**: Implement regular antivirus scans to detect potential threats.<br>- **Disable Autoplay**: Configure devices to prevent USB devices from automatically executing files. |
-
 
 [Back](./)
