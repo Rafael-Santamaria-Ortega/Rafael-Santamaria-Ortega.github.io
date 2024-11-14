@@ -12,7 +12,11 @@ The scenario was described as such:
 
 You bring the USB drive back to your office where the team has virtualization software installed on a workstation. Virtualization software can be used for this very purpose because it’s one of the only ways to safely investigate an unfamiliar USB stick. The  software works by running a simulated instance of the computer on the same workstation. This simulation isn’t connected to other files or networks, so the USB drive can’t affect other systems if it happens to be infected with malicious software."
 
-My reflection of the incident is the following:
+The contents of the USB were:
+
+![usb]()
+
+My `Risk Analysis` of the incident is the following:
 
 | **Category**            | **Details**                                                                                                                                                       |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
