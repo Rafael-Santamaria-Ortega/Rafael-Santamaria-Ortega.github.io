@@ -233,7 +233,7 @@ def train_model(X_train_preprocessed,y_train,batch_size,epochs): #Call: model_tr
     model.compile(
         optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3),
         loss=tf.keras.losses.BinaryCrossentropy(),
-        metrics=['accuracy', 'precision', 'recall',tf.keras.metrics.F1Score()] # Added F1 score
+        metrics=['accuracy', 'precision', 'recall'] 
     )    
     
     #Define aerly stopping
@@ -416,8 +416,6 @@ These balanced results are the best I got in october 10 2024. The predictons wit
 1407/1407 ━━━━━━━━━━━━━━━━━━━━ 1s 990us/step - accuracy: 0.9254 - loss: 0.2075 - precision: 0.8614 - recall: 0.8101
 Results: ('Loss: 0.20970836281776428', 'Accuracy: 0.924430251121521', 'Precision: 0.8572296500205994', 'Recall:0.8095238208770752')
 ```
-
-Despite this imbalance, `the results are acceptable for application in the real world`, as the model's loss (error rate predicting) is low (0.21), and `predicted correctly 92.4%` of the time (92.4 out of 100 urls). Moreover, `the false positive (14.3%)` and `false negative (19%)` rates are reasonably low, as the metrics of precision and recall demonstrate respectively. However, there is still room for improvement before deploying in a docker container. For instance, adding a `F1 score` to find the balance between precision and recall, penalizing false negatives more harshly, and adding more data to the training set. So, on November 15 2024 I implemented an `F1 score` (referenced in the definition of `train_model`), and got these results:
 
 ```python
 #Predict unknown URLs from the wild (https://urlhaus.abuse.ch/browse/)
