@@ -8,9 +8,9 @@ In this hands-on activity from `J. P. Morgan & Chase Co. Cybersecurity Job Simul
 
 ## Steps to set Up the Django Server
 
-1. Set up a virtual environment called 'forageenv' using Python `venv` module to host the web server. 
+1.Set up a virtual environment called 'forageenv' using Python `venv` module to host the web server. 
 
-2. Unziped the `mysite.zip` folder in the virtual environment. The files contained are the following `.py` files (each one is explained at the head):
+2.Unziped the `mysite.zip` folder in the virtual environment. The files contained are the following `.py` files (each one is explained at the head):
 
 `asgi.py`
 
@@ -209,7 +209,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 application = get_wsgi_application()
 ```
 
-3. Installed the `requierements.txt` using the `Windows cmd`:
+3.Installed the `requierements.txt` using the `Windows cmd`:
 
 ```cmd
 C:/users/redacted/forageenv>pip install -r requirements.txt
@@ -221,18 +221,18 @@ django-otp
 qrcode
 ```
 
-4. Synchronized the database `db.sqlite3` with the existing configuration, or if it doesn't exist, creating it using the following `cmd`:
+4.Synchronized the database `db.sqlite3` with the existing configuration, or if it doesn't exist, creating it using the following `cmd`:
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py migrate
 ```
 
-5. Created the site admin user:
+6.Created the site admin user:
 ```cmd
 C:/users/redacted/forageenv>python manage.py createsuperuser
 ```
 
-6. Established a username, email, and password when prompted:
+7.Established a username, email, and password when prompted:
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py createsuperuser
@@ -243,7 +243,7 @@ Password (again): **********
 Superuser created successfully.
 ```
 
-7. Ran the server:
+8.Ran the server:
 ```cmd
 C:/users/redacted/forageenv>python manage.py runserver
 Watching for file changes with StatReloader
@@ -258,14 +258,14 @@ Quit the server with CTRL-BREAK.
 
 ## Steps to Secure the web server using 2FA
 
-1. Stopped the server from running by using `ctrl+c`:
+1.Stopped the server from running by using `ctrl+c`:
 
 ```cmd
 ^C
 Shutting down server...
 ```
 
-2. Followed the [Django OTP installation docs](https://django-otp-official.readthedocs.io/en/stable/overview.html#installation) and modified `settings.py`, using the `otp_totp` plugin. This plugin adds `two-factor authentication` by adding a one time passwords sent to the email that must be provided in order to access as admin. Following the instructions I modified the `Application Definition` part of the code:
+2.Followed the [Django OTP installation docs](https://django-otp-official.readthedocs.io/en/stable/overview.html#installation) and modified `settings.py`, using the `otp_totp` plugin. This plugin adds `two-factor authentication` by adding a one time passwords sent to the email that must be provided in order to access as admin. Following the instructions I modified the `Application Definition` part of the code:
 
 ```py
 
@@ -323,7 +323,7 @@ MIDDLEWARE = [
 ]
 ```
 
-3. Applied the migrations again after modification:
+3.Applied the migrations again after modification:
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py migrate
@@ -339,7 +339,7 @@ Running migrations:
 Migrations applied successfully.
 ````
 
-4. Ran the server again:
+4.Ran the server again:
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py runserver
@@ -353,7 +353,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-5. Used `OTPAdminSite` from `django_otp` for the admin site:
+5.Used `OTPAdminSite` from `django_otp` for the admin site:
 
 ```cmd
 C:/users/redacted/forageenv>python -c "from django_otp.admin import OTPAdminSite; import admin; admin.site.__class__ = OTPAdminSite"
