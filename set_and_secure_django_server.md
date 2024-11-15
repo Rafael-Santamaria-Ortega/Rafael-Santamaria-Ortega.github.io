@@ -12,7 +12,7 @@ In this hands-on activity from `J. P. Morgan & Chase Co. Cybersecurity Job Simul
 
 2. Unziped the `mysite.zip` folder in the virtual environment. The files contained are the following `.py` files (each one is explained at the head):
 
-* `asgi.py`
+`asgi.py`
 
 ```py
 """
@@ -33,7 +33,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 application = get_asgi_application()
 ```
 
-* `settings.py`
+`settings.py`
 
 ```py
 """
@@ -159,7 +159,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 ```
 
-* `urls.py`
+`urls.py`
 
 ```py
 """mysite URL Configuration
@@ -188,7 +188,7 @@ urlpatterns = [
 ]
 ```
 
-* `wsgi.py`
+`wsgi.py`
 
 ```py
 """
@@ -209,7 +209,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 application = get_wsgi_application()
 ```
 
-3. Using the `Windows cmd`:
+Using the `Windows cmd`:
 
 ```cmd
 C:/users/redacted/forageenv>pip install -r requirements.txt
@@ -223,18 +223,18 @@ django-otp
 qrcode
 ```
 
-4. Synchronized the database `db.sqlite3` with the existing configuration, or if it doesn't exist, creating it using the following `cmd`:
+3. Synchronized the database `db.sqlite3` with the existing configuration, or if it doesn't exist, creating it using the following `cmd`:
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py migrate
 ```
 
-5. Created the site admin user:
+4. Created the site admin user:
 ```cmd
 C:/users/redacted/forageenv>python manage.py createsuperuser
 ```
 
-6. Established a username, email, and password when prompted:
+5. Established a username, email, and password when prompted:
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py createsuperuser
@@ -245,7 +245,7 @@ Password (again): **********
 Superuser created successfully.
 ```
 
-7. Ran the server:
+6. Ran the server:
 ```cmd
 C:/users/redacted/forageenv>python manage.py runserver
 Watching for file changes with StatReloader
