@@ -9,11 +9,11 @@ layout: default
 
 ### Simulated DDoS Attack Response and Mitigation | Incident response, Threat analysis and mitigation, Digital Forensics
 
-* In this project I responded, analyzed, mitigated and performed a postmortem on a simulated `distributed denial of service (DDoS) attack`. [(More details)](./cyber_incident_response.html)
+* In this project I responded to a simulated `distributed denial of service (DDoS) attack` by communicating with stakeholders, analyzing network logs for attack patterns, mitigating the attack by coding a firewall rule and performing a ‘postmortem’ by documenting and reflecting on the incident. [(More details)](./cyber_incident_response.html)
 
 ### Windows Malware Scanner | Python, Windows, csv
 
-* This algorithm automates file-based malware scanning of `Windows Operating Systems`. [(More details)](./malware_scanner.html)
+* This algorithm is designed for automating basic malware scans in `Windows Operating Systems`, by _reading a database of known malware names, compiling them into a malware signature list, and scanning the local computer’s file system for matches_. Any of these is flagged as a potential threat and logged in an output file for further analysis. [(More details)](./malware_scanner.html)
 
 ### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
