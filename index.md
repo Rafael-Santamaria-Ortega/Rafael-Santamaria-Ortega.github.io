@@ -5,15 +5,15 @@ layout: default
 
 ### Neural Network for Malicious Url Predicting | Python, TensorFlow, Deep Learning, Data Engineering
 
-* This project is a `Neural Network` built and trained from scratch using `Kaggle's Malicious Url Dataset` (working on improving it with my own data) and `TensorFlow`, to accurately predict if `urls` gathered from the wild are malicious or not. [(More details)](./nn_malicious_url_pred.html)
+* Coded and trained a `deep neural network` from scratch using `TensorFlow`, that predicts whether URLs are malicious or benign with `92% accuracy, 83% precision, and 82% recall`. I’m currently working on improving those results by fine-tuning the model. [(More details)](./nn_malicious_url_pred.html)
 
 ### Simulated DDoS Attack Response and Mitigation | Incident response, Threat analysis and mitigation, Digital Forensics
 
-* In this project I responded to a simulated `distributed denial of service (DDoS) attack` by communicating with stakeholders, analyzing network logs for attack patterns, mitigating the attack by coding a firewall rule and performing a ‘postmortem’ by documenting and reflecting on the incident. [(More details)](./cyber_incident_response.html)
+* Responded to a simulated DDoS attack by communicating with stakeholders, analyzing network logs for attack patterns, mitigating by coding a firewall rule and performing a ‘postmortem’ by documenting and reflecting on the incident. [(More details)](./cyber_incident_response.html)
 
 ### Windows Malware Scanner | Python, Windows, csv
 
-* This algorithm automates basic malware scans in `Windows Operating Systems`, by reading a database of known malware names, and comparing it to a scan of the computer’s file system for matches. Any match is flagged as a potential threat and logged in an output file for further analysis. [(More details)](./malware_scanner.html)
+* Automated basic malware scans in Windows OS, by coding a tool that reads a database of known malware names, and contrasts it to a scan of the local computer’s file system for matches. Any match is outputted in a file for further analysis. [(More details)](./malware_scanner.html)
 
 ### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
