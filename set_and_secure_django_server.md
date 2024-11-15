@@ -209,7 +209,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 application = get_wsgi_application()
 ```
 
-4. Using the `Windows cmd`:
+3. Using the `Windows cmd`:
 
 ```cmd
 C:/users/redacted/forageenv>pip install -r requirements.txt
