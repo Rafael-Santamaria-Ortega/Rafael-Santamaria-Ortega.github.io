@@ -22,7 +22,7 @@ In this phase I imported the necessary modules for the project:
 
 * `pandas`: handles the `csv` data of the database.
 * `numpy`:  helps in calculating class weights weights.
-* `sklearn`: splits the data into training, cross validation and test sets; and adds class weights.
+* `sklearn`: splits the data into training, cross validation and test sets; adds class weights; and adds metrics.
 * `tensorflow`: builds, trains, evaluates and tests the model. Also, allows to tokenize data before feeeding it to the model.
 * `matplotlib`: illustrates evaluations of the model's performance with graphics.
 
@@ -233,7 +233,7 @@ def train_model(X_train_preprocessed,y_train,batch_size,epochs): #Call: model_tr
     model.compile(
         optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3),
         loss=tf.keras.losses.BinaryCrossentropy(),
-        metrics=['accuracy', 'precision', 'recall']
+        metrics=['accuracy', 'precision', 'recall',tf.keras.metrics.F1Score()] # Added F1 score
     )    
     
     #Define aerly stopping
@@ -404,63 +404,20 @@ Epoch 110/110
 ```
 
 ```python
-#Evaluate the Model
-evaluate_model(X_test_preprocessed,y_test)
+#Evaluate the Model results using a Confusion Matrix 
+print(f'Results:\n{evaluate_model(X_test_preprocessed,y_test)}')
 ```
 
-(Best results so far)
+(‘Loss: 0.2092394232749939’,‘Accuracy: 0.9210538268089294’,‘Precision: 0.8312860131263733’,‘Recall:0.8282654285430908’)
 
-('Loss: 0.2092394232749939',
+These balanced results are the best I got in october 10 2024. The predictons with 'wild urls' are consistent with these results, but to compensate I lowered the threshold to compensate for false negatives. However, in November 15 2024 I retrained the `neural network` and results were a bit more unbalanced:
 
- 'Accuracy: 0.9210538268089294',
- 
- 'Precision: 0.8312860131263733',
- 
- 'Recall:0.8282654285430908')
-
- ```python
-#Plot metrics
-
-plt.figure(figsize=(12,4))
-plt.plot(history.history['accuracy'],label='Train Accuracy')
-plt.plot(history.history['val_accuracy'],label='Validation Accuracy')
-plt.title('Model Accuracy')
-plt.xlabel('Epoch')
-plt.ylabel('Accuracy')
-plt.legend()
-
-plt.figure(figsize=(12,4))
-plt.plot(history.history['recall'],label='Train Recall')
-plt.plot(history.history['precision'],label='Train Precision')
-plt.title('Model train')
-plt.xlabel('Epoch')
-plt.ylabel('Recall')
-plt.legend()
-
-plt.figure(figsize=(12,4))
-plt.plot(history.history['val_recall'],label='Validation Recall')
-plt.plot(history.history['val_precision'],label='Validation Precision')
-plt.title('Model val')
-plt.xlabel('Epoch')
-plt.ylabel('Recall')
-plt.legend()
-
-plt.figure(figsize=(12, 6))
-    
-# Plot training & validation loss values
-plt.plot(history.history['loss'],label='Train Loss')
-plt.plot(history.history['val_loss'],label='Validation Loss')   
-plt.title('Model Loss')
-plt.ylabel('Loss')
-plt.xlabel('Epoch')
-plt.legend(loc='upper right')
-plt.grid(True)
-
-plt.tight_layout()
-plt.show()
+```jupyter
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 1s 990us/step - accuracy: 0.9254 - loss: 0.2075 - precision: 0.8614 - recall: 0.8101
+Results: ('Loss: 0.20970836281776428', 'Accuracy: 0.924430251121521', 'Precision: 0.8572296500205994', 'Recall:0.8095238208770752')
 ```
 
-([results](https://github.com/Rafael-Santamaria-Ortega/NN-Malicious-URL-Detection/blob/project/Malicious_URL_Detection_NN.ipynb))
+Despite this imbalance, `the results are acceptable for application in the real world`, as the model's loss (error rate predicting) is low (0.21), and `predicted correctly 92.4%` of the time (92.4 out of 100 urls). Moreover, `the false positive (14.3%)` and `false negative (19%)` rates are reasonably low, as the metrics of precision and recall demonstrate respectively. However, there is still room for improvement before deploying in a docker container. For instance, adding a `F1 score` to find the balance between precision and recall, penalizing false negatives more harshly, and adding more data to the training set. So, on November 15 2024 I implemented an `F1 score` (referenced in the definition of `train_model`), and got these results:
 
 ```python
 #Predict unknown URLs from the wild (https://urlhaus.abuse.ch/browse/)
