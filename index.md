@@ -13,7 +13,7 @@ layout: default
 
 ### Windows Malware Scanner | Python, Windows, csv
 
-* This algorithm is designed for automating basic malware scans in `Windows Operating Systems`, by _reading a database of known malware names, compiling them into a malware signature list, and scanning the local computer’s file system for matches_. Any of these is flagged as a potential threat and logged in an output file for further analysis. [(More details)](./malware_scanner.html)
+* This algorithm automates basic malware scans in `Windows Operating Systems`, by reading a database of known malware names, and comparing it to a scan of the computer’s file system for matches. Any match is flagged as a potential threat and logged in an output file for further analysis. [(More details)](./malware_scanner.html)
 
 ### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
