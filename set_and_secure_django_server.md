@@ -6,7 +6,7 @@ layout: default
 
 In this hands-on activity from `J. P. Morgan & Chase Co. Cybersecurity Job Simulation` I simulated being a security analyst for the financial company tasked with setting up and securing a Django Web Server with `two-factor authentication` (2FA).
 
-## Setting Up Server
+## Steps to set Up the Django Server
 
 1. Set up a virtual environment called 'forageenv' using Python `venv` module to host the web server. 
 
@@ -209,13 +209,11 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 application = get_wsgi_application()
 ```
 
-Using the `Windows cmd`:
+3. Installed the `requierements.txt` using the `Windows cmd`:
 
 ```cmd
 C:/users/redacted/forageenv>pip install -r requirements.txt
 ```
-
-I installed the `requierements.txt`:
 
 ```txt
 django
@@ -223,18 +221,18 @@ django-otp
 qrcode
 ```
 
-3. Synchronized the database `db.sqlite3` with the existing configuration, or if it doesn't exist, creating it using the following `cmd`:
+4. Synchronized the database `db.sqlite3` with the existing configuration, or if it doesn't exist, creating it using the following `cmd`:
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py migrate
 ```
 
-4. Created the site admin user:
+5. Created the site admin user:
 ```cmd
 C:/users/redacted/forageenv>python manage.py createsuperuser
 ```
 
-5. Established a username, email, and password when prompted:
+6. Established a username, email, and password when prompted:
 
 ```cmd
 C:/users/redacted/forageenv>python manage.py createsuperuser
@@ -245,7 +243,7 @@ Password (again): **********
 Superuser created successfully.
 ```
 
-6. Ran the server:
+7. Ran the server:
 ```cmd
 C:/users/redacted/forageenv>python manage.py runserver
 Watching for file changes with StatReloader
@@ -258,9 +256,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-## Securing the web server
-
-To ensure the server is set up securely I: 
+## Steps to Secure the web server using 2FA
 
 1. Stopped the server from running by using `ctrl+c`:
 
