@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Risk Matrix for a Fictional Bank | Risk Assesments
+# Risk Matrix for a Fictional Bank | Risk Assessments
 
 In this hands-on activity from the `Google Cybersecurity Professional Certificate`, I simulated being a `security analyst` for a commercial bank's cybersecurity team tasked with evaluating risks in the organization's risk register. The job involved assessing various components of security risks using a structured scoring system formatted later as a matrix:
 
