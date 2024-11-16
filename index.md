@@ -36,7 +36,7 @@ layout: default
 * Suspicious `Network Traffic Analysis` [(More details)](./network_traffic_analysis.html)
 * `Incident Report` for a `DoS SYN Flood Attack` [(More details)](./incident_report_syn_flood.html)
 * `Incident Report` for a `Brute Force Attack` [(More details)](./incident_report_brute.html)
-* `Security Risk Assesment Report` for a Fictional Company [(More details)](./sec_risk_assesment.html)
+* `Security Risk Assessment Report` for a Fictional Company [(More details)](./sec_risk_assessment.html)
 * `Vulnerability Assessment` for a fictional e-commerce [(More detail)](./vulnerability_assessment.html)
 * `Internal Security Audit` for a Fictional Toy Company [(More details)](./int_sec_audit.html)
 * Incident report applying the `NIST CSF` to a Fictional Case [(More details)](./nist_csf_applied.html)
