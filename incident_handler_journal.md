@@ -4,7 +4,7 @@ layout: default
 
 # Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering, Threat Intelligence
 
-In this exercise from the Google Cybersecurity Professional Certificate, I document the details of 9 simulated security incidents and how I handled them using technical tools in hands-on labs. This excercise also gave me hands-on experience with various tools such as suricata, tcpdump, Wireshark, ticketing systems, Splunk, Chronicle, and the Linux Bash Shell; which are all essential proficiencies for any cybersecurity position. 
+In this exercise from the Google Cybersecurity Professional Certificate, I document the details of 9 simulated security incidents and how I handled them in hands-on labs using technical tools, such as suricata, tcpdump, Wireshark, ticketing systems, Splunk, Chronicle, and the Linux Bash Shell; which are all essential proficiencies for any cybersecurity position. 
 
 ## Entry #1
 
