@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Set up and Secure a Django Web Server connected to a SQL Database with 2FA | Python, Django, Web Servers, IAM
+# Set up and Harden a Django Web Server connected to a SQL Database with 2FA | Python, Django, Web Servers, IAM
 
 In this hands-on activity from `J. P. Morgan & Chase Co. Cybersecurity Job Simulation` I simulated being a security analyst for the financial company tasked with setting up and securing a Django Web Server with `two-factor authentication` (2FA).
 
