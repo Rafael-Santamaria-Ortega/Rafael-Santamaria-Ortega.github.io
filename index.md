@@ -50,7 +50,7 @@ layout: default
 ### J. P. Morgan & Chase Co. Virtual Internship
 
 * Fraud Transaction Analyzer and Visualizer [(More details)](./fraud_analyzer_visualizer.html)
-* Set up and Secure a `Django Web Server` with `2FA` [(More details)](./set_and_secure_django_server.html)
+* Set up and Harden a `Django Web Server` with `2FA` [(More details)](./set_and_secure_django_server.html)
 * `Machine Learning` Algorithm to Predict Spam [(More details)](./ml_spam_predict.html)
 * `Role Based Access Control` Algorithm [(More details)](./rbac.html)
 
