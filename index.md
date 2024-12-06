@@ -51,7 +51,7 @@ layout: default
 
 * Fraud Transaction Analyzer and Visualizer [(More details)](./fraud_analyzer_visualizer.html)
 * Set up and Harden a `Django Web Server` with `2FA` [(More details)](./set_and_secure_django_server.html)
-* `Machine Learning` Algorithm to Predict Spam [(More details)](./ml_spam_predict.html)
+* `Machine Learning` Algorithm to Predict Spam [(More details)](./spam_detection_ml.html)
 * `Role Based Access Control` Algorithm [(More details)](./rbac.html)
 
 ### Generative AI for Cybersecurity
