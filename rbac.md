@@ -14,23 +14,23 @@ The code I wrote was the following:
 
 ```python
 class RolesCache:
-    def __init__(self, capacity):
+    def __init__(self,capacity):
         # Initialize the cache with a maximum number of items
-        self.capacity = capacity
+        self.capacity=capacity
         # Dictionary to store role-message pairs
-        self.cache = {}
+        self.cache={}
         # Dictionary to track the last access time of each role
-        self.lru = {}
+        self.lru={}
         # Counter to track the order of access
-        self.count = 0
+        self.count=0
 
-    def get(self, role):
+    def get(self,role):
         # Retrieve a message for a given role
         if role in self.cache:
             # Update the last used time for this role
-            self.lru[role] = self.count
+            self.lru[role]=self.count
             # Increment the access counter
-            self.count += 1
+            self.count+=1
             # Return the cached message
             return self.cache[role]
         # Return None if the role is not in the cache
@@ -38,27 +38,27 @@ class RolesCache:
         
     def set(self, role, message):
         # Check if cache is full and the role is new
-        if len(self.cache) >= self.capacity and role not in self.cache:
+        if len(self.cache)>=self.capacity and role not in self.cache:
             # Find the least recently used role
             # Uses min() with a key function to find the role with the lowest access time
-            oldest_role = min(self.lru, key=self.lru.get)
+            oldest_role=min(self.lru, key=self.lru.get)
             # Remove the oldest role from both cache and LRU tracking
             del self.cache[oldest_role]
             del self.lru[oldest_role]
         
         # Add or update the role and its message
-        self.cache[role] = message
+        self.cache[role]=message
         # Update the last used time for this role
-        self.lru[role] = self.count
+        self.lru[role]=self.count
         # Increment the access counter
-        self.count += 1
+        self.count+=1
 
     def _complexity(self):
         # Provide time and space complexity information for the cache operations
         return {
-            'get': 'O(1)',    # Constant time retrieval
-            'set': 'O(N)',    # Linear time for finding least recently used item
-            'space': 'O(N)'   # Space scales linearly with number of items
+            'get':'O(1)',    # Constant time retrieval
+            'set':'O(N)',    # Linear time for finding least recently used item
+            'space':'O(N)'   # Space scales linearly with number of items
         }
 ```
 
