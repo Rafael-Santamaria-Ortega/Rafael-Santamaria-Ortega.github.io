@@ -36,7 +36,7 @@ _**Respond** to contain, neutralize, and analyze security incidents; implement i
 
 _**Recover** affected systems to normal operation and restore systems data and/or assets that have been affected by an incident._"
 
-To conduct and analyze this `incident report` I used the following guide for references to the `NOST CSF`:
+To conduct and analyze this `incident report` I used the following guide for references to the `NIST CSF`:
 
 [NIST CSF](https://github.com/Rafael-Santamaria-Ortega/Rafael-Santamaria-Ortega.github.io/blob/main/Applying%20the%20NIST%20CSF%20.pdf)
 
