@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[**CV**](./CV.html)
+# [**CV**](./CV.html)
 
 # Highlighted Projects
 
