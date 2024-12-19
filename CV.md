@@ -3,9 +3,10 @@ layout: default
 ---
 
 # Rafael Santamaria   
-
+| **Phone** | **Email** | **Location** | **Socials** |
+|:--------------:|:----------------:|:-----------:|:-----------------------:|
 | (872) 218-3710 | [rafaelsantamaria1996@gmail.com](mailto:rafaelsantamaria1996@gmail.com) | Chicago, IL | [Portfolio](./) / [LinkedIn](https://www.linkedin.com/in/rafael-santamaria-ortega) |
-|:--------------:|:-----------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------------:|
+
 
 ## SUMMARY  
 
