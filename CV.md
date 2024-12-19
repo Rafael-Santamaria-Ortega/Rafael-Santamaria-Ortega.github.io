@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# Rafael Santamaria   
+---
+
+#                                                                           Rafael Santamaria   
 
 (872) 218-3710 | [rafaelsantamaria1996@gmail.com](mailto:rafaelsantamaria1996@gmail.com) | Chicago, IL | [Portfolio](./) / [LinkedIn](https://www.linkedin.com/in/rafael-santamaria-ortega)
 
@@ -11,8 +13,6 @@ layout: default
 ## SUMMARY  
 
 Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ years of experience in reputation defense analysis. Knowledge of networking, network security, and Identity Access Management. Proven ability to manage threats and vulnerabilities. Proficient in SIEM, IDS, EDR, Playbooks, and GRC frameworks. Familiarity with leveraging Python for adversarial TTPs and active defense across MITRE ATT&CK stages. Excited to apply unique skillset to safeguard organizational assets.
-
----
 
 ## TRAINING AND CERTIFICATIONS  
 
