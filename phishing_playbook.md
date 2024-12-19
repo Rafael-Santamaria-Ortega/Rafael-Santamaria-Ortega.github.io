@@ -1,7 +1,5 @@
 ---
 layout: default
-title: Phishing Playbook created using IBM's WatsonX GenAI | Gen AI, Playbooks, Phishing
-permalink: /phishing_playbook
 ---
 
 # Phishing Playbook created using IBM's WatsonX GenAI | Gen AI, Playbooks, Phishing
