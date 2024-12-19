@@ -80,10 +80,3 @@ layout: default
 * `Executable Malware` to Steal Google Chrome Credentials [(More details)](./steal_chrome_cred.html)
 * Twitter (now X) analytics key performance metrics parser [(More details)](./twitter_analytics.html)
 
-# Contact:
-
-* email: rafaelsantamaria1996@gmail.com
-
-* phone: (872) 218-3710 
-
-* [linkedin](https://www.linkedin.com/in/rafael-santamaria-ortega) 
