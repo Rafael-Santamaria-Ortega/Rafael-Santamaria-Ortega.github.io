@@ -14,6 +14,8 @@ The firewall logs & list of infrastructure has been provided, which shows critic
 It’s important to note that the service is down and functionality is impaired due to the malware attack.
 "
 
+---
+
 ### First Task: Respond to Malware Attack
 
 WIth that in mind, my task a `Information Security Analyst` was to first `triage` the malware threat and figure out what infrastructure was compromised; and second, to alert via email the respective team so as to kickstart incident response. For this, I was provided an [excel document](https://github.com/Rafael-Santamaria-Ortega/Telstra-internship/blob/main/Task%201_2%20-%20Firewall_Infrastructure%20List%20(1).xlsx) with a dashboard, a list of `firewall logs`, and a list of the company's infrastructure with their priorities and stakeholders. 
@@ -37,6 +39,8 @@ For any questions or issues, don’t hesitate to reach out to us.
 Kind regards,
 Telstra Security Operations
 "
+
+---
 
 ### Second Task: Analyze the Attack
 
@@ -80,6 +84,8 @@ If any question or issue arises, don’t hesitate to reach out to us.
 Kind regards,
 Telstra Security Operations
 "
+
+---
 
 ### Third Task: Mitigate the Attack
 
@@ -199,6 +205,9 @@ As expected the `firewall rule` blocked each attempt:
 
 [Picture related server side](https://github.com/Rafael-Santamaria-Ortega/Telstra-internship/blob/main/Screenshot%202024-10-29%20221716.png)
 
+
+---
+
 ### Fourth Task: Incident Postmortem
 
 With the server protected, the next task was documenting the incident with a `postmortem incident report`, covering the timeline, who was involved, a root cause and actions taken. This can be used later for GRC audits or to generate Incident Response Playbooks:
@@ -246,5 +255,7 @@ To avoid this type of attacks in the future it is essential to enforce the firew
 "
 
 This concluded the project. In summary, in this job simulation I played the part of an `Information Security Analyst` by `responding, analyzing, mitigating and performin digital forensics on a malware attack`. The experience was wonderful and challenging. But, most important of all, I learned how to perform many cybersecurity tasks in a simulation of real-world scenario. I am eager to learn more!
+
+---
 
 [back](./)
