@@ -60,13 +60,9 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
   *February 2024*  
   Acquired skills in Python, SQLite, XML, JSON, data analysis, software development, and database management.
 
----
-
 ## PROJECTS  
 
 [Back to main page](./)
-
----
 
 ## EDUCATION  
 
@@ -77,8 +73,6 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 - **B.A. in Philosophy (Pontificia Universidad Javeriana de Bogotá)**  
   *August 2015 – December 2020*  
   Graduated with a 4.6/5 GPA. Honed analytical and critical thinking skills vital for addressing complex security challenges.
-
----
 
 ## EXPERIENCE  
 
@@ -106,3 +100,5 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
   - Regained narrative control during reputational risks through strategic messaging.
 
 ---
+
+[Back](./)
