@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [**Check my CV**](./CV.html)
+
 
 # Highlighted Projects
 
@@ -83,3 +83,6 @@ layout: default
 * `Executable Malware` to Steal Google Chrome Credentials [(More details)](./steal_chrome_cred.html)
 * Twitter (now X) analytics key performance metrics parser [(More details)](./twitter_analytics.html)
 
+---
+
+# [**Check my CV**](./CV.html)
