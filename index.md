@@ -2,8 +2,6 @@
 layout: default
 ---
 
-
-
 # Highlighted Projects
 
 ### Neural Network for Malicious Url Predicting | Python, TensorFlow, Deep Learning, Data Engineering
