@@ -14,7 +14,7 @@ layout: default
 
 ### Windows Malware Scanner | Python, Windows, csv
 
-* Automated basic malware scans in Windows OS, by coding a tool that reads a database of known malware names, and contrasts it to a scan of the local computer’s file system for matches. Any match is outputted in a file for further analysis. [(More details)](./malware_scanner.html)
+* Automated malware scans for Windows endpoint devices, by coding a tool that reads a database of known malware names, and contrasts it to a scan of the device’s file system for matches. Any match is outputted in a file for further analysis and evidence gathering. [(More details)](./malware_scanner.html)
 
 ### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
 
