@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Incident Report for a Brute Force Attack | Networking, Network Protocols, Network Security, tcpdump
+# Tcpdump log analysis to detect and report a Brute Force Attack | Networking, Network Protocols, Network Security, tcpdump
 
 In this exercise from the `Google Cybersecurity Professional Certificate`, I simulated being a cybersecurity analyst responding to a security incident at `yummyrecipesforme.com`, a website selling recipes and cookbooks. The scenario involved investigating an attack by a former employee who used a `brute force attack` to access the website’s admin panel, embedding malware that redirected users to a fake site. My goal was to document the incident, analyze network protocols used in the attack, and recommend preventive measures to improve security, including protections against brute force attacks. 
 
