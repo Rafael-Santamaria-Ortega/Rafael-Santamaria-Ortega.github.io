@@ -88,15 +88,16 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 - **Prisma Visibilidad Pública (Colombia)**  
   *Communication Director*  
   *July 2022 – November 2024*  
-  - Led incident response teams, reducing reputational damage by 40%.  
-  - Mitigated social media risks, cutting response time by 20%.  
-  - Developed and implemented IAM security policies for critical assets.
+  - Led cross-functional incident response teams for high profile clients under NDA, reducing reputational damage by 40%, through critical thinking and creative outreach methods tailored to target audiences 
+  - Mitigated social media risks by implementing proactive threat intelligence and streamlined response protocols, cutting incident response time by 20% 
+  - Simplified technical concepts (5G, Cloud gaming, SOC) for diverse audiences through clear, impactful communication  
+  - Developed and implemented IAM security policies for Prisma, strengthening the Confidentiality, Integrity, and Availability (CIA) of 15+ critical assets through role-based access control (RBAC) and two factor authentication (2FA). 
 
   *Communication Manager*  
   *February 2021 – June 2022*  
-  - Ensured 100% compliance with Colombian data privacy regulations by securing multi-component systems.  
-  - Mitigated DDoS attacks, ensuring uninterrupted client operations.  
-  - Regained narrative control during reputational risks through strategic messaging.
+  - Integrated, secured and administered multi-component system comprising of PII excel database, Zoho CRM, Drupal web application, and various social media accounts by implementing robust authentication protocols and monitoring, ensuring 100% compliance with Colombian data privacy and security regulations.  
+  - Safeguarded social media account availability by mitigating DDoS attacks through enhanced authentication protocols and proactive bot account reporting, ensuring uninterrupted client operations 
+  - Mitigated reputational risks for high-profile clients by regaining narrative control through strategic messaging 
 
 ---
 
