@@ -35,18 +35,18 @@ layout: default
 * File Update `Python` Algorithm [(More details)](./file_update.html)
 * Applying Filters to `SQL` queries [(More details)](./filter_sql.html)
 * Suspicious `Network Traffic Analysis` [(More details)](./network_traffic_analysis.html)
-* `Incident Report` for a `DoS SYN Flood Attack` [(More details)](./incident_report_syn_flood.html)
-* `Incident Report` for a `Brute Force Attack` [(More details)](./incident_report_brute.html)
+* `Wireshark log analysis` to detect and report a `DoS SYN Flood Attack` [(More details)](./incident_report_syn_flood.html)
+* `tcpdump log analysis` to detect and report a `Brute Force Attack` [(More details)](./incident_report_brute.html)
 * `Security Risk Assessment Report` for a Fictional Company [(More details)](./sec_risk_assessment.html)
 * `Vulnerability Assessment` for a fictional e-commerce [(More detail)](./vulnerability_assessment.html)
 * `Internal Security Audit` for a Fictional Toy Company [(More details)](./int_sec_audit.html)
-* Incident report applying the `NIST CSF` to a Fictional Case [(More details)](./nist_csf_applied.html)
+* Security improvovement plan applying the `NIST CSF` for a Fictional Company [(More details)](./nist_csf_applied.html)
 * Applying the `PASTA` Framework for a Fictional Company [(More details)](./pasta_applied.html)
 * `Risk Matrix` for a Fictional Bank [(More details)](./risk_matrix.html)
 * Improving `Access Controls` for a fictional business [(More details)](./access_controls.html)
 * Data Leak Investigation [(More details)](./data_leak_investigation.html)
 * Home Office Network Device Inventory [(More details)](./home_it_assests.html)
-* Parking lot USB Baiting [More details](parking_lot_usb.html)
+* Parking lot USB Baiting Exercise [More details](parking_lot_usb.html)
 
 ### J. P. Morgan & Chase Co. Virtual Internship
 
