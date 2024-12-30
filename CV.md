@@ -67,11 +67,11 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 
 - **M.A. in Philosophy (Pontificia Universidad Javeriana de Bogotá)**  
   *January 2023 - April 2024*  
-  Graduated Summa Cum Laude (4.9/5 GPA). Demonstrated advanced critical thinking and problem-solving skills essential for cybersecurity.
+  * Mastered analytical reasoning, innovation and problem-solving skills, essential for threat detection and incident triage. Summa Cum Laude graduate (4.9/5 GPA)
 
 - **B.A. in Philosophy (Pontificia Universidad Javeriana de Bogotá)**  
   *August 2015 – December 2020*  
-  Graduated with a 4.6/5 GPA. Honed analytical and critical thinking skills vital for addressing complex security challenges.
+  *Honed critical thinking, analytical reasoning and effective communication skills, which are directly transferable to cybersecurity (4.6/5 GPA)
 
 ## EXPERIENCE  
 
