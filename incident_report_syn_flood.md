@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Incident Report for a DoS SYN Flood Attack | Network Traffic Analysis, Network Security, Network Protocols, Wireshark, Documentation
+# Wireshark log analysis to detect and report a DoS SYN Flood Attack | Network Traffic Analysis, Network Security, Network Protocols, Wireshark, Documentation
 
 In this hands-on activity from the `Google Cybersecurity Certificate`, I simulated being a `security analyst` in a fictional travel agency that advertises sales and promotions on the company’s website, tasked with investigating a network attack using a `Wireshark` log and filling an incident report. The scenario was described like this:
 
