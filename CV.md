@@ -11,7 +11,7 @@ layout: default
 
 ## SUMMARY  
 
-Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ years of experience in reputation defense analysis. Knowledge of networking, network security, and Identity Access Management. Proven ability to manage threats and vulnerabilities. Proficient in SIEM, IDS, EDR, Playbooks, and GRC frameworks. Familiarity with leveraging Python for adversarial TTPs and active defense across MITRE ATT&CK stages. Excited to apply unique skillset to safeguard organizational assets.
+Cybersecurity professional with 13+ industry certifications and outstanding critical thinking, analytical reasoning and problem-solving skills. Knowledge of networking, network security, IAM, incident response, threat modelling, risk management, and vulnerability management. Proficient in SIEM, IDS, Playbooks, GRC frameworks and leveraging Python automation for adversarial TTPs and active defense across MITRE ATT&CK. Seeking to apply technical skills and analytical capabilities to enhance client protection.
 
 ## TRAINING AND CERTIFICATIONS  
 
@@ -25,7 +25,7 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 
 - **J.P. Morgan & Chase Co. Cybersecurity Job Simulation (Forage)**  
   *July 2024*  
-  Detected fraudulent transactions in a large dataset of financial data, hardened a Django web application with two-factor authentication (2FA), developed a Machine Learning model to detect spam email, and scripted a RBAC algorithm.
+  Performed tasks of an Information Security Analyst at J.P. Morgan & Chase Co., such as detecting fraudulent transactions in a large dataset of financial data, hardening Django web application with 2FA, developing a Machine Learning model to detect spam email and scripting a RBAC algorithm.
 
 - **Security Engineer Learning Path (Try Hack Me)**  
   *July 2024*  
@@ -33,7 +33,7 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 
 - **Telstra Cybersecurity Virtual Internship Program (Forage)**  
   *July 2024*  
-  Responded to a simulated DDoS attack, analyzed network logs for attack patterns, mitigated by coding a firewall rule, and conducted a postmortem report.
+  Responded to a security incident as a Cybersecurity Analyst for Telstra, by communicating with stakeholders, examining network logs for attack patterns that revealed a DDoS attack, coding a firewall rule to mitigate it, and performing digital forensics to document the incident and recommend prevention measures against future attacks.
 
 - **IBM Generative AI for Cybersecurity Professionals**  
   *May 2024*  
@@ -41,11 +41,11 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 
 - **Advanced Python Scripting for Cybersecurity Specialization (Infosec Institute)**  
   *May 2024*  
-  Automated advanced offensive techniques and defenses using Python across MITRE ATT&CK stages.
+  Exploited Python to automate advanced offensive techniques and defenses across MITRE ATT&CK stages, such as automating password guessing, sensitive data exfiltration, and suspicious connection high-jacking.
 
 - **Python for Cybersecurity Specialization (Infosec Institute)**  
   *May 2024*  
-  Applied Python for common offensive techniques and defenses across MITRE ATT&CK stages.
+  Applied Python for common offensive techniques and defenses across MITRE ATT&CK stages, such as port scanning, network credential sniffing and system activity monitoring.
 
 - **Mastercard Cybersecurity Virtual Internship Program (Forage)**  
   *May 2024*  
@@ -57,7 +57,7 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 
 - **Python for Everybody Specialization (The University of Michigan)**  
   *February 2024*  
-  Acquired skills in Python, SQLite, XML, JSON, data analysis, software development, and database management.
+  Acquired proficiency in leveraging Python for data analysis, software development, SQL APIs and web scrapping.
 
 ## PROJECTS  
 
@@ -67,11 +67,11 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 
 - **M.A. in Philosophy (Pontificia Universidad Javeriana de Bogotá)**  
   *January 2023 - April 2024*  
-  Mastered analytical reasoning, innovation and problem-solving skills, essential for threat detection and incident triage. Summa Cum Laude graduate (4.9/5 GPA)
+  Mastered essential skills for cybersecurity such as critical thinking, analytical reasoning, and problem-solving, and demonstrated strong communication abilities, curiosity and attention to detail, through delivery of innovative award-winning thesis and graduating Summa Cum Laude with 4.9/5 GPA.
 
 - **B.A. in Philosophy (Pontificia Universidad Javeriana de Bogotá)**  
   *August 2015 – December 2020*  
-  Honed critical thinking, analytical reasoning and effective communication skills, which are directly transferable to cybersecurity (4.6/5 GPA)
+  Honed logical reasoning, communication and critical thinking skills, which are crucial for analyzing and solving security issues, and delivered award-winning thesis focused on establishing a framework for managing risks associated with harmful speech on the Internet, linking academic background to cybersecurity and risk management.
 
 ## EXPERIENCE  
 
@@ -83,7 +83,7 @@ Cyber Defense Analyst with 13+ certifications, 20+ hands-on projects, and 3+ yea
 - **Outlier.ai (Remote)**  
   *Freelance AI Trainer*  
   *July 2024 – Present*  
-  Enhanced user experience with Generative Artificial Intelligence models through Reinforcement Learning from Human Feedback (RLHF).
+  Trained LLMs through Reinforcement Learning from Human Feedback (RLHF) to enhance user experience and ensure model responses don’t include sensitive data such as PII or harmful biases.
 
 - **Prisma Visibilidad Pública (Colombia)**  
   *Communication Director*  
