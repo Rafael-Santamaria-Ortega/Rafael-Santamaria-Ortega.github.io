@@ -11,7 +11,7 @@ layout: default
 
 ## SUMMARY  
 
-Cybersecurity professional with 13+ industry certifications and outstanding critical thinking, analytical reasoning and problem-solving skills. Knowledge of networking, network security, IAM, incident response, threat modelling, risk management, and vulnerability management. Proficient in SIEM, IDS, Playbooks, GRC frameworks and leveraging Python automation for adversarial TTPs and active defense across MITRE ATT&CK. Seeking to apply technical skills and analytical capabilities to enhance client protection.
+Cyber Defense Analyst with strong communication and problem-solving skills. Offers technical knowledge and proficiency in various security tools, cybersecurity frameworks, incident response, risk management and AI. Highly competent in automating cybersecurity tasks with Python. Continues to improve skills, while actively looking for a role as a cybersecurity engineer.
 
 ## TRAINING AND CERTIFICATIONS  
 
@@ -23,17 +23,9 @@ Cybersecurity professional with 13+ industry certifications and outstanding crit
   *July 2024*  
   Developed comprehensive machine learning skills, implementing models using TensorFlow, Scikit-learn, NumPy, and Pandas across supervised and unsupervised learning domains.
 
-- **J.P. Morgan & Chase Co. Cybersecurity Job Simulation (Forage)**  
-  *July 2024*  
-  Performed tasks of an Information Security Analyst at J.P. Morgan & Chase Co., such as detecting fraudulent transactions in a large dataset of financial data, hardening Django web application with 2FA, developing a Machine Learning model to detect spam email and scripting a RBAC algorithm.
-
 - **Security Engineer Learning Path (Try Hack Me)**  
   *July 2024*  
-  Gained hands-on proficiency in Cryptography, IAM, GRC (NIST, ISO, OWASP, PASTA), Threat Modelling, Risk Management, Vulnerability Management, Secure Network Architecture, Hardening, and more.
-
-- **Telstra Cybersecurity Virtual Internship Program (Forage)**  
-  *July 2024*  
-  Responded to a security incident as a Cybersecurity Analyst for Telstra, by communicating with stakeholders, examining network logs for attack patterns that revealed a DDoS attack, coding a firewall rule to mitigate it, and performing digital forensics to document the incident and recommend prevention measures against future attacks.
+  Learned and applied the fundamental skills and tools for designing, implementing, and maintaining robust security solutions to protect assets from cyber threats. Gained proficiency in Windows, Linux, AWS, Splunk, Snort, OpenVAS, AES, hashing, PKI, TLS, SHA256, GRC, GDPR, NIST, ISO/IEC 27001, SOC2, PCI DSS, MITRE ATT&CK, DREAD, STRIDE, PASTA, firewalls, logging, network devices, network security protocols, Docker, Kubernetes, Splunk, OWASP top 10, OWASP API Security top 10, SAST, DAST, SSDLC, ZAP and Burp Suite.
 
 - **IBM Generative AI for Cybersecurity Professionals**  
   *May 2024*  
@@ -47,13 +39,9 @@ Cybersecurity professional with 13+ industry certifications and outstanding crit
   *May 2024*  
   Applied Python for common offensive techniques and defenses across MITRE ATT&CK stages, such as port scanning, network credential sniffing and system activity monitoring.
 
-- **Mastercard Cybersecurity Virtual Internship Program (Forage)**  
-  *May 2024*  
-  Analyzed phishing emails and developed a social awareness campaign on phishing.
-
 - **Google Cybersecurity Professional Certificate**  
   *April 2024*  
-  Hands-on experience with Python, Linux, SQL, SIEM (Splunk), IDS (Suricata), and packet sniffers (Wireshark, tcpdump).
+  Studied how to identify common cybersecurity risks, threats, vulnerabilities and mitigation techniques. Gained hands-on experience with Python, Linux, SQL, Splunk, Chronicle, Suricata, Wireshark, tcpdump, NIST, PASTA and Playbooks.
 
 - **Python for Everybody Specialization (The University of Michigan)**  
   *February 2024*  
@@ -64,6 +52,18 @@ Cybersecurity professional with 13+ industry certifications and outstanding crit
 [Back to main page](./)
 
 ## EDUCATION  
+
+- **J.P. Morgan & Chase Co. Cybersecurity Job Simulation (Forage)**  
+  *July 2024*  
+  Performed tasks of an Information Security Analyst at J.P. Morgan & Chase Co., such as detecting fraudulent transactions in a large dataset of financial data, hardening Django web application with 2FA, developing a Machine Learning model to detect spam email and scripting a RBAC algorithm.
+
+- **Telstra Cybersecurity Virtual Internship Program **  
+  *July 2024*  
+  Responded to a security incident as a Cybersecurity Analyst for Telstra, by communicating with stakeholders, examining network logs for attack patterns that revealed a DDoS attack, coding a firewall rule to mitigate it, and performing digital forensics to document the incident and recommend prevention measures against future attacks.
+
+- **Mastercard Cybersecurity Virtual Internship Program**  
+  *May 2024*  
+  Analyzed phishing emails and developed a social awareness campaign on phishing as part of Mastercard's Security Awareness Team.
 
 - **M.A. in Philosophy (Pontificia Universidad Javeriana de Bogotá)**  
   *January 2023 - April 2024*  
@@ -83,21 +83,18 @@ Cybersecurity professional with 13+ industry certifications and outstanding crit
 - **Outlier.ai (Remote)**  
   *Freelance AI Trainer*  
   *July 2024 – Present*  
-  Trained LLMs through Reinforcement Learning from Human Feedback (RLHF) to enhance user experience and ensure model responses don’t include sensitive data such as PII or harmful biases.
+  Enhanced user experience with LLMs through Reinforcement Learning from Human Feedback (RLHF)
 
 - **Prisma Visibilidad Pública (Colombia)**  
   *Communication Director*  
   *July 2022 – November 2024*  
-  - Led cross-functional incident response teams for high profile clients under NDA, reducing reputational damage by 40%, through critical thinking and creative outreach methods tailored to target audiences 
-  - Mitigated social media risks by implementing proactive threat intelligence and streamlined response protocols, cutting incident response time by 20% 
-  - Simplified technical concepts (5G, Cloud gaming, SOC) for diverse audiences through clear, impactful communication  
-  - Developed and implemented IAM security policies for Prisma, strengthening the Confidentiality, Integrity, and Availability (CIA) of 15+ critical assets through role-based access control (RBAC) and two factor authentication (2FA)
+  - Led cross-functional teams to manage high-stakes incidents, reducing reputational and operational impact through streamlined response protocols, proactive threat intelligence and preemptive social media risk management
+  - Strengthened organizational security by designing and implementing IAM policies, enhancing the Confidentiality, Integrity, and Availability (CIA) of critical assets through role-based access control (RBAC) and two-factor authentication (2FA)
 
   *Communication Manager*  
   *February 2021 – June 2022*  
-  - Integrated, secured and administered multi-component system comprising of PII excel database, Zoho CRM, Drupal web application, and various social media accounts by implementing robust authentication protocols and monitoring, ensuring 100% compliance with Colombian data privacy and security regulations 
-  - Safeguarded social media account availability by mitigating DDoS attacks through enhanced authentication protocols and proactive bot account reporting, ensuring uninterrupted client operations 
-  - Mitigated reputational risks for high-profile clients by regaining narrative control through strategic messaging 
+  - Integrated, administered and troubleshooted system composed of database, CRM, Drupal web page and social media assets
+  - Ensured business continuity by mitigating DDoS attacks through enhanced authentication protocols, strategic communication and proactive bot account reporting, ensuring business continuity
 
 ---
 
