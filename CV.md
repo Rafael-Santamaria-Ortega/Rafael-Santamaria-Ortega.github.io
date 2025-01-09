@@ -17,16 +17,28 @@ Cyber Defense Analyst with strong communication and problem-solving skills. Offe
 
 - **Deep Learning Specialization (Deeplearning.ai)**  
   *September 2024*  
-  Mastered advanced neural network architectures including CNNs, RNNs, LSTMs, and Transformers; implemented deep learning models using Python and TensorFlow across domains like speech recognition, NLP, and machine translation.
+  Familiarized with neural network architectures including CNNs, RNNs, LSTMs, and Transformers, and implemented deep learning models using Python and TensorFlow across domains like speech recognition, Natural Language Processing, and machine translation.
 
 - **Machine Learning Specialization (Stanford Online & Deeplearning.ai)**  
   *July 2024*  
   Learned to develop Machine Learning models leveraging TensorFlow, Scikit-learn, NumPy, and Pandas in hands-on labs. 
 
+- **J.P. Morgan & Chase Co. Cybersecurity Job Simulation (Forage)**  
+  *July 2024*  
+  Leveraged Python to analyze financial data, develop a Machine learning classification model to detect spam, harden a Django web application with two factor authentication (2FA) and script a Role Based Access Control Mechanism. 
+
+- **Telstra Cybersecurity Virtual Internship Program **  
+  *July 2024*  
+  Responded to a DDoS attack by communicating with stakeholders, examining network logs for attack patterns, mitigating by coding a firewall rule, and performing a ‘postmortem’ by documenting and reflecting on the incident. 
+
 - **Security Engineer Learning Path (Try Hack Me)**  
   *July 2024*  
   Developed essential skills for security engineering such as Cryptography, Identity and Access Management (IAM), Cyber Security Frameworks, Threat Modelling, Cyber Security Risk Management, Vulnerability Management, Network and System Security, Software Security, Cyber Security Auditing and Monitoring, Incident Response and proficiency with Windows, Linux, AWS, Splunk, Snort, OpenVAS, AES, hashing, PKI, TLS, SHA256, GRC, GDPR, NIST, ISO/IEC 27001, SOC2, PCI DSS, MITRE ATT&CK, DREAD, STRIDE, PASTA, firewalls, logging, network devices, network security protocols, Docker, Kubernetes, Splunk, OWASP top 10, OWASP API Security top 10, SAST, DAST, SSDLC, ZAP and Burp Suite.
-  
+
+- **Mastercard Cybersecurity Virtual Internship Program**  
+  *May 2024*  
+  Analyzed phishing emails and developed a social awareness campaign on phishing as part of Mastercard's Security Awareness Team.  
+
 - **IBM Generative AI for Cybersecurity Professionals**  
   *May 2024*  
   Leveraged IBM’s Watsonx Generative AI to streamline malware analysis, malware scripting, and playbook generation.
@@ -53,18 +65,6 @@ Cyber Defense Analyst with strong communication and problem-solving skills. Offe
 
 ## EDUCATION  
 
-- **J.P. Morgan & Chase Co. Cybersecurity Job Simulation (Forage)**  
-  *July 2024*  
-  Performed tasks of an Information Security Analyst at J.P. Morgan & Chase Co., such as detecting fraudulent transactions in a large dataset of financial data, hardening Django web application with 2FA, developing a Machine Learning model to detect spam email and scripting a RBAC algorithm.
-
-- **Telstra Cybersecurity Virtual Internship Program **  
-  *July 2024*  
-  Responded to a security incident as a Cybersecurity Analyst for Telstra, by communicating with stakeholders, examining network logs for attack patterns that revealed a DDoS attack, coding a firewall rule to mitigate it, and performing digital forensics to document the incident and recommend prevention measures against future attacks.
-
-- **Mastercard Cybersecurity Virtual Internship Program**  
-  *May 2024*  
-  Analyzed phishing emails and developed a social awareness campaign on phishing as part of Mastercard's Security Awareness Team.
-
 - **M.A. in Philosophy (Pontificia Universidad Javeriana de Bogotá)**  
   *January 2023 - April 2024*  
   Mastered essential skills for cybersecurity such as critical thinking, analytical reasoning, and problem-solving, and demonstrated strong communication abilities, curiosity and attention to detail, through delivery of innovative award-winning thesis and graduating Summa Cum Laude with 4.9/5 GPA.
@@ -78,12 +78,12 @@ Cyber Defense Analyst with strong communication and problem-solving skills. Offe
 - **DeepLearning.AI (Remote)**  
   *Volunteer Alpha Tester*  
   *October 2024 – Present*  
-  Improved student satisfaction and overall quality of courses through testing content and documenting errors in GitHub.
+  - Improved student satisfaction and overall quality of courses through testing content and documenting errors in GitHub.
 
 - **Outlier.ai (Remote)**  
   *Freelance AI Trainer*  
   *July 2024 – Present*  
-  Enhanced user experience with LLMs through Reinforcement Learning from Human Feedback (RLHF)
+  - Trained LLMs through Reinforcement Learning from Human Feedback (RLHF) to enhance user experience and security. 
 
 - **Prisma Visibilidad Pública (Colombia)**  
   *Communication Director*  
