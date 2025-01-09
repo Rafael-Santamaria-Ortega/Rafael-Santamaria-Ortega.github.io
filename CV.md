@@ -21,12 +21,12 @@ Cyber Defense Analyst with strong communication and problem-solving skills. Offe
 
 - **Machine Learning Specialization (Stanford Online & Deeplearning.ai)**  
   *July 2024*  
-  Developed comprehensive machine learning skills, implementing models using TensorFlow, Scikit-learn, NumPy, and Pandas across supervised and unsupervised learning domains.
+  Learned to develop Machine Learning models leveraging TensorFlow, Scikit-learn, NumPy, and Pandas in hands-on labs. 
 
 - **Security Engineer Learning Path (Try Hack Me)**  
   *July 2024*  
-  Learned and applied the fundamental skills and tools for designing, implementing, and maintaining robust security solutions to protect assets from cyber threats. Gained proficiency in Windows, Linux, AWS, Splunk, Snort, OpenVAS, AES, hashing, PKI, TLS, SHA256, GRC, GDPR, NIST, ISO/IEC 27001, SOC2, PCI DSS, MITRE ATT&CK, DREAD, STRIDE, PASTA, firewalls, logging, network devices, network security protocols, Docker, Kubernetes, Splunk, OWASP top 10, OWASP API Security top 10, SAST, DAST, SSDLC, ZAP and Burp Suite.
-
+  Developed essential skills for security engineering such as Cryptography, Identity and Access Management (IAM), Cyber Security Frameworks, Threat Modelling, Cyber Security Risk Management, Vulnerability Management, Network and System Security, Software Security, Cyber Security Auditing and Monitoring, Incident Response and proficiency with Windows, Linux, AWS, Splunk, Snort, OpenVAS, AES, hashing, PKI, TLS, SHA256, GRC, GDPR, NIST, ISO/IEC 27001, SOC2, PCI DSS, MITRE ATT&CK, DREAD, STRIDE, PASTA, firewalls, logging, network devices, network security protocols, Docker, Kubernetes, Splunk, OWASP top 10, OWASP API Security top 10, SAST, DAST, SSDLC, ZAP and Burp Suite.
+  
 - **IBM Generative AI for Cybersecurity Professionals**  
   *May 2024*  
   Leveraged IBM’s Watsonx Generative AI to streamline malware analysis, malware scripting, and playbook generation.
