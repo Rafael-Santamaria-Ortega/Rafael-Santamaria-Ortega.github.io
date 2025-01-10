@@ -59,9 +59,6 @@ layout: default
 
 * `Phishing` Response `Playbook` [(More details)](./phishing_playbook.html)
 * `Malware` Response `Playbook` [(More details)](./malware_response_playbook.html)
-* `Python` Algorithm for `Keyboard Stroke Tracking` [(More details)](./keystroke_track.html)
-* `Python` Algorithm to `Block Ports` [(More details)](./block_ports.html)
-* `Python` Algorithm of a `Daemon` malware [(More details)](./daemon_example.html)
 
 ### Telstra Cybersecurity Job Simulation
 
