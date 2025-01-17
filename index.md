@@ -78,6 +78,11 @@ layout: default
 * `Executable Malware` to Steal Google Chrome Credentials [(More details)](./steal_chrome_cred.html)
 * Twitter (now X) analytics key performance metrics parser [(More details)](./twitter_analytics.html)
 
+### Works in Progress
+
+* Nmap-Python vulnerabilty scanner [(More details)](https://github.com/Rafael-Santamaria-Ortega/Nmap_Vulnerability_Scanner)
+* Python based Web Application Footprinter [(More details)](https://github.com/Rafael-Santamaria-Ortega/Web_App_Footprinter)
+
 ---
 
 # [**Check my CV**](./CV.html)
