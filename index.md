@@ -29,7 +29,6 @@ layout: default
 # All Practical Projects 
 
 ## Incident Response
-* Suspicious Network Traffic Analysis
 * Incident response in simulated SOC [(More details)](./cyber_incident_response.html)
 * Phishing Response Playbook [(More details)](./phishing_playbook.html)
 * Malware Response Playbook [(More details)](./malware_response_playbook.html)
