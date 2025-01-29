@@ -24,18 +24,24 @@ layout: default
 # All Practical Projects 
 
 - ## Incident Response
+
   - Incident response in simulated SOC [(More details)](./cyber_incident_response.html)
   - Phishing Response Playbook [(More details)](./phishing_playbook.html)
   - Malware Response Playbook [(More details)](./malware_response_playbook.html)
   - Incident Handler's Journal [(More details)](./incident_handler_journal.html)
+
+ 
 - ## Network & System Monitoring
+
   - Suspicious Network Traffic Analysis [(More details)](./network_traffic_analysis.html)
   - Using Splunk SIEM for monitoring (Page under construction)
   - Applying Filters to SQL queries to investigate unathorized access [(More details)](./filter_sql.html)
   - Wireshark log analysis [(More details)](./incident_report_brute.html)
   - tcpdump log analysis [(More details)](./incident_report_syn_flood.html)
   - Windows Malware Scanner [(More details)](./malware_scanner.html)
+
 - ## Security Automation (Mostly using Python)
+
   - Fraud Transaction Analyzer and Visualizer [(More details)](./fraud_analyzer_visualizer.html)
   - Windows Malware Scanner [(More details)](./malware_scanner.html)
   - Encryption with Python [(More details)](./encrypt_python.html)
