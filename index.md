@@ -5,23 +5,18 @@ layout: default
 # Highlighted Projects
 
 ### Neural Network for Malicious Url Predicting | Python, TensorFlow, Deep Learning, Data Engineering
-
 * Coded and trained a `deep neural network` from scratch using `TensorFlow`, to predict the maliciousness of URLs, `achieving 92% accuracy, 83% precision, and 82% recall`. I’m currently working on improving those results by fine-tuning the model and deploying it in the cloud. [(More details)](./nn_malicious_url_pred.html)
 
 ### Incident Response in Simulated SOC | Incident response, Threat analysis and mitigation, Digital Forensics
-
 * Responded to a simulated DDoS attack by communicating with stakeholders, analyzing network logs for attack patterns, mitigating by coding a firewall rule and performing a ‘postmortem’ by documenting and reflecting on the incident. [(More details)](./cyber_incident_response.html)
 
 ### Windows Malware Scanner | Python, Windows, csv
-
 * Automated malware scans for Windows endpoint devices, by coding a tool that reads a database of known malware names, and contrasts it to a scan of the device’s file system for matches. Any match is outputted in a file for further analysis and evidence gathering. [(More details)](./malware_scanner.html)
 
 ### Encryption with Python | Cryptography, Linux
-
 * In this project I encrypted basic data with `asymmetric Key Pairs` using `Python` and the `Linux Command Line`. [(More details)](./encrypt_python.html)
 
 ### Incident Handler's Journal | Linux Bash Shell, Wireshark, tcpdump, Suricata, Splunk, Chronicle, Ticketing Systems, VirusTotal, Social Engineering
-
 * In this exercise from the `Google Cybersecurity Professional Certificate`, I document the details of various security incidents and how I handled them using technical tools in hands-on labs. [(More details)](./incident_handler_journal.html)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
