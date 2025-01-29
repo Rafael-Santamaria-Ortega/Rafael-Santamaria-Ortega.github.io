@@ -23,7 +23,7 @@ layout: default
 
 # All Practical Projects 
 
-- ## Incident Response
+### Incident Response
 
   - Incident response in simulated SOC [(More details)](./cyber_incident_response.html)
   - Phishing Response Playbook [(More details)](./phishing_playbook.html)
@@ -31,7 +31,7 @@ layout: default
   - Incident Handler's Journal [(More details)](./incident_handler_journal.html)
 
  
-- ## Network & System Monitoring
+### Network & System Monitoring
 
   - Suspicious Network Traffic Analysis [(More details)](./network_traffic_analysis.html)
   - Using Splunk SIEM for monitoring (Page under construction)
@@ -40,27 +40,26 @@ layout: default
   - tcpdump log analysis [(More details)](./incident_report_syn_flood.html)
   - Windows Malware Scanner [(More details)](./malware_scanner.html)
 
-- ## Security Automation (Mostly using Python)
+### Security Automation (Mostly using Python)
 
   - Fraud Transaction Analyzer and Visualizer [(More details)](./fraud_analyzer_visualizer.html)
   - Windows Malware Scanner [(More details)](./malware_scanner.html)
   - Encryption with Python [(More details)](./encrypt_python.html)
 
 
-- ## ML/AI for Cybersecurity
+### ML/AI for Cybersecurity
   - Machine Learning Algorithm to Predict Spam [(More details)](./spam_detection_ml.html)
   - Neural Network for Malicious Url Predicting [(More details)](./nn_malicious_url_pred.html) 
 
 
-- ## Vulnerability Assessment & Management
+### Vulnerability Assessment & Management
   - Vulnerability Management with OpenVAS (Page under construction)
   - Vulnerability Assessment for a fictional e-commerce [(More detail)](./vulnerability_assessment.html)
   - Nmap-Python Port Scanner (Page under construction) [(Source code)](https://github.com/Rafael-Santamaria-Ortega/Nmap_Vulnerability_Scanner)
   - Digital Dumpster Diving Executable Malware [(More details)](./dumpster_diving.html)
   - Executable Malware to Assess Credential Storage Resilience [(More details)](./steal_chrome_cred.html)
 
-
-- ## Security Configuration & Hardening
+### Security Configuration & Hardening
   - Securing AWS application with IAM policy configuration (Page under construction)
   - Set up and Harden a Django Web Server with 2FA [(More details)](./set_and_secure_django_server.html)
   - Python-based Secure Password Generator (Page under construction) [(Source code)](https://github.com/Rafael-Santamaria-Ortega/passpy.html)
@@ -69,8 +68,7 @@ layout: default
   - Role Based Access Control Python Algorithm [(More details)](./rbac.html)
   - File Permission Update Python Algorithm [(More details)](./file_update.html)
 
-
-- ## Governance, Risk & Compliance (GRC)
+### Governance, Risk & Compliance (GRC)
   - Security Improvement Plan applying the NIST CSF [(More details)](./nist_csf_applied.html)
   - Applying the PASTA Framework [(More details)](./pasta_applied.html)
   - Security Risk Assessment Report [(More details)](./sec_risk_assessment.html)
@@ -78,22 +76,18 @@ layout: default
   - Internal Security Audit for a Fictional Toy Company [(More details)](./int_sec_audit.html)
   - Home Office Asset Inventory [(More details)](./home_it_assests.html)
 
-
-- ## Security Awareness & Training
+### Security Awareness & Training
   - Phishing Awareness Campaign (Page under construction) 
   - Parking lot USB Baiting Exercise (Page under construction)
 
-
-- ## Data Loss Prevention (DLP)
+### Data Loss Prevention (DLP)
   - Data Leak Investigation [(More details)](./data_leak_investigation.html)
 
-
-- ## Text-based RPGs using Python
+### Text-based RPGs using Python
   - Dungeon of Dread [(More details)](./dungeon_of_dread.html)
 
-
-- ## Other Projects
+### Other Projects
   - Twitter (now X) analytics key performance metrics parser [(More details)](./twitter_analytics.html)
 ---
 
-# [**Check my CV**](./CV.html)
+## [**Check my CV**](./CV.html)
