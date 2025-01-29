@@ -39,14 +39,14 @@ layout: default
 * Suspicious Network Traffic Analysis [(More details)](./network_traffic_analysis.html)
 * Applying Filters to SQL queries to investigate unathorized access [(More details)](./filter_sql.html)
 * Wireshark log analysis [(More details)](./incident_report_brute.html)
-* tcpdump log analysis 
+* tcpdump log analysis [(More details)](./incident_report_syn_flood.html)
 * Windows Malware Scanner [(More details)](./malware_scanner.html)
 
 ## Security Automation (Mostly using Python)
 * Fraud Transaction Analyzer and Visualizer [(More details)](./fraud_analyzer_visualizer.html)
 * Machine Learning Algorithm to Predict Spam [(More details)](./spam_detection_ml.html)
 * Neural Network for Malicious Url Predicting [(More details)](./nn_malicious_url_pred.html)
-* Windows Malware Scanner
+* Windows Malware Scanner [(More details)](./malware_scanner.html)
 * Encryption with Python [(More details)](./encrypt_python.html)
 
 ## Vulnerability Assessment & Management
@@ -57,7 +57,7 @@ layout: default
 
 ## Security Configuration & Hardening
 * Set up and Harden a Django Web Server with 2FA [(More details)](./set_and_secure_django_server.html)
-* Python-based Secure Password Generator
+* Python-based Secure Password Generator (Page under construction) [(Source code)](https://github.com/Rafael-Santamaria-Ortega/passpy.html)
 * Managing Linux File Permission [(More details)](./linux_file_perm.html)
 * Improving Access Controls for a fictional business [(More details)](./access_controls.html)
 * Role Based Access Control Python Algorithm [(More details)](./rbac.html)
@@ -72,8 +72,8 @@ layout: default
 * Home Office Asset Inventory [(More details)](./home_it_assests.html)
 
 ## Security Awareness & Training
-* Phishing Awareness Campaign [(More details)](./master_phish.html)
-* Parking lot USB Baiting Exercise [More details](parking_lot_usb.html)
+* Phishing Awareness Campaign (Page under construction) 
+* Parking lot USB Baiting Exercise (Page under construction)
 
 ## Data Loss Prevention (DLP)
 * Data Leak Investigation [(More details)](./data_leak_investigation.html)
@@ -83,11 +83,7 @@ Dungeon of Dread [(More details)](./dungeon_of_dread.html)
 
 ### Other Projects
 * Twitter (now X) analytics key performance metrics parser [(More details)](./twitter_analytics.html)
-
-### Works in Progress
-
-* Python based Secure Password Generator [(More details)](https://github.com/Rafael-Santamaria-Ortega/passpy.html)
-
+* 
 ---
 
 # [**Check my CV**](./CV.html)
