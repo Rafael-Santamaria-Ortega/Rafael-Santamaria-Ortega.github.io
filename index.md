@@ -24,11 +24,11 @@ layout: default
 # All Practical Projects 
 
 * ## Incident Response
+
   * Incident response in simulated SOC [(More details)](./cyber_incident_response.html)
   * Phishing Response Playbook [(More details)](./phishing_playbook.html)
   * Malware Response Playbook [(More details)](./malware_response_playbook.html)
   * Incident Handler's Journal [(More details)](./incident_handler_journal.html)
-
 
 * ## Network & System Monitoring
   * Suspicious Network Traffic Analysis [(More details)](./network_traffic_analysis.html)
