@@ -57,6 +57,7 @@ layout: default
 * Executable Malware to Assess Credential Storage Resilience [(More details)](./steal_chrome_cred.html)
 
 ## Security Configuration & Hardening
+* Securing AWS application with IAM policy configuration (Page under construction)
 * Set up and Harden a Django Web Server with 2FA [(More details)](./set_and_secure_django_server.html)
 * Python-based Secure Password Generator (Page under construction) [(Source code)](https://github.com/Rafael-Santamaria-Ortega/passpy.html)
 * Managing Linux File Permission [(More details)](./linux_file_perm.html)
