@@ -87,7 +87,7 @@ layout: default
   - Dungeon of Dread [(More details)](./dungeon_of_dread.html)
 
 ### Other Projects
-  - Twitter (now X) analytics key performance metrics parser [(More details)](./twitter_analytics.html)
+- Twitter (now X) analytics key performance metrics parser [(More details)](./twitter_analytics.html)
 
 
 
