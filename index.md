@@ -36,6 +36,7 @@ layout: default
 
 ## Network & System Monitoring
 * Suspicious Network Traffic Analysis [(More details)](./network_traffic_analysis.html)
+* Using Splunk SIEM for monitoring (Page under construction)
 * Applying Filters to SQL queries to investigate unathorized access [(More details)](./filter_sql.html)
 * Wireshark log analysis [(More details)](./incident_report_brute.html)
 * tcpdump log analysis [(More details)](./incident_report_syn_flood.html)
@@ -49,6 +50,7 @@ layout: default
 * Encryption with Python [(More details)](./encrypt_python.html)
 
 ## Vulnerability Assessment & Management
+* Vulnerability Management with OpenVAS (Page under construction)
 * Vulnerability Assessment for a fictional e-commerce [(More detail)](./vulnerability_assessment.html)
 * Nmap-Python Port Scanner (Page under construction) [(Source code)](https://github.com/Rafael-Santamaria-Ortega/Nmap_Vulnerability_Scanner)
 * Digital Dumpster Diving Executable Malware [(More details)](./dumpster_diving.html)
