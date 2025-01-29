@@ -32,7 +32,7 @@ This is the documentation I made concerning the incident:
 
 ## Entry #2
 
-In this secon entry I simulated being a Security Analyst tasked with investigating network traffic using Wireshark. 
+In this second entry I simulated being a Security Analyst tasked with investigating network traffic using Wireshark. 
 
 This is my documentation of the activity:
 
