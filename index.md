@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Highlighted Projects
+## Highlighted Projects
 
 ### Neural Network for Malicious Url Predicting | Python, TensorFlow, Deep Learning, Data Engineering
 * Coded and trained a `deep neural network` from scratch using `TensorFlow`, to predict the maliciousness of URLs, `achieving 92% accuracy, 83% precision, and 82% recall`. I’m currently working on improving those results by fine-tuning the model and deploying it in the cloud. [(More details)](./nn_malicious_url_pred.html)
@@ -21,7 +21,7 @@ layout: default
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# All Practical Projects 
+## All Practical Projects 
 
 ### Incident Response
 
