@@ -91,6 +91,3 @@ layout: default
 
 
 
----
-
-## [**Check my CV**](./CV.html)
