@@ -10,9 +10,6 @@ layout: default
 ### Incident Response in Simulated SOC | Incident response, Threat analysis and mitigation, Digital Forensics
 * Responded to a simulated DDoS attack by communicating with stakeholders, analyzing network logs for attack patterns, mitigating by coding a firewall rule and performing a ‘postmortem’ by documenting and reflecting on the incident. [(More details)](./cyber_incident_response.html)
 
-### Windows Malware Scanner | Python, Windows, csv
-* Automated malware scans for Windows endpoint devices, by coding a tool that reads a database of known malware names, and contrasts it to a scan of the device’s file system for matches. Any match is outputted in a file for further analysis and evidence gathering. [(More details)](./malware_scanner.html)
-
 ### Encryption with Python | Cryptography, Linux
 * In this project I encrypted basic data with `asymmetric Key Pairs` using `Python` and the `Linux Command Line`. [(More details)](./encrypt_python.html)
 
@@ -62,7 +59,7 @@ layout: default
 ### Security Configuration & Hardening
   - Securing AWS application with IAM policy configuration (Page under construction)
   - Set up and Harden a Django Web Server with 2FA [(More details)](./set_and_secure_django_server.html)
-  - Python-based Secure Password Generator (Page under construction) [(Source code)](https://github.com/Rafael-Santamaria-Ortega/passpy.html)
+  - Python-based Secure Password Generator (Page under construction) [(Source code)](./passworpy.html)
   - Managing Linux File Permission [(More details)](./linux_file_perm.html)
   - Improving Access Controls for a fictional business [(More details)](./access_controls.html)
   - Role Based Access Control Python Algorithm [(More details)](./rbac.html)
