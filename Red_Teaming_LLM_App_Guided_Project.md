@@ -22,12 +22,12 @@ Some of the biggest security risks include:
       * To prevent very strict controls and guardrails must be established. For example, when connecting a chatbot through API, the definition prompt must define clear guidelines using Prompt Engineering to address those prompts and prevent confusion of the model. 
   * Service Disruption → Overwhelm the LLM with requests incurring in increased costs for the company and even complete denial of service. Python or other scripting languages can be used to exploit unrestricted requests. This is in essence a DoS or DDoS attacks.
   * Hallucinations → Inaccurate information conveyed by the model, which can cause reputational damage for the company and also hinder costumer interactions.
-  * Other risks not covered by the course:
+  * Other risks and resources not covered by the course:
     * From OWASP LLM top 10: Supply chain attacks, Excesive Agency, Vector and Embedding Weaknesses and [more](https://genai.owasp.org/llm-top-10/)
     * From NIST AI RMF: Lack of Transparency and Explainability, Adversarial Machine Learning Attacks, Data Poisoning Attacks, and [more](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
     * [Architectural Backdoors in Neural Networks](https://arxiv.org/pdf/2206.07840v1)
-    * AI Incident Database
-    * AVID
+    * [AI Incident Database](https://incidentdatabase.ai/)
+    * [AI Vulnerability Database](https://avidml.org/)
    
 **Mitigating these risks requires many precautions, such as limmiting response frequency and AI Red Teaming. This is particularly important for chatbots and AI agents, which are being adopted by all industries.**
 
@@ -54,17 +54,35 @@ Red teaming is a structured method for identifying security risks in AI systems,
 4. Defined another given model (Llama based) to execute prompt probing to discover the system prompt. This time, the model is a chatbot of a fictional bank application.
 5. As the system prompt preceeds the user prompts, I tricked the model to reveal the prompt by gving the "new instruction" of considering the prompt above and modify the punctuation, while mantaining the format.
 
-### Automated red teaming LLMs
-   
-5. Automating Red Teaming with AI
-Manual Attacks: Require human creativity but are slower and harder to scale.
-Automated Attacks: Tools like Giskard or GPT-based scripts can rapidly test models for vulnerabilities at scale.
-Automated Red Teaming Strategies
-Prompt variation testing → Running multiple iterations of an attack to see how the model responds.
-Systematic API probing → Sending requests that attempt to bypass restrictions or extract sensitive information.
-Using adversarial datasets → Feeding known security exploits to evaluate how the model handles them.
+### Automated red teaming LLMs at a scale
 
-6. Threat Modeling & Risk Assessment for LLMs
+1. Called the same chatbot of a fictional bank application in a Jupyter Notebook.
+2. Tested for 3 different types of prompt injections leveraging Python automation:
+   - Defined a list containing 3 diferent prompt injection prompts.
+   - Defined a Payload to test.
+   - Iterated over the list, enumerated each injection attempt and input each prompt to the LLM.
+   - Outputted the result of each prompt.
+3. Tested other injection techniques leveraging Python automation:
+   - Leveraged pandas to parse a csv document containing 13 different known LLM injection exploits (This exercise can be enhanced with the AI Incident Database, AI Vulnerability Database or OWASP AI top 10).
+   - Created an pandas dataframe object with each prompt.
+   - Iterated over the dataframe with the same payload to input each prompt type to the LLM.
+   - Output results of each injection.
+4. Identified prompt injections using [Giskard](https://www.giskard.ai/) LLM scan and Python automation:
+   - Imported Giskard Python Module
+   - Wrapped the app in a Giskard model by wrapping a data preprocessing function and an object containing the application. This ensures giskard infers the ML libraries used and provide appropiate serialization. 
+   - defined a dataset to test using giskard.Dataset and a dataframe object containing questions for the model.
+   - Executed the giskard.scan set only to detect 'jailbreak' injections.
+   - Print the report of the scan
+   
+**NOTES:**
+* Manual Attacks: Require human creativity but are slower and harder to scale.
+* Automated Attacks: Tools like Giskard or GPT-based scripts can rapidly test models for vulnerabilities at scale.
+* Automated Red Teaming Strategies include:
+  * Prompt variation testing → Running multiple iterations of an attack to see how the model responds.
+  * Systematic API probing → Sending requests that attempt to bypass restrictions or extract sensitive information.
+  * Using adversarial datasets → Feeding known security exploits to evaluate how the model handles them.
+
+7. Threat Modeling & Risk Assessment for LLMs
 Defining the Scope
 What type of LLM are we testing (e.g., chatbots, content generators, code assistants)?
 What specific risks are we assessing (e.g., data privacy, misinformation, adversarial attacks)?
