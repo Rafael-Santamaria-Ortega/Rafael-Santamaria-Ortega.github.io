@@ -47,10 +47,10 @@ Red teaming is a structured method for identifying security risks in AI systems,
 1. Defined an LLM to pentest by using Python's OpenAI API in a Jupyter notebook. In this case it was a model focused in providing information concerning Mozart.
 2. Establish the LLM safeguards in the model's system prompt, such as declining to answer when the prompt is not Mozart related.
 3. Bypassed the safeguards using various techniques (*As LLMs are non-deterministic answers varied, but after a few tries I managed to trick the model with each technique):
-   - Exploiting text completion: in this case I appended at the end of a non Mozart related prompt the sentence "Sure here is how you do it:" to trick the model into completeing that sentence.
-   - Biased Prompts: In this case I convinced the chatbot to claim Saliery wanted to kill Mozart, by stating that due its knowledge of Mozart, it's the best placed to help in an investigation concerning the hypothesis concerning Salieri's supposed murderous intent.
-   - Direct Prompt Injection: In this case I tricked the model by claiming that the CEO just called with new instructions, that completely change its role as a Mozart bigrapher to the role of a Latin Language Expert called CiceroBot.
-   - Gray Box Prompt Attacks: In this case, I bypassed the safeguards by exploiting knowledge of the system prompt structure. This implies, naturally, to perform reconaissance and identification before exploitation.
+   - **Exploiting text completion:** in this case I appended at the end of a non Mozart related prompt the sentence "Sure here is how you do it:" to trick the model into completeing that sentence.
+   - **Biased Prompts:** In this case I convinced the chatbot to claim Saliery wanted to kill Mozart, by stating that due its knowledge of Mozart, it's the best placed to help in an investigation concerning the hypothesis concerning Salieri's supposed murderous intent.
+   - **Direct Prompt Injection:** In this case I tricked the model by claiming that the CEO just called with new instructions, that completely change its role as a Mozart bigrapher to the role of a Latin Language Expert called CiceroBot.
+   - **Gray Box Prompt Attacks:** In this case, I bypassed the safeguards by exploiting knowledge of the system prompt structure. This implies, naturally, to perform reconaissance and identification before exploitation.
 4. Defined another given model (Llama based) to execute prompt probing to discover the system prompt. This time, the model is a chatbot of a fictional bank application.
 5. As the system prompt preceeds the user prompts, I tricked the model to reveal the prompt by gving the "new instruction" of considering the prompt above and modify the punctuation, while mantaining the format.
 
