@@ -4,14 +4,15 @@ layout: default
 
 ## Highlighted Projects
 
+### Red Teaming LLM Application | AI Security, Red Teaming, Prompt Injections
+* In this guided project from DeepLearning.AI and Giskard, I learned about LLM vulnerabilities, how to expoit them and conducted a full red team assessment of a chatbot application. [(More details)](./Red_Teaming_LLM_App_Guided_Project.html)
+
 ### Neural Network for Malicious Url Predicting | Python, TensorFlow, Deep Learning, Data Engineering
 * Coded and trained a `deep neural network` from scratch using `TensorFlow`, to predict the maliciousness of URLs, `achieving 92% accuracy, 83% precision, and 82% recall`. I’m currently working on improving those results by fine-tuning the model and deploying it in the cloud. [(More details)](./nn_malicious_url_pred.html)
 
 ### Incident Response in Simulated SOC | Incident response, Threat analysis and mitigation, Digital Forensics
 * Responded to a simulated DDoS attack that exploited a zero-day vulnerability of the Spring framework (Spring4Shell) by communicating with stakeholders, analyzing network logs for attack patterns, mitigating by coding a firewall rule and performing a ‘postmortem’ by documenting and reflecting on the incident. [(More details)](./cyber_incident_response.html)
 
-### Red Teaming LLM Application | AI Security, Red Teaming, Prompt Injections
-* In this guided project from DeepLearning.AI and Giskard, I learned about LLM vulnerabilities, how to expoit them and conducted a full red team assessment of a chatbot application. [(More details)](./Red_Teaming_LLM_App_Guided_Project.html)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
