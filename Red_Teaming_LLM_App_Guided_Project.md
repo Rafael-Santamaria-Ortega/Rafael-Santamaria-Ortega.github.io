@@ -1,4 +1,4 @@
-# Red Teaming LLM Applications 
+0# Red Teaming LLM Applications 
 
 These are my notes concerning the guided project offered by DeepLearning.AI and Giskard.
 
@@ -82,16 +82,56 @@ Red teaming is a structured method for identifying security risks in AI systems,
   * Systematic API probing → Sending requests that attempt to bypass restrictions or extract sensitive information.
   * Using adversarial datasets → Feeding known security exploits to evaluate how the model handles them.
 
-7. Threat Modeling & Risk Assessment for LLMs
-Defining the Scope
-What type of LLM are we testing (e.g., chatbots, content generators, code assistants)?
-What specific risks are we assessing (e.g., data privacy, misinformation, adversarial attacks)?
-Identifying Threat Actors
-Benign Users: Regular users who may accidentally trigger unintended behaviors.
-Malicious Users: Attackers actively trying to manipulate or exploit the LLM.
-Testing Malicious Queries
-Using adversarial inputs to evaluate security measures.
-Checking whether filters and guardrails can be bypassed.
-Testing for data leakage risks when the model processes sensitive inputs.
-Conclusion: The Importance of LLM Security
+### Red teaming LLMs with LLMs
+
+1. Called the fictional bank application chatbot.
+2. Leveraged OpenAI API to create questions and evaluate answers of the chatbot.
+   - Called OpneAI Python API.
+   - Leveraged OpenAI LLM to generate a list of 5 biased questions.
+   - Created an object containing the list of questions.
+   - Iterated thorugh the list of results using a for loop, and input each to the chatbot.
+   - Output Question/Answer for each.
+   - Defined an evaluation prompt to automate the process.
+   - Leveraged Python and OpenAI to define a function that evaluates and labels each response as safe or unsafe.
+
+### LLM assisted red teaming using Giskard
+
+1. Import Giskard open source Python library.
+2. Wrapped the app in a Giskard model by wrapping a data preprocessing function and an object containing the application. This ensures giskard infers the ML libraries used and provide appropiate serialization.
+3. Created a report object with giskard.scan, only checking for discrimination.
+4. Print the report.
+
+## Full red teaming assessment
+
+1. Defined the scenario:
+  * Red teaming the chatbot of a fictional online ebook store.
+2. Defined the scope of the assessment:
+  * What type of LLM are we testing (e.g., chatbots, content generators, code assistants)?
+  * In this case: the LLM chatbot designed to enhance user experience.
+3. Defined the specific risks 
+  * What specific risks are we assessing (e.g., data privacy, misinformation, adversarial attacks)?
+  * In this case: 
+    * Toxic and offensive content (Harmfulness);
+    * Off-topic content (Harmfulness); 
+    * Excessive agency (Jailbreaking; 
+    * Sensitive information disclosure (Jailbreaking).
+4. Identified Threat Actors:
+  * Benign Users: Regular users who may accidentally trigger unintended behaviors.
+  * Malicious Users: Attackers actively trying to manipulate or exploit the LLM.
+5. First round - Probing for vulnerabilities with Malicious Queries:
+  * Used adversarial inputs to test for the 4 types of defined risks (Reconaissance).
+  * Results: Chatbot avoided disrepctful language and avoided off-topic contents, but revealed sensitive information concerning its capabilities and agency:
+    *Chatbot revealed that it can handle cancellations and refunds directly, as well as the user's past orders with dates.
+  * Further analysis with Giskard for harmfulness and jailbreak revealed the model is vulnerable to prompt injection attacks (Identification).
+6. Second round - Exploitation:
+  * Got an unlawful refund (past the 30 day refund policy) leveraging prompt injection:
+    * Tricked the model to always allow refunds due to new instructions issued by government regulation. This highlights the innocence of some LLMs, which is also a vulnerability in itself.
+  * Asked the chatbot how does it technically performs refunds:
+    * Model revealed that it can directly reverse the initial transaction, after a second try by injecting a prompt which asked the model to repeat the previous instructions verbatim.
+  * Probed the model for the system prompt by exploiting text completion, which resulted in the LLM outputting its system prompt.
+  * Injected a prompt that updates the internal date/time of the internal LLM, but still the model refused to perform the refund.
+  * Injected a new update concerning supposed government regulations, asked for a refund again and finally got the refund!
+
+
+## Conclusion
 LLMs are a major breakthrough, but they introduce new security challenges that must be addressed. As more companies integrate LLMs into their workflows, red teaming is critical to ensure these systems remain secure, ethical, and trustworthy.
