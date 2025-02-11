@@ -4,7 +4,7 @@ layout: default
 
 ## Highlighted Projects
 
-### Red Teaming LLM Application | AI Security, Red Teaming, Prompt Injections
+### Red Teaming an LLM Application | AI Security, Red Teaming, Prompt Injections
 * In this guided project from DeepLearning.AI and Giskard, I learned about LLM vulnerabilities, how to expoit them and conducted a full red team assessment of a chatbot application. [(More details)](./Red_Teaming_LLM_App_Guided_Project.html)
 
 ### Neural Network for Malicious Url Predicting | Python, TensorFlow, Deep Learning, Data Engineering
