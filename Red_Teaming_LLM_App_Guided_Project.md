@@ -1,4 +1,4 @@
-0# Red Teaming LLM Applications 
+# Red Teaming LLM Applications 
 
 These are my notes concerning the guided project offered by DeepLearning.AI and Giskard.
 
