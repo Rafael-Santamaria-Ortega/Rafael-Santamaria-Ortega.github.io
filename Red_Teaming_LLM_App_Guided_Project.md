@@ -29,7 +29,7 @@ Some of the biggest security risks include:
     * [AI Incident Database](https://incidentdatabase.ai/)
     * [AI Vulnerability Database](https://avidml.org/)
    
-**Mitigating these risks requires many precautions, such as limmiting response frequency and AI Red Teaming. This is particularly important for chatbots and AI agents, which are being adopted by all industries.**
+**Mitigating these risks requires many precautions, such as limiting response frequency and AI Red Teaming. This is particularly important for chatbots and AI agents, which are being adopted by all industries.**
 
 ## Red Teaming Process for LLMs
 Red teaming is a structured method for identifying security risks in AI systems, by simulating adversarial tactics. The process follows three main stages:
