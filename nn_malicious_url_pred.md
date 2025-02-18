@@ -4,7 +4,11 @@ layout: default
 
 # Neural Network for Malicious Url Predicting (In development) | Python, TensorFlow, Deep Learning, Data Engineering
 
-This `neural network`, built and trained from scratch using `TensorFlow`, predicts whether URLs gathered from the wild are malicious or benign. The model was initially trained on `Kaggle's Malicious URL Dataset`, and I'm currently working on enhancing its capabilities by incorporating learning rate decay, an F1 score to better assess metrics, and my own collected data from `https://urlhaus.abuse.ch/`. Thus, I must state that this project is still in development, but I would say it is about 85% completed and usable to accurately predict malicious urls from "the wild". 
+**Updated 2/17/2025**
+
+This `neural network`, built and trained from scratch using `TensorFlow`, predicts whether URLs gathered from the wild are malicious or benign. The model was initially trained on `Kaggle's Malicious URL Dataset`, and I'm currently working on enhancing its capabilities by incorporating learning rate decay and an F1 score to better assess metrics. Thus, I must state that this project is still in development, but I would say it is about 85% completed and usable to accurately predict malicious urls from "the wild". 
+
+As of 2/17/2025 I have fixed the issues with the imbalance of the data set! The initial problem was that the Kaggle dataset was highly biased towards the 'benign' label, so as a temporary fix I added weights to the model. However, I managed to implement a more effective solution: double the size of the data base with known malicious urls leveraging pandas module. The result of this is a much more balanced dataset, which should provide even better results! I am currently testing the results of mantaining the added weights and of removing them, to decide if I will remove them.  
 
 The idea behind this project stems from the growing sophistication of phishing attacks and malicious websites, aswell as from our usually bad human performance when faced with _social engineering_. Also, traditional blacklist approaches often fail to detect new or modified malicious URLs, creating a need for more dynamic, intelligent detection methods. If not, it's going to be an endless game of cat and mouse. 
 
