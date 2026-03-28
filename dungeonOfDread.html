@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon of Dread - Text RPG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+		<header class="header">
+		  <h1>⚔️ Dungeon of Dread ⚔️</h1>
+		  <p class="subtitle">An Endless Quest Book</p>
+		</header>
+
+        <!-- Main Game Area -->
+        <main class="game-area">
+            <!-- Story Text Display -->
+            <div class="story-panel">
+                <div id="storyText" class="story-text">
+                    <p>Loading adventure...</p>
+                </div>
+            </div>
+
+            <!-- Choices Panel -->
+            <div class="choices-panel">
+                <div id="choicesContainer" class="choices-container">
+                    <!-- Choices will be inserted here -->
+                </div>
+            </div>
+        </main>
+
+        <!-- Control Panel -->
+        <footer class="footer">
+            <button id="restartBtn" class="btn">New Game</button>
+			<button onclick="window.location.href='index.html'" class="btn">Back to Library</button>
+        </footer>
+    </div>
+    
+	<script src="engine.js"></script>
+	<script src="dungeonOfDread.js"></script>
+</body>
+</html>
