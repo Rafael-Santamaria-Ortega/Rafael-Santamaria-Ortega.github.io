@@ -89,7 +89,7 @@ var SCENES = {
 	
 	`'Halfling, what will happen to you if you return to your village?' you ask.
 	
-	Lauras laughs a bitter laugh. 'If I tell the truth, me missus will scold me. She's a hard woman. If I don't tell the truth, she'll still yell at me for disappearing, and not talk to me, although that might be a blessing. I will just go back to being Little Lauras, the baker's helper.'`,
+	Laurus laughs a bitter laugh. 'If I tell the truth, me missus will scold me. She's a hard woman. If I don't tell the truth, she'll still yell at me for disappearing, and not talk to me, although that might be a blessing. I will just go back to being Little Lauras, the baker's helper.'`,
 	
 	`'Laurus,' you say, 'It took great heart and courage to try such a dangerous task. Would you consider joining me on a second adventure? Kalman will never expect you to return, and with your assistance we may defeat this evil wizard. If we succeed, you will return home a hero. Thereafter, you would be known as Laurus the Brave!'`,
 	
@@ -131,35 +131,162 @@ var SCENES = {
 	
 	`'WATCH THE WATER THAT IS NOT WATER, AND BEWARE THE BASILISK!'
 	
-	The rest of the cave is empty, except for a pile of leaves and twigs in the west corner, and a hole in the wall under the message.`,
+	The rest of the cave is empty, except for a pile of leaves and twigs in the west corner, and a hole in the wall under the message.
 	
-	`'Well, Laurus, where do we go from here?' you ask.
+	'Well, Laurus, where do we go from here?' you ask.
 	
 	'do not know,' the halfling replies, 'I do not remember any trails; just some of the things I saw'
 	
 	What do you do?`
 	],  // your existing array
     choices: [
-      { label: "Investigate the hole in the wall", action: () => runScene("hole") },
-      { label: "Investigate the pile of leaves and twigs", action: () => runScene("leaves") }
+      { label: "Investigate the hole in the wall", action: () => runScene("p13p14") },
+      { label: "Investigate the pile of leaves and twigs", action: () => runScene("p19") } // not done
     ]
   },
 
-  hole: {
+  p13p14: {
     pages: [
-      `You crouch down and peer into the hole...`,
-      `Another page of text...`
+    `You peer through the narrow hole and see that it is a stairway leading down into the mountain. Laurus follows you and remains close to your side.
+	
+	The stairway has been carved out of solid rock. Mica flakes reflect a dim, flickering light at the bottom of the stairs. The flakes sparkle and shine as you pick your way down the winding steps. Your soft leather boots make no sound as you move. The light slowly grows brighter as you descend.`,
+    
+	`You see the source of the light. The stairway ends in a smooth rock corridor. Another corridor opens to your left. Two creatures, no more than three feet tall, stand ten paces away. They have no hair, but are covered with a scaly black hide. A sharp bony crest runs up their backs and ends in two sharp horns upon their heads. One creature holds a short sword in its hand, and the other holds a torch. You remember seeing creatures like these on one of your adventures in the past. They are kobolds, very evil creatures that would attack you immediately if they discovered you.`,
+	
+	`'Well Laurus, are you ready to attack them?', you whisper.
+
+    'I don't know,' says the trembling halfling, 'They're not much bigger than I am, but they sure look mean. Do you really think we can win? They look awful tough.'
+
+	'Laurus', you say 'They are mean, evil and tough. But if we work together, we can take them. What do you say?'
+	
+	What do you do?`
     ],
     choices: [
-      { label: "Go deeper", action: () => runScene("deeper") },
-      { label: "Turn back", action: () => runScene("intro") }
+      { label: "Attack the kobolds", action: () => runScene("p17p18") },
+      { label: "Sneak into the corridor to the left", action: () => runScene("intro") } // not done
+    ]
+  },
+  
+  p17p18: {
+    pages: [ 
+	`The kobolds are peering into the darkness, concentrating on something farther down the corridor. Because their attention is focused elsewhere, you are able to sneak lip behind them, unheard and unseen.
+
+    Before the vicious creatures are aware of you, you strike one with your sword and Laurus hits the other with a large rock.
+
+    As the kobolds fall, they drop their torch and it goes out. Darkness surrounds you.`,
+	
+    `'listen,' cries Laurus, clasping your arm. You hear the noise the kobolds were listening to. A faint clacking noise seems to be moving toward you.
+    
+    'Here!' says Laurus. 'I feel another opening to our left. Maybe we should run for it!'
+    
+    'No, let's find out what's coming.' You lean forward in an attempt to figure out what the noise could be, but the mysterious noise has faded away.`,
+	
+    `'Listen! It's stopped! Maybe it took another path,' you say.
+
+    Suddenly, a great pain shoots through your leg. Something has bitten you on the ankle!
+
+    You reach down and touch an antenna and a pair of pincers. OWW!! Something has bitten you savagely on the hand!`,
+	
+    `'Laurus!' you scream. 'It's a giant ant!'
+    
+    'Oohh! Ow! Ow! Ants! Ants! They're all around us!' shouts Laurus. 'Help! They're biting me. OH! I'm being eaten up! Help! Ow! Get away from me! Caric, help! I don't want to be eaten by a bug! I'm hitting them, but it doesn't do any good. Help me!'
+    
+    Angry clicking sounds come from all sides now. What do you do?`
+	],
+    choices: [
+      { label: "Fight the ants", action: () => runScene("p24p26") },
+      { label: "escape down the corridor to the left", action: () => runScene("p27p30") } // Not done
     ]
   },
 
-  leaves: {
-    pages: [ `You kneel beside the pile...` ],
+  p24p26: {
+    pages: [ 
+	`Angry, snicking ants surround you. You cannot tell how many ants are in the corridor. Grasping your sword with both hands, you slice downwards. Your blade strikes and slides off a hard, rounded body. You are bitten again. A sword does not seem effective against giant ants.
+    
+    Laurus is screaming. He has no way of protecting himself from the insects' vicious bites.
+
+    Run, Laurus,' you urge. 'Try to get away from them!' You kick with your left foot and connect with a hard body. You kick again and the giant insect flies across the corridor. It strikes the far wall with a clatter.`,
+    
+    `This seems to work! You move forward, kicking at the scuttling, clacking Creatures as you go.
+   
+    At last, no more ants attack you. Your boots are cut in several places and you have received a number of painful bites, but at least you have escaped.
+    
+    'Laurus!' you cry. 'Where are you?'
+    
+    'Over here,' comes a weak call. You find the fallen halfling in a pile of ants. Pulling the ants off him, you find he is bruised and bleeding from a number of nasty bites.`,
+    
+    `'I'm all right,' he says. 'Don't worry. Nasty bugs! I wish I was a giant, I'd squash all of them.'
+    
+    Helping Laurus to his feet, you see a dim light moving toward you. Slowly, your back to the wall and sword drawn, you move forward along the corridor.
+    
+    A dark corridor opens to your left. 'Step into here, Laurus. Let's see what's coming.'
+    
+    'I hope it's not more of those bugs', mutters the halfling.`,
+    
+    `You hear heavy footsteps, and a loud grumbling voice says, 'Where are those ants? If I've lost them and they carry the gold back to their colony, the master will have my hide for sure. Blast those ants, you can never trust them.'
+    
+    The muttering creature comes into sight. It looks like a seven-foot goblin, with a dirty yellow hide, long snaggly teeth, and redveined eyes. It's a bugbear! The bugbear carries a torch and a long stick it evidently uses to herd the ants. A mace and a sword hang on its belt. 'That's the meanest looking monster I've ever seen,' says Laurus.
+    
+    'It sure is,' you say, 'But I bet we can defeat it if we're clever about it.'
+    
+    What do you do?`
+	],
     choices: [
-      { label: "Dig through it", action: () => runScene("dig") }
+      { label: "Fight the bugbear", action: () => runScene("p35p36") },
+	  { label: "Flee down the side hall", action: () => runScene("p23") } // not done
+    ]
+  },
+  
+  p35p36: {
+    pages: [ 
+	`The bugbear approaches rapidly. 'Where could they have gone? If they run away, the master will blame me for losing the gold.' The bugbear's torch sheds enough light for you to see his evil expression. You certainly do not want to fall into his hands if you can avoid it.
+   
+    Fingers fumbling in haste, you search your leather pouch. Yes, the flask of oil you carry for emergencies is there.`,
+    
+    `The bugbear sees Laurus and rushes after him, roaring madly and swinging its torch. You quickly open the flask of oil and spread it on the ground. The bugbear runs onto the oil and slips, falling to the ground, its torch falling next to it. The oil explodes into flames. Bellowing, the bugbear jumps up and tries to beat out the flames on its body, but cannot. Finally, its hide burning, it rushes off into the dark, screaming for water.
+	
+    You both stand silent in surprise, you never expected that to happen. At last, the halfling sighs, 'I'm glad that's over.`,
+    
+    `You step around the dying oil fire and continue down the corridor. You have not traveled far before the ground trembles beneath your feet. Laurus falls to the ground. You hear a tremendous bellow. The entire corridor shudders from the terrible noise.
+    
+	You are nearing a fork in the corridor, and can tell the noise is coming from the right-hand passage. Fearfully, you peer around the corner.`,
+    
+	`You see a huge, man-like creature with a bull's head roaring in rage and trampling the burning bugbear.
+	
+	'May the gods help us,' cries Laurus.'It's a minotaur.'
+	
+	The bugbear must have blundered upon the monster while searching for water. The minotaur is tearing the bugbear to pieces and stomping on it angrily. You are certain the great beast would have no trouble defeating you in normal battle, but since it is distracted with the bugbear, you might be able to attack it successfully
+	
+	What do you do?`
+	],
+    choices: [
+      { label: "Fight the Minotaur", action: () => runScene("p37p38") },
+	  { label: "Go down the left hand fork", action: () => runScene("p23") } // not done
+    ]
+  },
+  
+  p37p38: {
+    pages: [ 
+	`'I'll stand here and watch' says the halfling stubbornly, 'But I think you're crazy to attack that thing.'
+    
+    'Laurus, I'm disappointed in you', you snap, stepping into the corridor'
+    
+	You have no sooner stepped into the passageway when the minotaur spies you. Now you know why it is angry! When the bugbear rushed into the beast's lair, it brushed flames against the minotaur's body. One whole flank is scorched and burned. It bellows with rage and pain, then paws the ground and thunders at you. It's too late to flee!`,
+    
+	`You brace your shield for the attack, knowing it was foolish to face any creature that could so handily trample a huge bugbear. Within a second, the minotaur is on you, flailing you with its huge fists and biting you with its powerful jaws. You swing your sword with determination, but to little avail. Your sword strikes one of the huge beast's horns and breaks. The minotaur rips your shield from your grasp and hits you with its mighty fist. Everything goes black...`,
+    
+	`Laurus stands transfixed, frozen with horror and shock. Then slowly, slowly, knowing he was right not to fight, he inches away from the horrible scene. The sounds of the minotaur are soon lost in the distance, but it will be a long time before they fade from the halfling's memory.
+    
+    After a time, Laurus finds his way back to the opening in the rock and, stepping through, breathes in the cool night air.`,
+	
+    `'Well,' says the halfling, 'I am sorry for the loss of my brave friend, Caric. I will return to my village and tell his story so that his memory will live. As for myself, I've been to the wizard's lair twice now and I'm still alive. That's more than anyone else can brag about! Maybe I'm not so little, not so frightened after all. Maybe my friend Caric was right! I shall go home and tell my tale and if my wife and the others don't believe it, then that's too bad for them.'
+	
+    Straightening his shoulders and giving his head a proud tilt, the halfling strides off into the night.`,
+    
+	`You are dead.`
+	],
+    choices: [
+      { label: "Try again", action: () => runScene("intro") }
     ]
   }
 };

@@ -72,23 +72,10 @@ function runScene(sceneId) {
       index++;
       waitForEnter(showNext);
     } else {
+	  removeContinueHint();
       showChoices(choices);
     }
   }
 
   showNext();
 }
-
-document.getElementById("bookSelector").addEventListener("change", function() {
-  const old = document.getElementById("storyScript");
-  if (old) old.remove();
-
-  const script = document.createElement("script");
-  script.id = "storyScript";
-  script.src = this.value;
-  script.onload = () => {
-    runScene("intro");
-    document.getElementById("restartBtn").onclick = () => runScene("intro");
-  };
-  document.body.appendChild(script);
-});
